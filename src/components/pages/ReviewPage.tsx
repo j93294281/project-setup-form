@@ -22,6 +22,28 @@ export default function ReviewPage({ formData, previousPage, nextPage, onSubmit 
 
     if (!hasData) return null;
 
+    const formatValue = (value: any, fieldName: string): string => {
+      if (value === null || value === undefined) return '';
+      if (Array.isArray(value)) return value.join(', ');
+      if (typeof value === 'object') {
+        // Handle special object cases
+        if (fieldName === 'locationsServed') {
+          const locations = value as { worldwide: boolean; city?: string; state?: string; country?: string };
+          const parts = [];
+          if (locations.worldwide) parts.push('Worldwide');
+          if (locations.city) parts.push(locations.city);
+          if (locations.state) parts.push(locations.state);
+          if (locations.country) parts.push(locations.country);
+          return parts.length > 0 ? parts.join(', ') : 'Not specified';
+        }
+        // For other objects, try to extract meaningful information
+        const entries = Object.entries(value).filter(([_, v]) => v !== null && v !== undefined && v !== '');
+        if (entries.length === 0) return '';
+        return entries.map(([k, v]) => `${k}: ${v}`).join(', ');
+      }
+      return String(value);
+    };
+
     return (
       <div key={title} className="bg-white p-6 rounded-lg border mb-6">
         <h3 className="text-lg font-semibold mb-4 text-blue-600">{title}</h3>
@@ -36,7 +58,7 @@ export default function ReviewPage({ formData, previousPage, nextPage, onSubmit 
                   {field.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:
                 </span>
                 <span className="text-gray-900 text-right max-w-xs">
-                  {Array.isArray(value) ? value.join(', ') : String(value)}
+                  {formatValue(value, field)}
                 </span>
               </div>
             );
