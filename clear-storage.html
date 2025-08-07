@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear localStorage</title>
+</head>
+<body>
+    <h1>Clearing localStorage...</h1>
+    <p>This will clear the form data and reset to default values.</p>
+    <button onclick="clearStorage()">Clear localStorage</button>
+    <div id="status"></div>
+
+    <script>
+        function clearStorage() {
+            try {
+                localStorage.removeItem('multiStageFormData');
+                document.getElementById('status').innerHTML = '<p style="color: green;">✅ localStorage cleared successfully!</p><p>You can now go back to your app and refresh the page to see the new defaults.</p>';
+            } catch (error) {
+                document.getElementById('status').innerHTML = '<p style="color: red;">❌ Error clearing localStorage: ' + error.message + '</p>';
+            }
+        }
+
+        // Auto-clear on page load
+        window.onload = function() {
+            clearStorage();
+        };
+    </script>
+</body>
+</html> 

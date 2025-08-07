@@ -1,0 +1,1217 @@
+--- PAGE 1 ---
+
+### 🧑‍💻 Developer Account Information - Personal
+
+* Full Name: (mandatory) (inputBox)
+* Email Address (professional): (mandatory) (inputBox)
+* Developer Address (Street, City, State, Zip, Country): (mandatory) (inputBox)
+* Phone Number International Area Code Format: (mandatory) (inputBox- with Dropdown country selector)
+* Preferred Username: (mandatory) (inputBox)
+* Timezone: (Dropdown)
+* Country of Residence: (Dropdown)
+* Language Preference (choose 1): (RADIAL-SELECT)
+  - English (pre-selected)
+  - Spanish
+  - German
+  - Portuguese
+  - Chinese
+  - French
+
+* GitHub Username: (optional) (inputBox)
+* GitLab Username: (optional) (inputBox)
+* Bitbucket Username: (optional) (inputBox)
+* Apple Developer Account: (optional) (inputBox)
+* Portfolio URL (personal website if you attach a 'Made By: Your Company" tag at the bottom of the page): (optional) (inputBox)
+* X (formerly Twitter): (optional) (inputBox)
+* YouTube Channel: (optional) (inputBox)
+* GitHub: (optional) (inputBox)
+* LinkedIn: (optional) (inputBox)
+* TikTok: (optional) (inputBox)
+* Facebook (Meta): (optional) (inputBox)
+* Instagram: (optional) (inputBox)
+* Skill Level - This determines some of the conversations our AI will have with you: (RADIAL-SELECT)
+  - Beginner
+  - Intermediate
+  - Expert
+  - Rather Not Say (pre-selected)
+  
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### 🏢 Developer's Company Information (this is you if you are a solo developer) 
+
+* Use my 'Developer Personal & Account Information' from previous page. (CHECKBOX)
+
+ - OR - 
+
+Fill-In if DIFFERENT than 'Developer Personal & Account Information'
+
+* Company Name: (mandatory) (inputBox)
+* Company Website: (mandatory) (inputBox)
+* Company Email Address: (mandatory) (inputBox)
+* Company Phone Number: (mandatory) (inputBox)
+* Company Address (Street, City, State, Zip, Country): (mandatory) (inputBox)
+* Preferred Username (inputBox): (mandatory) (inputBox)
+* Timezone:  (Dropdown)
+* Country of Residence (Dropdown)
+* Language Preference (choose 1): (RADIAL-SELECT)
+  - English (pre-selected)
+  - Spanish
+  - German
+  - Portuguese
+  - Chinese
+  - French
+
+* GitHub Username: (optional) (inputBox)
+* GitLab Username: (optional) (inputBox)
+* Bitbucket Username: (optional) (inputBox)
+* Apple Developer Account: (optional) (inputBox)
+* Portfolio URL (personal website if you attach a 'Made By: Your Company" tag at the bottom of the page): (optional) (inputBox)
+* X (formerly Twitter): (optional) (inputBox)
+* YouTube Channel: (optional) (inputBox)
+* GitHub: (optional) (inputBox)
+* LinkedIn: (optional) (inputBox)
+* TikTok: (optional) (inputBox)
+* Facebook (Meta): (optional) (inputBox)
+* Instagram: (optional) (inputBox)
+* Skill Level - This determines some of the conversations our AI will have with you: (RADIAL-SELECT)
+  - Beginner
+  - Intermediate
+  - Expert
+  - Rather Not Say (pre-selected)
+
+
+* FILE UPLOAD IF WE ACCEPT THE ICON FROM THE COMPANY/DEVLOPER for the app they are creating
+* FILE UPLOAD - Profile Photo / Avatar (optional) FILE UPLOAD for the corporate logo of the development company.
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### 🧰 Developer DEFAULT Preferences (use these as settings for doing multiple projects)
+
+* Preferred Contact Email:(inputBox)
+
+* Default Site Type - If this is your first site just choose what you want to make - you can change default site type later if you choose: (RADIAL SELECTOR)
+  - Progressive Web Apps (PWAs)  (pre-selected)
+  - Static Web Apps
+  - Dynamic Web Apps
+  - Single Page Applications (SPAs)
+  - Multi-Page Applications (MPAs)
+  - E-commerce and Marketplace Applications
+  - Social Networking and Media Applications
+  - Content Management Systems (CMS)
+  - Software as a Service (SaaS) Platforms
+  - Productivity and Collaboration Tools
+  - Online Design and Editing Tools
+  - Educational and E-Learning Platforms
+  - Media Entertainment and Streaming Platforms
+  - On-Demand Service Applications
+  - Booking and Reservation Systems
+  - Financial Services (FinTech) Applications
+  - Health, Fitness, and Telemedicine Platforms
+  - Cloud Computing Platforms
+  - Code Hosting and Collaboration Platforms
+  - API and Service Monitoring Platforms
+  - AI and Generative Platforms
+  - Web3 and Decentralized Applications (dApps)
+  - Brand New Type Of Site Never Before Made!
+
+* Device Types Your Apps Should Work On (select all types): (SELECTBOXES)
+  - Mobile
+  - Desktops/Laptops
+  - Tablets
+  - Smart-TVs
+  - ALL OF THE ABOVE (pre-selected)
+
+* Default Hosting Region: (make DROPDOWN)
+
+* Default Starter Repo - URL (if any - leave blank if none): (optional) (inputBox)
+
+* Default Docker Image (if any - leave blank if none): (optional) (inputBox)
+
+* Default Starter Folder/Directory on YOUR COMPUTER (if any - leave blank if none): (optional) (inputBox) user/file/path/to/new-app-project 
+
+* Now select your DEFAULT Domain Registrar: (RADIAL-SELECT)  
+  - GoDaddy
+  - Namecheap
+  - Cloudflare
+  - IONOS
+  - NO PREFERENCE - all are ok (pre-selected)
+
+* CI/CD Tools - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Jenkins
+  - GitHub Actions
+  - GitLab CI/CD
+  - Azure DevOps
+  - CircleCI
+  
+* Now select your DEFAULT CI/CD Tool: (RADIAL-SELECT)
+  - Jenkins
+  - GitHub Actions
+  - GitLab CI/CD
+  - Azure DevOps
+  - CircleCI 
+
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### E-COMMERCE, PAYMENTS & ACCOUNTING & FINANCE
+
+If you are not selling anything you can skip this page. ('SAVE AND SKIP PAGE' BUTTON)
+  
+* E-Commerce Providers - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Shopify
+  - WooCommerce
+  - BigCommerce
+  - Wix eCommerce
+  - Squarespace Commerce
+  
+* Now select your DEFAULT E-Commerce Provider: (RADIAL-SELECT)  
+  - Shopify
+  - WooCommerce
+  - BigCommerce
+  - Wix eCommerce
+  - Squarespace Commerce
+  - NO PREFERENCE - all are ok (pre-selected)
+
+
+* Do you plan on accepting payments for the app you are developing? - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - One-Time Sales (e.g., goods, services, digital products)
+  - Usage-Based (e.g., API credits, metered services)
+  - Subscriptions/Memberships (e.g., monthly, annual access)
+  - No (pre-selected)
+
+* Choose your DEFAULT plan on accepting payments for your apps? (RADIAL-SELECT)
+  - One-Time Sales (e.g., goods, services, digital products)
+  - Usage-Based (e.g., API credits, metered services)
+  - Subscriptions/Memberships (e.g., monthly, annual access)
+  - No (pre-selected)
+   
+* Payment Providers - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Stripe Payments
+  - Paddle
+  - PayPal
+  - Lemon Squeezy
+  - Braintree
+  - Adyen
+
+* Now select your DEFAULT Payment Provider: (RADIAL-SELECT)
+  - Stripe Payments
+  - Paddle
+  - PayPal
+  - Lemon Squeezy
+  - Braintree
+  - Adyen
+  - NO PREFERENCE - all are ok (pre-selected)
+
+* Accounting Platforms To Manage Payments:(SELECTBOXES) (select all button)
+  - Quickbooks
+  - Xero
+  - FreshBooks
+  - Wave
+  - Zoho Books
+  - Sage Intacct
+  - NetSuite
+  - NONE
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### FILE STORAGE & EMAIL
+     
+* File Storage & Management
+  - Amazon S3 (Simple Storage Service)
+  - Google Cloud Storage (different than Google Drive)
+  - Microsoft Azure Blob Storage
+  - Dropbox
+  - Google Drive
+  - ANY of these are OK
+
+* Email:
+  - SendGrid
+  - Mailgun
+  - Amazon SES (Simple Email Service)
+  - Google Mail (Gmail)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+
+### MAPS & GEOLOCATION 
+
+Are you using any mapping or geo-location functionality? Choose your DEFAULT provider. 
+
+* Mapping Functionality:
+  - Google Maps (RADIAL-SELECT)
+  - Mapbox (RADIAL-SELECT)
+  - OpenStreetMap (RADIAL-SELECT)
+  - Radar.io (RADIAL-SELECT)
+
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+
+### **Security, Authentication & Single Sign-On (SSO) Preferences**
+
+* 2FA Enabled Site: (RADIAL SELECT)
+  - No - The site does not offer two-factor authentication.
+  - Optional - Users have the choice to enable or disable two-factor authentication.
+  - Forced - Two-factor authentication is mandatory for all users to access the site.
+
+* Primary Authentication Method: (radial-select)
+  * Standard Email/Password: Users create and manage credentials directly on our site.
+
+  or 
+
+  * Standard Email/Password AND Social Logins from providers such as: - (SELECT-ALL-BUTTON)
+    - Google
+    - Facebook
+    - Apple
+    - Microsoft
+    - GitHub
+    - LinkedIn
+    - X
+    - Discord
+    - Auth0
+    - Okta
+    - Stripe
+
+* Standard Email/Password AND Social Logins from providers such as: - (SELECT-ALL-BUTTON)
+  - Google (SELECTBOX)
+  - Facebook (SELECTBOX)
+  - Apple (SELECTBOX)
+  - Microsoft (SELECTBOX)
+  - GitHub (SELECTBOX)
+  - LinkedIn (SELECTBOX)
+  - X (SELECTBOX)
+  - Discord (SELECTBOX)
+  - Auth0 (SELECTBOX)
+  - Okta (SELECTBOX)
+  - Stripe (SELECTBOX)
+
+
+* Enterprise SSO: Integration with an organization's existing identity provider for seamless access. Choose yours.
+  - Ping Identity (radial-select)
+  - Auth0 (radial-select)
+  - OneLogin (radial-select)
+  - SailPoint (radial-select)
+  - Keycloak (radial-select)
+  - NONE (radial-select)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+## COMMUNICATION, CONTENT, PRODUCTIVITY & CALENDARS
+
+* Communication & Messaging APIs: (select all button)
+  - Twilio (SELECTBOX)
+  - SendGrid (SELECTBOX)
+  - Mailgun (SELECTBOX)
+  - Slack (SELECTBOX)
+  - Telegram Bot (SELECTBOX)
+  - WhatsApp Business (SELECTBOX)
+  - Pusher (SELECTBOX)
+  - Ably (SELECTBOX)
+
+* Content, AI, & Data Service APIs: (select all button)
+  - YouTube IFrame Player (SELECTBOX)
+  - Spotify (SELECTBOX)
+  - OpenWeatherMap (SELECTBOX)
+  - WeatherAPI.com (SELECTBOX)
+  - Yelp Fusion (SELECTBOX)
+  - TheSportsDB (SELECTBOX)
+  - API-Football (SELECTBOX)
+  - NewsAPI.org (SELECTBOX)
+
+* Productivity, Business & E-commerce APIs: (select all button)
+  - Google Drive (SELECTBOX)
+  - Google Sheets (SELECTBOX)
+  - Google Docs (SELECTBOX)
+  - Microsoft OneDrive (SELECTBOX)
+  - Microsoft Outlook Calendar (SELECTBOX)
+  - Salesforce (SELECTBOX)
+  - HubSpot (SELECTBOX)
+  - Zoom (SELECTBOX)
+  
+* Calendar Options: (select all button)
+  - Calendly (SELECTBOX)
+  - cal.com (SELECTBOX)
+  - Google calendar (SELECTBOX)
+  - Microsoft Outlook Calendar (SELECTBOX)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+## DNS, CDN, & SSL
+
+* DNS (Domain Name System) - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Cloudflare DNS
+  - Google Public DNS
+  - OpenDNS
+  - Amazon Route 53
+  - GoDaddy DNS
+  - Namecheap DNS
+
+* Now select your DEFAULT DNS (Domain Name System): (RADIAL-SELECT)   
+  - Cloudflare DNS
+  - Google Public DNS
+  - OpenDNS
+  - Amazon Route 53
+  - GoDaddy DNS
+  - Namecheap DNS  
+  - NO PREFERENCE - all are ok (pre-selected)  
+
+* CDN (Content Delivery Network) - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Akamai Technologies
+  - Cloudflare
+  - Fastly
+  - Amazon CloudFront
+  - Google Cloud CDN
+  - Microsoft Azure CDN
+  - KeyCDN
+  
+* Now select your DEFAULT CDN (Content Delivery Network): (RADIAL-SELECT)   
+  - Akamai Technologies
+  - Cloudflare
+  - Fastly
+  - Amazon CloudFront
+  - Google Cloud CDN
+  - Microsoft Azure CDN
+  - KeyCDN 
+  - NO PREFERENCE - all are ok (pre-selected)
+
+* SSL Certificate Provider - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - DigiCert
+  - Sectigo
+  - GeoTrust
+  - Thawte
+  - GlobalSign
+  - Let's Encrypt
+  
+* Now select your DEFAULT SSL Certificate Provider: (RADIAL-SELECT)
+  - DigiCert
+  - Sectigo
+  - GeoTrust
+  - Thawte
+  - GlobalSign
+  - Let's Encrypt
+  - NO PREFERENCE - all are ok (pre-selected) 
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+## PACKAGE MANAGERS, LIBRARIES, LANGUAGES, DATABASES & FRAMEWORKS
+
+* Package Managers - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - npm
+  - yarn
+  - pnpm
+  - Bun
+  
+* Now select your DEFAULT Package Manager: (RADIAL-SELECT)
+  - npm
+  - yarn
+  - pnpm
+  - Bun
+  - NO PREFERENCE - all are ok (pre-selected)
+  
+* Programming Language(s) - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - JavaScript
+  - TypeScript
+  - Python
+  - PHP
+  - Java
+  - Go (Golang)
+  - C#
+  - Ruby
+  - Kotlin
+ 
+* Now select your DEFAULT Programming Language: (RADIAL-SELECT)
+  - JavaScript
+  - TypeScript
+  - Python
+  - PHP
+  - Java
+  - Go (Golang)
+  - C#
+  - Ruby
+  - Kotlin
+  - NO PREFERENCE - all are ok (pre-selected)
+  
+* Frontend Frameworks/Libraries - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - React
+  - Vue.js
+  - Angular
+  - Svelte
+  - SolidJS
+
+* Now select your DEFAULT Frontend Framework/Library: (RADIAL-SELECT)  
+  - React
+  - Vue.js
+  - Angular
+  - Svelte
+  - SolidJS
+  - NO PREFERENCE - all are ok (pre-selected)
+
+* Backend Frameworks - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Next.js (for React-based fullstack)
+  - Nuxt.js (for Vue-based fullstack)
+  - Express.js (Node.js)
+  - NestJS (Node.js/TypeScript)
+  - Django (Python)
+  - Flask (Python)
+  - FastAPI (Python)
+  - Laravel (PHP)
+  - Symfony (PHP)
+  - Spring Boot (Java/Kotlin)
+  - Ruby on Rails (Ruby)
+  - ASP.NET Core (C#)
+  - Gin (Go)
+  - Echo (Go)
+  - Revel (Go)
+  - Phoenix (Elixir)
+  
+* Now select your DEFAULT Backend Framework: (RADIAL-SELECT)  
+  - Next.js (for React-based fullstack)
+  - Nuxt.js (for Vue-based fullstack)
+  - Express.js (Node.js)
+  - NestJS (Node.js/TypeScript)
+  - Django (Python)
+  - Flask (Python)
+  - FastAPI (Python)
+  - Laravel (PHP)
+  - Symfony (PHP)
+  - Spring Boot (Java/Kotlin)
+  - Ruby on Rails (Ruby)
+  - ASP.NET Core (C#)
+  - Gin (Go)
+  - Echo (Go)
+  - Revel (Go)
+  - Phoenix (Elixir)
+  - NO PREFERENCE - all are ok (pre-selected)   
+
+* Relational (SQL) Databases - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - MySQL
+  - PostgreSQL
+  - Microsoft SQL Server
+  - Oracle Database
+  - SQLite
+  - MariaDB
+  
+* Now select your DEFAULT Relational (SQL) Database: (RADIAL-SELECT)  
+  - MySQL
+  - PostgreSQL
+  - Microsoft SQL Server
+  - Oracle Database
+  - SQLite
+  - MariaDB
+  - NO PREFERENCE - all are ok (pre-selected)
+       
+* NoSQL Databases - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - MongoDB (Document Database)
+  - Redis (Key-Value/In-memory Database)
+  - Cassandra (Column-Family Database)
+  - Supabase (Postgres-based BaaS)
+  - DynamoDB (AWS Key-Value/Document Database)
+  - Elasticsearch (Search/Analytics Engine)
+
+* Now select your DEFAULT NoSQL Database: (RADIAL-SELECT) 
+  - MongoDB (Document Database)
+  - Redis (Key-Value/In-memory Database)
+  - Cassandra (Column-Family Database)
+  - Supabase (Postgres-based BaaS)
+  - DynamoDB (AWS Key-Value/Document Database)
+  - Elasticsearch (Search/Analytics Engine)
+  - NO PREFERENCE - all are ok (pre-selected)
+
+* Full-Stack Combinations - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - MERN Stack (MongoDB, Express.js, React, Node.js)
+  - MEAN Stack (MongoDB, Express.js, Angular, Node.js)
+  - MEVN Stack (MongoDB, Express.js, Vue.js, Node.js)
+  - LAMP Stack (Linux, Apache, MySQL, PHP)
+  - LEMP Stack (Linux, Nginx, MySQL/PostgreSQL, PHP)
+  - Python/Django Stack (Python, Django, PostgreSQL/MySQL)
+  - .NET Stack (C#, ASP.NET Core, Microsoft SQL Server)
+  - Ruby on Rails Stack (Ruby, Ruby on Rails, PostgreSQL/MySQL)
+  - JAMstack (JavaScript, APIs, Markup, often with static site generators like Next.js/Gatsby)
+  - Serverless Stack (e.g., AWS Lambda, API Gateway, DynamoDB)
+  
+* Now select your DEFAULT Full-Stack Combination: (RADIAL-SELECT)
+  - MERN Stack (MongoDB, Express.js, React, Node.js)
+  - MEAN Stack (MongoDB, Express.js, Angular, Node.js)
+  - MEVN Stack (MongoDB, Express.js, Vue.js, Node.js)
+  - LAMP Stack (Linux, Apache, MySQL, PHP)
+  - LEMP Stack (Linux, Nginx, MySQL/PostgreSQL, PHP)
+  - Python/Django Stack (Python, Django, PostgreSQL/MySQL)
+  - .NET Stack (C#, ASP.NET Core, Microsoft SQL Server)
+  - Ruby on Rails Stack (Ruby, Ruby on Rails, PostgreSQL/MySQL)
+  - JAMstack (JavaScript, APIs, Markup, often with static site generators like Next.js/Gatsby)
+  - Serverless Stack (e.g., AWS Lambda, API Gateway, DynamoDB)
+  - NO PREFERENCE - all are ok (pre-selected)  
+
+* Allowed Libraries - Use our 'ALLOWED-libraries.txt' file - or provide your own if you want one (optional) 
+
+* Dis-Allowed Libraries - Use our 'DISALLOWED-libraries.txt' file - or provide your own if you want one (optional)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE --- 
+
+### CLOUD, SERVERS, CONTAINERS & INFRASTRUCTURE
+
+* Cloud Hosting: Choose all you are ok with - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - AWS
+  - GCP
+  - Azure
+  - DigitalOcean
+  - Vercel
+  - Netlify
+  
+* Now select your DEFAULT Cloud Hosting: (RADIAL-SELECT)
+  - AWS
+  - GCP
+  - Azure
+  - DigitalOcean
+  - Vercel
+  - Netlify
+  - NO PREFERENCE - all are ok (pre-selected)
+  
+* Cloud Storage: Choose all you are ok with - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - AWS
+  - GCP
+  - Azure
+  - DigitalOcean
+  
+* Now select your DEFAULT Cloud Storage: (RADIAL-SELECT)
+  - AWS
+  - GCP
+  - Azure
+  - DigitalOcean
+  - NO PREFERENCE - all are ok (pre-selected)
+
+* Frontend and Serverless Platforms - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Vercel
+  - Netlify
+  - Firebase Hosting
+  - AWS Amplify
+  - Cloudflare Pages
+  - Azure Static Web Apps
+  
+* Now select your DEFAULT Frontend and Serverless Platforms: (RADIAL-SELECT)
+  - Vercel
+  - Netlify
+  - Firebase Hosting
+  - AWS Amplify
+  - Cloudflare Pages
+  - Azure Static Web Apps
+  - NO PREFERENCE - all are ok (pre-selected)
+  
+* Platform as a Service (PaaS) - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Heroku
+  - Render
+  - DigitalOcean App Platform
+  - AWS Elastic Beanstalk
+  - Google App Engine (GAE)
+  - Azure App Service
+  
+* Now select your DEFAULT Platform as a Service (PaaS): (RADIAL-SELECT)
+  - Heroku
+  - Render
+  - DigitalOcean App Platform
+  - AWS Elastic Beanstalk
+  - Google App Engine (GAE)
+  - Azure App Service
+  - NO PREFERENCE - all are ok (pre-selected)
+  
+* Container-Centric Deployment Platforms - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Docker
+  - Google Cloud Run
+  - AWS Elastic Container Service (ECS) / Elastic Kubernetes Service (EKS)
+  - Azure Kubernetes Service (AKS)
+  - Fly.io
+  
+* Now select your DEFAULT Container-Centric Deployment Platforms: (RADIAL-SELECT)
+  - Docker
+  - Google Cloud Run
+  - AWS Elastic Container Service (ECS) / Elastic Kubernetes Service (EKS)
+  - Azure Kubernetes Service (AKS)
+  - Fly.io
+  - NO PREFERENCE - all are ok (pre-selected)
+  
+* Infrastructure as a Service (IaaS) - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - AWS EC2 (Elastic Compute Cloud)
+  - Azure Virtual Machines
+  - Google Compute Engine (GCE)
+  - DigitalOcean Droplets
+
+* Now select your DEFAULT Infrastructure as a Service (IaaS): (RADIAL-SELECT)
+  - AWS EC2 (Elastic Compute Cloud)
+  - Azure Virtual Machines
+  - Google Compute Engine (GCE)
+  - DigitalOcean Droplets
+  - NO PREFERENCE - all are ok (pre-selected)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+## PREMADE COLOR AND FONT STYLE THEMES FOR GUI
+
+* You Can Choose From These Themes Or Select 'PERSONAL CHOICES'
+  - PERSONAL CHOICES (RADIAL-SELECT)
+  - REST OF THEME BOXES CARDS 
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE --- 
+  
+## PERSONAL CHOICES IF NOT USING DESIGN STYLE THEME
+  
+  * **`fieldName`**: A machine-readable name for the form input (e.g., `primary_styling_preference`).
+  * **`label`**: The human-readable question or title for the form field.
+  * **`type`**: Describes the kind of selection. `single_choice_grouped` indicates it's a single selection (like radio buttons or a dropdown) from a categorized list.
+  * **`optionGroups`**: An array containing the categories.
+      * **`groupLabel`**: The title for each category (e.g., "Component-Based CSS Frameworks").
+      * **`options`**: An array of the selectable choices within that category.
+          * **`value`**: A clean, simple string to be stored in a database.
+          * **`display`**: The text that is shown to the user in the form.
+
+-----
+
+```json
+{
+  "formField": {
+    "fieldName": "primary_styling_preference",
+    "label": "Primary Styling Preference",
+    "type": "single_choice_grouped",
+    "instruction": "Choose one",
+    "optionGroups": [
+      {
+        "groupLabel": "Component-Based CSS Frameworks (Traditional)",
+        "options": [
+          {
+            "value": "bootstrap",
+            "display": "Bootstrap"
+          },
+          {
+            "value": "bulma",
+            "display": "Bulma"
+          }
+        ]
+      },
+      {
+        "groupLabel": "Utility-First CSS Framework",
+        "options": [
+          {
+            "value": "tailwind_css",
+            "display": "Tailwind CSS"
+          }
+        ]
+      },
+      {
+        "groupLabel": "Component Libraries / Design Systems (React)",
+        "options": [
+          {
+            "value": "material_ui",
+            "display": "Material UI (MUI)"
+          },
+          {
+            "value": "next_ui",
+            "display": "NextUI"
+          },
+          {
+            "value": "chakra_ui",
+            "display": "Chakra UI"
+          },
+          {
+            "value": "ant_design",
+            "display": "Ant Design"
+          },
+          {
+            "value": "shadcn_ui",
+            "display": "Shadcn UI"
+          },
+          {
+            "value": "fluent_ui",
+            "display": "Fluent UI"
+          }
+        ]
+      },
+      {
+        "groupLabel": "Component Libraries / Design Systems (Vue)",
+        "options": [
+          {
+            "value": "vuetify",
+            "display": "Vuetify"
+          },
+          {
+            "value": "prime_vue",
+            "display": "PrimeVue"
+          }
+        ]
+      },
+      {
+        "groupLabel": "Framework-Agnostic Component Libraries",
+        "options": [
+          {
+            "value": "shoelace",
+            "display": "Shoelace (Uses Web Components)"
+          }
+        ]
+      },
+      {
+        "groupLabel": "Unstyled Component Primitives (Bring your own styles)",
+        "options": [
+          {
+            "value": "radix_ui",
+            "display": "Radix UI (For React)"
+          },
+          {
+            "value": "headless_ui",
+            "display": "Headless UI (For React & Vue)"
+          }
+        ]
+      },
+      {
+        "groupLabel": "CSS-in-JS Libraries",
+        "options": [
+          {
+            "value": "styled_components",
+            "display": "Styled Components"
+          },
+          {
+            "value": "emotion",
+            "display": "Emotion"
+          }
+        ]
+      },
+      {
+        "groupLabel": "Manual / Foundational",
+        "options": [
+          {
+            "value": "vanilla_css_scss_less",
+            "display": "Vanilla CSS / Custom SCSS/LESS"
+          },
+          {
+            "value": "css_modules",
+            "display": "CSS Modules"
+          }
+        ]
+      },
+      {
+        "groupLabel": "Other",
+        "options": [
+          {
+            "value": "no_preference",
+            "display": "No Preference"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+* UI/UX Notes or Vision Statement: (Choose One) (RADIAL-SELECT)
+
+  - "Design with clarity — guiding users effortlessly to their goals" (pre-selected)
+  - "Delight through simplicity — making every interaction intuitive"
+  - "Consistency builds trust — applying familiar patterns across screens"
+  - "Accessibility is fundamental — ensuring usability for everyone"
+  - "Minimalism drives focus — letting content shine without distraction"
+  - "Responsive and adaptive — seamless experience on all devices"
+  - "User empowerment — enabling control and customization"
+  - "Emotional connection — creating engaging and memorable experiences"
+  - "Performance matters — fast, smooth, and reliable interfaces"
+  - "Feedback-focused — providing clear and timely user responses"
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+## INVESTMENT AND BANKING APPS ONLY)
+
+Is this an 'Investment' or 'Banking' App (e.g., Banking, Stock Brokerage, Cryptocurrency Trading) with Financial Transfers? - Some of these apps require special permission with various regulatory bodies. So,...CHECK WITH YOUR LAWYER !!!
+
+
+* Financial and Investment APIs
+  - Plaid (SELECTBOXES)
+  - Alpha Vantage (SELECTBOXES)
+  - IEX Cloud (SELECTBOXES)
+  - NONE (pre-selected) 
+
+* Brokerage/Trading APIs
+  - Alpaca (SELECTBOXES)
+  - Tradier (SELECTBOXES)
+  - Interactive Brokerr (SELECTBOXES)
+  - NONE (pre-selected)
+
+* Identity Verification (KYC/AML) & Fraud APIs
+  - Trulioo (SELECTBOXES)
+  - Jumio (SELECTBOXES)
+  - NONE (pre-selected)
+
+* Market Data APIs
+  - Financial Modeling Prep (SELECTBOXES)
+  - Polygon.io (SELECTBOXES)
+  - Finnhub (SELECTBOXES)
+  - EOD Historical Data (SELECTBOXES)
+  - Twelve Data (SELECTBOXES)
+  - Yahoo Finance API (via RapidAPI) (SELECTBOXES)
+  - Quandl (by Nasdaq Data Link) (SELECTBOXES)
+  - NONE (pre-selected)  
+
+* Economic Data APIs
+  - FRED (Federal Reserve Economic Data) API (SELECTBOXES)
+  - Trading Economics (SELECTBOXES)
+  - NONE (pre-selected)
+  
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+## AI INTEGRATION
+  
+* LLM (Large Language Model) - AI Agents
+  - list the frameworks here and the tools.
+  - list image tools and video tools too
+  - OpenAI
+  - Google AI
+  - X-AI
+  
+* Video Generation
+
+* Audio Generation
+
+* Canvas 2D
+
+* WebGL for 3D
+
+* Web Audio API
+
+* OCR
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+## MCP SERVERS
+  
+* MCP Servers (Allowed Usage): (SELECTBOXES) LIST THE TOP 25
+  - Stripe
+  - Docker
+  - Get Full List
+  - ALL
+
+--- NEW-PAGE --- 
+
+## ANALYTICS, TESTING & LINTING
+
+* Analytics Integration:
+  - Google Analytics (RADIAL-SELECT)
+  - Plausible (RADIAL-SELECT)
+  - Matamo (RADIAL-SELECT)
+  - Fathom (RADIAL-SELECT)
+  - Mixpanel (RADIAL-SELECT)
+  - HotJar (RADIAL-SELECT)
+  - Amplitude (RADIAL-SELECT)
+  - NONE (RADIAL-SELECT) (pre-selected)
+
+
+* Testing Frameworks - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Jest
+  - Pytest
+  - Selenium
+  - Cypress
+  - Playwright
+  - Junit (for Java)
+  - NUnit (for C#)
+
+* Now select your DEFAULT Testing Framework: (RADIAL-SELECT)
+  - Jest
+  - Pytest
+  - Selenium
+  - Cypress
+  - Playwright
+  - Junit (for Java)
+  - NUnit (for C#)
+  - NO PREFERENCE - Whatever testing framework the project needs is ok. (pre-selected)
+
+* Linting/Formatting Preferences - Choose all you are ok with: (SELECTBOXES) (select all button)
+  - Prettier
+  - ESLint
+  - Black
+  - Stylelint
+  - Ruff
+
+* Now select your DEFAULT Linting/Formatting Preference: (RADIAL-SELECT)
+  - Prettier
+  - ESLint
+  - Black
+  - Stylelint
+  - Ruff
+  - NO PREFERENCE - Whatever linting or formatting the project needs is ok. (pre-selected)
+ 
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+ 
+### Marketing & Materials - Would You Like These Made?
+
+* Would You Like These Made? If 'yes', fill out the form. If 'no' (click-skip ahead) - (Click-To-Save-And-Proceed-to-next-page-in-form)
+
+* T-Shirt Design - Black Short-Sleeve Crew-Neck With Small Logo on Front and Large Logo on Back: choose shirt size: (radial-select)
+  - YES
+    - XS (RADIAL-SELECT)
+    - S (RADIAL-SELECT)
+    - M (RADIAL-SELECT)
+    - L (RADIAL-SELECT)
+    - XL (RADIAL-SELECT)
+    -XXL (RADIAL-SELECT)
+    
+  - NO (pre-selected)
+  
+* Business Cards with Logo (100 Front and Back Color) on White Stock: (radial-select)
+  - YES (RADIAL-SELECT)
+  - NO (RADIAL-SELECT) (pre-selected)
+
+* Personalized Email Outreach letter written by our AI for you to send to 10 Influential People In Your Industry: (radial-select)
+  - YES (RADIAL-SELECT)
+  - NO (RADIAL-SELECT) (pre-selected)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### GATHERING INVESTORS FOR YOUR APP 
+
+(Consult your lawyer before using any of these!!!) 
+
+That being said,...
+
+* Would You Like These Made? If 'yes', fill out the form. If 'no' (click-skip ahead) - (Click-To-Save-And-Proceed-to-next-page-in-form)
+
+* Project Budget - Per Month (needed if doing the 'investment offering section'): 
+  - $100 (RADIAL-SELECT)  (pre-selected)
+  - $2,000 (RADIAL-SELECT)
+  - $35,000 (RADIAL-SELECT)
+
+* Bank Loan Request Amount for Funding:
+  - NO (RADIAL-SELECT) (pre-selected)
+  - YES (RADIAL-SELECT)
+   - Amount for loan $USD: (DROPDOWN $2,000, $5,000, $10,000, $25,000, $50,000, $100,000)
+   - Months to payback: (DROPDOWN 12, 24, 36, 48, 60, 72)
+
+
+Select One (1) Bank who the proposal letter should be written to:
+
+* Canadian Based Banks:
+  - RBC Royal Bank (RADIAL-SELECT)
+  - BDC (Business Development Bank of Canada) (RADIAL-SELECT)
+  - CIBC Innovation Banking (RADIAL-SELECT)
+  - Scotiabank  (RADIAL-SELECT) (pre-selected)  
+
+* USA Based Banks
+  - Wells Fargo (RADIAL-SELECT)
+  - JP Morgan Chase (RADIAL-SELECT)
+  - Citi (RADIAL-SELECT)
+  - Bank of America (RADIAL-SELECT)
+  - U.S. Bank (RADIAL-SELECT) (pre-selected)
+
+* Mexican Based Banks:
+  - BBVA (RADIAL-SELECT)
+  - Banco Azteca (RADIAL-SELECT)
+  - Banregio (RADIAL-SELECT)
+  - Citibanamex (RADIAL-SELECT)  
+  - Santander México (RADIAL-SELECT) (pre-selected)
+
+* European Based Banks
+  - Deutsche Bank (RADIAL-SELECT)
+  - Commerzbank (Germany) (RADIAL-SELECT)
+  - Rabobank (Netherlands) (RADIAL-SELECT)
+  - Nordea (Nordic Countries) (RADIAL-SELECT)
+  - Santander (Spain/Global) (RADIAL-SELECT) (pre-selected)
+
+* South American Based Banks
+  - Banco do Brasil (Brazil) (RADIAL-SELECT)
+  - Itau Unibanco (Brazil) (RADIAL-SELECT)
+  - BBVA (Mexico / Global) (RADIAL-SELECT) (pre-selected)
+
+* African Based Banks
+
+  - Absa Bank (South Africa) (RADIAL-SELECT)
+  - Nedbank (South Africa) (RADIAL-SELECT) (pre-selected)
+
+* Asian Based Banks
+
+  - ICBC (Asia) (Hong Kong) (RADIAL-SELECT)
+  - China Construction Bank (Asia) (Hong Kong) (RADIAL-SELECT)
+  - DBS Bank (Singapore) (RADIAL-SELECT)
+  - Standard Chartered (Singapore/Global) (RADIAL-SELECT)
+  - Public Bank (Hong Kong) (RADIAL-SELECT)
+  - Asia Commercial Bank (Vietnam) (RADIAL-SELECT) (pre-selected)
+
+* Australia/New Zealand Based Banks
+
+  - ANZ (Australia/New Zealand) (RADIAL-SELECT)
+  - ASB Bank (New Zealand) (RADIAL-SELECT)
+  - Commonwealth Bank of Australia (CBA) (RADIAL-SELECT) (pre-selected)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### SAFE AGREEMENT FOR VENTURE CAPITAL (VC)
+
+* Would You Like These Made? If 'yes', fill out the form. If 'no' (click-skip ahead) - (Click-To-Save-And-Proceed-to-next-page-in-form)
+
+(Consult your lawyer before using any of these!!!) 
+
+* SAFE (Investor Agreement): We write the letter and make the PDF for you.
+  - YES
+    - Investment Amount: $USD (DROPDOWN  - $10,000, $25,000, $50,000, $100,000, $250,000, $500,000, $1,000,000, $10,000,000, 525,000,000, $50,000,000, $100,000,000, $250,000,000, $500,000,000, 1,000,000,000)
+    
+    at a Cap of: $USD (DROPDOWN  - $1,000,000, $2,500,000, $5,000,000, $10,000,000, $25,000,000, $50,000,000, $100,000,000, $250,000,000 $500,000,000, $750,000,000, $1,000,000,000, $2,500,000,000, $5,000,000,000, $1,000,000,000, $2,500,000,000, $5,000,000,000)
+  - NO
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### LICENSE TYPES
+
+(Consult your lawyer before using any of these!!!) 
+
+* Choose your PROJECT-SPECIFIC license type: 
+
+  - NONE (RADIAL-SELECT)
+
+* Specific:
+  - Proprietary / Commercial (Closed Source) (RADIAL-SELECT)
+  - Public Domain Dedication (RADIAL-SELECT)
+
+* Permissive Licenses (Open Source):
+  - MIT (RADIAL-SELECT)
+  - Apache License 2.0 (RADIAL-SELECT)
+  - BSD License (2-Clause / 3-Clause) (RADIAL-SELECT)
+
+* Copyleft Licenses:
+  - GNU General Public License (GPL) (RADIAL-SELECT)
+  - GNU Lesser General Public License (LGPL) (RADIAL-SELECT)
+  - Mozilla Public License (MPL) (RADIAL-SELECT)
+
+--- END-OF-PAGE ---
+
+--- NEW-PAGE ---
+
+### SUPERFUNKY APIS
+
+
+## WHO IS THIS SPECIFIC APP FOR - USER PERSONA
+
+* What is the name of this App? (inputBox)
+
+* Who is this app made for?: (CHECKBOXES)
+  - Individuals
+  - Web Devs
+  - Engineers
+  - Administrative Workers
+  - ALL OCCUPATIONS (pre-select)
+
+* Target Age Range(s): (CHECKBOXES) 
+  - Under 13
+  - 13–17
+  - 18–24
+  - 25–34
+  - 35–44
+  - 45–54
+  - 55–64
+  - 65+
+  - ALL Ages (pre-select)
+
+* Target Gender: (CHECKBOXES)
+  - Male
+  - Female
+  - ALL Genders (pre-select)
+
+* Location(s) Served:
+  - World-Wide (radial-select)
+  
+  or
+  
+  - City (inputBox)
+  - State (inputBox)
+  - Country (inputBox)
+  
+* Languages Served: (CHECKBOXES)
+  - English
+  - Spanish
+  - German
+  - Portuguese
+  - Chinese
+  - French
+  - All 6 Above (pre-select)
+
+* Tech Savviness Level of User: (CHECKBOXES)
+  - Beginner
+  - Intermediate
+  - Expert
+  - All (pre-select)
+
+* Education Level - if for 'Educational Based Site':  (CHECKBOXES)
+  - Early Childhood Education
+  - Elementary School
+  - Middle School
+  - High School
+  - Higher Education/University
+  - Professional Development/Lifelong Learning
+  - All (pre-select)
+
+* Sector - SubSector - Industry:  (NAICS 6 Digit Sector) or Name the Sector (see here for more info): (inputBox)
+
+  or
+  
+  - ALL SECTORS
+
+* Occupations Served using Standard Occupational Classification (SOC) system:
+  - ALL OCCUPATIONS (pre-selected)
+  
+  or
+  
+  - (inputBox)
+  - (inputBox)
+  - (inputBox)
+
+* Income Range of Users (Individual Annual Gross Income)
+  - Less than $25,000
+  - $25,000 - $49,999
+  - $50,000 - $74,999
+  - $75,000 - $99,999
+  - $100,000 - $149,999
+  - $150,000 - $199,999
+  - $200,000 or more
+
+* Company Employee Sizes you are marketing this app to: 
+  - Solo
+  - 1–10
+  - 11–50
+  - 51–200
+  - 200+
+
+--- END-OF-PAGE ---
+
+
+
+
+

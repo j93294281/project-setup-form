@@ -1,0 +1,2774 @@
+[
+  {
+    "code": "111199",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Crop Production > Oilseed and Grain Farming > Other Grain Farming > All Other Grain Farming",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Crop Production",
+    "industry": "Oilseed and Grain Farming",
+    "naicsIndustry": "Other Grain Farming",
+    "nationalIndustry": "All Other Grain Farming"
+  },
+  {
+    "code": "111219",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Crop Production > Vegetable and Melon Farming > Vegetable and Melon Farming > Other Vegetable (except Potato) and Melon Farming",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Crop Production",
+    "industry": "Vegetable and Melon Farming",
+    "naicsIndustry": "Vegetable and Melon Farming",
+    "nationalIndustry": "Other Vegetable (except Potato) and Melon Farming"
+  },
+  {
+    "code": "111339",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Crop Production > Fruit and Tree Nut Farming > Noncitrus Fruit and Tree Nut Farming > Other Noncitrus Fruit Farming",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Crop Production",
+    "industry": "Fruit and Tree Nut Farming",
+    "naicsIndustry": "Noncitrus Fruit and Tree Nut Farming",
+    "nationalIndustry": "Other Noncitrus Fruit Farming"
+  },
+  {
+    "code": "111422",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Crop Production > Greenhouse, Nursery, and Floriculture Production > Nursery and Floriculture Production > Floriculture Production",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Crop Production",
+    "industry": "Greenhouse, Nursery, and Floriculture Production",
+    "naicsIndustry": "Nursery and Floriculture Production",
+    "nationalIndustry": "Floriculture Production"
+  },
+  {
+    "code": "111998",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Crop Production > Other Crop Farming > All Other Crop Farming > All Other Miscellaneous Crop Farming",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Crop Production",
+    "industry": "Other Crop Farming",
+    "naicsIndustry": "All Other Crop Farming",
+    "nationalIndustry": "All Other Miscellaneous Crop Farming"
+  },
+  {
+    "code": "112120",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Animal Production and Aquaculture > Cattle Ranching and Farming > Dairy Cattle and Milk Production > Dairy Cattle and Milk Production",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Animal Production and Aquaculture",
+    "industry": "Cattle Ranching and Farming",
+    "naicsIndustry": "Dairy Cattle and Milk Production",
+    "nationalIndustry": "Dairy Cattle and Milk Production"
+  },
+  {
+    "code": "112210",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Animal Production and Aquaculture > Hog and Pig Farming > Hog and Pig Farming > Hog and Pig Farming",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Animal Production and Aquaculture",
+    "industry": "Hog and Pig Farming",
+    "naicsIndustry": "Hog and Pig Farming",
+    "nationalIndustry": "Hog and Pig Farming"
+  },
+  {
+    "code": "112390",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Animal Production and Aquaculture > Poultry and Egg Production > Other Poultry Production > Other Poultry Production",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Animal Production and Aquaculture",
+    "industry": "Poultry and Egg Production",
+    "naicsIndustry": "Other Poultry Production",
+    "nationalIndustry": "Other Poultry Production"
+  },
+  {
+    "code": "112420",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Animal Production and Aquaculture > Sheep and Goat Farming > Goat Farming > Goat Farming",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Animal Production and Aquaculture",
+    "industry": "Sheep and Goat Farming",
+    "naicsIndustry": "Goat Farming",
+    "nationalIndustry": "Goat Farming"
+  },
+  {
+    "code": "112519",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Animal Production and Aquaculture > Aquaculture > Aquaculture > Other Aquaculture",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Animal Production and Aquaculture",
+    "industry": "Aquaculture",
+    "naicsIndustry": "Aquaculture",
+    "nationalIndustry": "Other Aquaculture"
+  },
+  {
+    "code": "112990",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Animal Production and Aquaculture > Other Animal Production > All Other Animal Production > All Other Animal Production",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Animal Production and Aquaculture",
+    "industry": "Other Animal Production",
+    "naicsIndustry": "All Other Animal Production",
+    "nationalIndustry": "All Other Animal Production"
+  },
+  {
+    "code": "113110",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Forestry and Logging > Timber Tract Operations > Timber Tract Operations > Timber Tract Operations",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Forestry and Logging",
+    "industry": "Timber Tract Operations",
+    "naicsIndustry": "Timber Tract Operations",
+    "nationalIndustry": "Timber Tract Operations"
+  },
+  {
+    "code": "113210",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Forestry and Logging > Forest Nurseries and Gathering of Forest Products > Forest Nurseries and Gathering of Forest Products > Forest Nurseries and Gathering of Forest Products",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Forestry and Logging",
+    "industry": "Forest Nurseries and Gathering of Forest Products",
+    "naicsIndustry": "Forest Nurseries and Gathering of Forest Products",
+    "nationalIndustry": "Forest Nurseries and Gathering of Forest Products"
+  },
+  {
+    "code": "113310",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Forestry and Logging > Logging > Logging > Logging",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Forestry and Logging",
+    "industry": "Logging",
+    "naicsIndustry": "Logging",
+    "nationalIndustry": "Logging"
+  },
+  {
+    "code": "114119",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Fishing, Hunting and Trapping > Fishing > Fishing > Other Marine Fishing",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Fishing, Hunting and Trapping",
+    "industry": "Fishing",
+    "naicsIndustry": "Fishing",
+    "nationalIndustry": "Other Marine Fishing"
+  },
+  {
+    "code": "114210",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Fishing, Hunting and Trapping > Hunting and Trapping > Hunting and Trapping > Hunting and Trapping",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Fishing, Hunting and Trapping",
+    "industry": "Hunting and Trapping",
+    "naicsIndustry": "Hunting and Trapping",
+    "nationalIndustry": "Hunting and Trapping"
+  },
+  {
+    "code": "115116",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Support Activities for Agriculture and Forestry > Support Activities for Crop Production > Support Activities for Crop Production > Farm Management Services",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Support Activities for Agriculture and Forestry",
+    "industry": "Support Activities for Crop Production",
+    "naicsIndustry": "Support Activities for Crop Production",
+    "nationalIndustry": "Farm Management Services"
+  },
+  {
+    "code": "115210",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Support Activities for Agriculture and Forestry > Support Activities for Animal Production > Support Activities for Animal Production > Support Activities for Animal Production",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Support Activities for Agriculture and Forestry",
+    "industry": "Support Activities for Animal Production",
+    "naicsIndustry": "Support Activities for Animal Production",
+    "nationalIndustry": "Support Activities for Animal Production"
+  },
+  {
+    "code": "115310",
+    "label": "Agriculture, Forestry, Fishing and Hunting > Support Activities for Agriculture and Forestry > Support Activities for Forestry > Support Activities for Forestry > Support Activities for Forestry",
+    "sector": "Agriculture, Forestry, Fishing and Hunting",
+    "subsector": "Support Activities for Agriculture and Forestry",
+    "industry": "Support Activities for Forestry",
+    "naicsIndustry": "Support Activities for Forestry",
+    "nationalIndustry": "Support Activities for Forestry"
+  },
+  {
+    "code": "812910",
+    "label": "Other Services (except Public Administration) > Personal and Laundry Services > Other Personal Services > Pet Care (except Veterinary) Services > Pet Care (except Veterinary) Services",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Personal and Laundry Services",
+    "industry": "Other Personal Services",
+    "naicsIndustry": "Pet Care (except Veterinary) Services",
+    "nationalIndustry": "Pet Care (except Veterinary) Services"
+  },
+  {
+    "code": "812199",
+    "label": "Other Services (except Public Administration) > Personal and Laundry Services > Personal Care Services > Other Personal Care Services > Other Personal Care Services",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Personal and Laundry Services",
+    "industry": "Personal Care Services",
+    "naicsIndustry": "Other Personal Care Services",
+    "nationalIndustry": "Other Personal Care Services"
+  },
+  {
+    "code": "812220",
+    "label": "Other Services (except Public Administration) > Personal and Laundry Services > Death Care Services > Cemeteries and Crematories > Cemeteries and Crematories",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Personal and Laundry Services",
+    "industry": "Death Care Services",
+    "naicsIndustry": "Cemeteries and Crematories",
+    "nationalIndustry": "Cemeteries and Crematories"
+  },
+  {
+    "code": "812332",
+    "label": "Other Services (except Public Administration) > Personal and Laundry Services > Drycleaning and Laundry Services > Linen and Uniform Supply > Industrial Launderers",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Personal and Laundry Services",
+    "industry": "Drycleaning and Laundry Services",
+    "naicsIndustry": "Linen and Uniform Supply",
+    "nationalIndustry": "Industrial Launderers"
+  },
+  {
+    "code": "813219",
+    "label": "Other Services (except Public Administration) > Religious, Grantmaking, Civic, Professional, and Similar Organizations > Grantmaking and Giving Services > Grantmaking and Giving Services > Other Grantmaking and Giving Services",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+    "industry": "Grantmaking and Giving Services",
+    "naicsIndustry": "Grantmaking and Giving Services",
+    "nationalIndustry": "Other Grantmaking and Giving Services"
+  },
+  {
+    "code": "813110",
+    "label": "Other Services (except Public Administration) > Religious, Grantmaking, Civic, Professional, and Similar Organizations > Religious Organizations > Religious Organizations > Religious Organizations",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+    "industry": "Religious Organizations",
+    "naicsIndustry": "Religious Organizations",
+    "nationalIndustry": "Religious Organizations"
+  },
+  {
+    "code": "813319",
+    "label": "Other Services (except Public Administration) > Religious, Grantmaking, Civic, Professional, and Similar Organizations > Social Advocacy Organizations > Social Advocacy Organizations > Other Social Advocacy Organizations",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+    "industry": "Social Advocacy Organizations",
+    "naicsIndustry": "Social Advocacy Organizations",
+    "nationalIndustry": "Other Social Advocacy Organizations"
+  },
+  {
+    "code": "813410",
+    "label": "Other Services (except Public Administration) > Religious, Grantmaking, Civic, Professional, and Similar Organizations > Civic and Social Organizations > Civic and Social Organizations > Civic and Social Organizations",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+    "industry": "Civic and Social Organizations",
+    "naicsIndustry": "Civic and Social Organizations",
+    "nationalIndustry": "Civic and Social Organizations"
+  },
+  {
+    "code": "813990",
+    "label": "Other Services (except Public Administration) > Religious, Grantmaking, Civic, Professional, and Similar Organizations > Business, Professional, Labor, Political, and Similar Organizations > Other Similar Organizations (except Business, Professional, Labor, and Political Organizations) > Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+    "industry": "Business, Professional, Labor, Political, and Similar Organizations",
+    "naicsIndustry": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+    "nationalIndustry": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)"
+  },
+  {
+    "code": "811198",
+    "label": "Other Services (except Public Administration) > Repair and Maintenance > Automotive Repair and Maintenance > Other Automotive Repair and Maintenance > All Other Automotive Repair and Maintenance",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Repair and Maintenance",
+    "industry": "Automotive Repair and Maintenance",
+    "naicsIndustry": "Other Automotive Repair and Maintenance",
+    "nationalIndustry": "All Other Automotive Repair and Maintenance"
+  },
+  {
+    "code": "811210",
+    "label": "Other Services (except Public Administration) > Repair and Maintenance > Electronic and Precision Equipment Repair and Maintenance > Electronic and Precision Equipment Repair and Maintenance > Electronic and Precision Equipment Repair and Maintenance()",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Repair and Maintenance",
+    "industry": "Electronic and Precision Equipment Repair and Maintenance",
+    "naicsIndustry": "Electronic and Precision Equipment Repair and Maintenance",
+    "nationalIndustry": "Electronic and Precision Equipment Repair and Maintenance()"
+  },
+  {
+    "code": "811310",
+    "label": "Other Services (except Public Administration) > Repair and Maintenance > Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance > Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance > Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Repair and Maintenance",
+    "industry": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+    "naicsIndustry": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+    "nationalIndustry": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
+  },
+  {
+    "code": "811490",
+    "label": "Other Services (except Public Administration) > Repair and Maintenance > Personal and Household Goods Repair and Maintenance > Other Personal and Household Goods Repair and Maintenance > Other Personal and Household Goods Repair and Maintenance",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Repair and Maintenance",
+    "industry": "Personal and Household Goods Repair and Maintenance",
+    "naicsIndustry": "Other Personal and Household Goods Repair and Maintenance",
+    "nationalIndustry": "Other Personal and Household Goods Repair and Maintenance"
+  },
+  {
+    "code": "814110",
+    "label": "Other Services (except Public Administration) > Private Households > Private Households > Private Households > Private Households",
+    "sector": "Other Services (except Public Administration)",
+    "subsector": "Private Households",
+    "industry": "Private Households",
+    "naicsIndustry": "Private Households",
+    "nationalIndustry": "Private Households"
+  },
+  {
+    "code": "211130",
+    "label": "Mining, Quarrying, and Oil and Gas Extraction > Oil and Gas Extraction > Oil and Gas Extraction > Natural Gas Extraction > Natural Gas Extraction",
+    "sector": "Mining, Quarrying, and Oil and Gas Extraction",
+    "subsector": "Oil and Gas Extraction",
+    "industry": "Oil and Gas Extraction",
+    "naicsIndustry": "Natural Gas Extraction",
+    "nationalIndustry": "Natural Gas Extraction"
+  },
+  {
+    "code": "212115",
+    "label": "Mining, Quarrying, and Oil and Gas Extraction > Mining (except Oil and Gas) > Coal Mining > Coal Mining > Underground Coal Mining()",
+    "sector": "Mining, Quarrying, and Oil and Gas Extraction",
+    "subsector": "Mining (except Oil and Gas)",
+    "industry": "Coal Mining",
+    "naicsIndustry": "Coal Mining",
+    "nationalIndustry": "Underground Coal Mining()"
+  },
+  {
+    "code": "212290",
+    "label": "Mining, Quarrying, and Oil and Gas Extraction > Mining (except Oil and Gas) > Metal Ore Mining > Other Metal Ore Mining > Other Metal Ore Mining()",
+    "sector": "Mining, Quarrying, and Oil and Gas Extraction",
+    "subsector": "Mining (except Oil and Gas)",
+    "industry": "Metal Ore Mining",
+    "naicsIndustry": "Other Metal Ore Mining",
+    "nationalIndustry": "Other Metal Ore Mining()"
+  },
+  {
+    "code": "212390",
+    "label": "Mining, Quarrying, and Oil and Gas Extraction > Mining (except Oil and Gas) > Nonmetallic Mineral Mining and Quarrying > Other Nonmetallic Mineral Mining and Quarrying > Other Nonmetallic Mineral Mining and Quarrying()",
+    "sector": "Mining, Quarrying, and Oil and Gas Extraction",
+    "subsector": "Mining (except Oil and Gas)",
+    "industry": "Nonmetallic Mineral Mining and Quarrying",
+    "naicsIndustry": "Other Nonmetallic Mineral Mining and Quarrying",
+    "nationalIndustry": "Other Nonmetallic Mineral Mining and Quarrying()"
+  },
+  {
+    "code": "213115",
+    "label": "Mining, Quarrying, and Oil and Gas Extraction > Support Activities for Mining > Support Activities for Mining > Support Activities for Mining > Support Activities for Nonmetallic Minerals (except Fuels) Mining",
+    "sector": "Mining, Quarrying, and Oil and Gas Extraction",
+    "subsector": "Support Activities for Mining",
+    "industry": "Support Activities for Mining",
+    "naicsIndustry": "Support Activities for Mining",
+    "nationalIndustry": "Support Activities for Nonmetallic Minerals (except Fuels) Mining"
+  },
+  {
+    "code": "928120",
+    "label": "Public Administration > National Security and International Affairs > National Security and International Affairs > International Affairs > International Affairs",
+    "sector": "Public Administration",
+    "subsector": "National Security and International Affairs",
+    "industry": "National Security and International Affairs",
+    "naicsIndustry": "International Affairs",
+    "nationalIndustry": "International Affairs"
+  },
+  {
+    "code": "921190",
+    "label": "Public Administration > Executive, Legislative, and Other General Government Support > Executive, Legislative, and Other General Government Support > Other General Government Support > Other General Government Support",
+    "sector": "Public Administration",
+    "subsector": "Executive, Legislative, and Other General Government Support",
+    "industry": "Executive, Legislative, and Other General Government Support",
+    "naicsIndustry": "Other General Government Support",
+    "nationalIndustry": "Other General Government Support"
+  },
+  {
+    "code": "922190",
+    "label": "Public Administration > Justice, Public Order, and Safety Activities > Justice, Public Order, and Safety Activities > Other Justice, Public Order, and Safety Activities > Other Justice, Public Order, and Safety Activities",
+    "sector": "Public Administration",
+    "subsector": "Justice, Public Order, and Safety Activities",
+    "industry": "Justice, Public Order, and Safety Activities",
+    "naicsIndustry": "Other Justice, Public Order, and Safety Activities",
+    "nationalIndustry": "Other Justice, Public Order, and Safety Activities"
+  },
+  {
+    "code": "923140",
+    "label": "Public Administration > Administration of Human Resource Programs > Administration of Human Resource Programs > Administration of Veterans' Affairs > Administration of Veterans' Affairs",
+    "sector": "Public Administration",
+    "subsector": "Administration of Human Resource Programs",
+    "industry": "Administration of Human Resource Programs",
+    "naicsIndustry": "Administration of Veterans' Affairs",
+    "nationalIndustry": "Administration of Veterans' Affairs"
+  },
+  {
+    "code": "924120",
+    "label": "Public Administration > Administration of Environmental Quality Programs > Administration of Environmental Quality Programs > Administration of Conservation Programs > Administration of Conservation Programs",
+    "sector": "Public Administration",
+    "subsector": "Administration of Environmental Quality Programs",
+    "industry": "Administration of Environmental Quality Programs",
+    "naicsIndustry": "Administration of Conservation Programs",
+    "nationalIndustry": "Administration of Conservation Programs"
+  },
+  {
+    "code": "925120",
+    "label": "Public Administration > Administration of Housing Programs, Urban Planning, and Community Development > Administration of Housing Programs, Urban Planning, and Community Development > Administration of Urban Planning and Community and Rural Development > Administration of Urban Planning and Community and Rural Development",
+    "sector": "Public Administration",
+    "subsector": "Administration of Housing Programs, Urban Planning, and Community Development",
+    "industry": "Administration of Housing Programs, Urban Planning, and Community Development",
+    "naicsIndustry": "Administration of Urban Planning and Community and Rural Development",
+    "nationalIndustry": "Administration of Urban Planning and Community and Rural Development"
+  },
+  {
+    "code": "926150",
+    "label": "Public Administration > Administration of Economic Programs > Administration of Economic Programs > Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors > Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",
+    "sector": "Public Administration",
+    "subsector": "Administration of Economic Programs",
+    "industry": "Administration of Economic Programs",
+    "naicsIndustry": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",
+    "nationalIndustry": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors"
+  },
+  {
+    "code": "927110",
+    "label": "Public Administration > Space Research and Technology > Space Research and Technology > Space Research and Technology > Space Research and Technology",
+    "sector": "Public Administration",
+    "subsector": "Space Research and Technology",
+    "industry": "Space Research and Technology",
+    "naicsIndustry": "Space Research and Technology",
+    "nationalIndustry": "Space Research and Technology"
+  },
+  {
+    "code": "221122",
+    "label": "Utilities > Utilities > Electric Power Generation, Transmission and Distribution > Electric Power Transmission, Control, and Distribution > Electric Power Distribution",
+    "sector": "Utilities",
+    "subsector": "Utilities",
+    "industry": "Electric Power Generation, Transmission and Distribution",
+    "naicsIndustry": "Electric Power Transmission, Control, and Distribution",
+    "nationalIndustry": "Electric Power Distribution"
+  },
+  {
+    "code": "221210",
+    "label": "Utilities > Utilities > Natural Gas Distribution > Natural Gas Distribution > Natural Gas Distribution",
+    "sector": "Utilities",
+    "subsector": "Utilities",
+    "industry": "Natural Gas Distribution",
+    "naicsIndustry": "Natural Gas Distribution",
+    "nationalIndustry": "Natural Gas Distribution"
+  },
+  {
+    "code": "221330",
+    "label": "Utilities > Utilities > Water, Sewage and Other Systems > Steam and Air-Conditioning Supply > Steam and Air-Conditioning Supply",
+    "sector": "Utilities",
+    "subsector": "Utilities",
+    "industry": "Water, Sewage and Other Systems",
+    "naicsIndustry": "Steam and Air-Conditioning Supply",
+    "nationalIndustry": "Steam and Air-Conditioning Supply"
+  },
+  {
+    "code": "236118",
+    "label": "Construction > Construction of Buildings > Residential Building Construction > Residential Building Construction > Residential Remodelers",
+    "sector": "Construction",
+    "subsector": "Construction of Buildings",
+    "industry": "Residential Building Construction",
+    "naicsIndustry": "Residential Building Construction",
+    "nationalIndustry": "Residential Remodelers"
+  },
+  {
+    "code": "236220",
+    "label": "Construction > Construction of Buildings > Nonresidential Building Construction > Commercial and Institutional Building Construction > Commercial and Institutional Building Construction",
+    "sector": "Construction",
+    "subsector": "Construction of Buildings",
+    "industry": "Nonresidential Building Construction",
+    "naicsIndustry": "Commercial and Institutional Building Construction",
+    "nationalIndustry": "Commercial and Institutional Building Construction"
+  },
+  {
+    "code": "237130",
+    "label": "Construction > Heavy and Civil Engineering Construction > Utility System Construction > Power and Communication Line and Related Structures Construction > Power and Communication Line and Related Structures Construction",
+    "sector": "Construction",
+    "subsector": "Heavy and Civil Engineering Construction",
+    "industry": "Utility System Construction",
+    "naicsIndustry": "Power and Communication Line and Related Structures Construction",
+    "nationalIndustry": "Power and Communication Line and Related Structures Construction"
+  },
+  {
+    "code": "237210",
+    "label": "Construction > Heavy and Civil Engineering Construction > Land Subdivision > Land Subdivision > Land Subdivision",
+    "sector": "Construction",
+    "subsector": "Heavy and Civil Engineering Construction",
+    "industry": "Land Subdivision",
+    "naicsIndustry": "Land Subdivision",
+    "nationalIndustry": "Land Subdivision"
+  },
+  {
+    "code": "237310",
+    "label": "Construction > Heavy and Civil Engineering Construction > Highway, Street, and Bridge Construction > Highway, Street, and Bridge Construction > Highway, Street, and Bridge Construction",
+    "sector": "Construction",
+    "subsector": "Heavy and Civil Engineering Construction",
+    "industry": "Highway, Street, and Bridge Construction",
+    "naicsIndustry": "Highway, Street, and Bridge Construction",
+    "nationalIndustry": "Highway, Street, and Bridge Construction"
+  },
+  {
+    "code": "237990",
+    "label": "Construction > Heavy and Civil Engineering Construction > Other Heavy and Civil Engineering Construction > Other Heavy and Civil Engineering Construction > Other Heavy and Civil Engineering Construction",
+    "sector": "Construction",
+    "subsector": "Heavy and Civil Engineering Construction",
+    "industry": "Other Heavy and Civil Engineering Construction",
+    "naicsIndustry": "Other Heavy and Civil Engineering Construction",
+    "nationalIndustry": "Other Heavy and Civil Engineering Construction"
+  },
+  {
+    "code": "238190",
+    "label": "Construction > Specialty Trade Contractors > Foundation, Structure, and Building Exterior Contractors > Other Foundation, Structure, and Building Exterior Contractors > Other Foundation, Structure, and Building Exterior Contractors",
+    "sector": "Construction",
+    "subsector": "Specialty Trade Contractors",
+    "industry": "Foundation, Structure, and Building Exterior Contractors",
+    "naicsIndustry": "Other Foundation, Structure, and Building Exterior Contractors",
+    "nationalIndustry": "Other Foundation, Structure, and Building Exterior Contractors"
+  },
+  {
+    "code": "238290",
+    "label": "Construction > Specialty Trade Contractors > Building Equipment Contractors > Other Building Equipment Contractors > Other Building Equipment Contractors",
+    "sector": "Construction",
+    "subsector": "Specialty Trade Contractors",
+    "industry": "Building Equipment Contractors",
+    "naicsIndustry": "Other Building Equipment Contractors",
+    "nationalIndustry": "Other Building Equipment Contractors"
+  },
+  {
+    "code": "238390",
+    "label": "Construction > Specialty Trade Contractors > Building Finishing Contractors > Other Building Finishing Contractors > Other Building Finishing Contractors",
+    "sector": "Construction",
+    "subsector": "Specialty Trade Contractors",
+    "industry": "Building Finishing Contractors",
+    "naicsIndustry": "Other Building Finishing Contractors",
+    "nationalIndustry": "Other Building Finishing Contractors"
+  },
+  {
+    "code": "238990",
+    "label": "Construction > Specialty Trade Contractors > Other Specialty Trade Contractors > All Other Specialty Trade Contractors > All Other Specialty Trade Contractors",
+    "sector": "Construction",
+    "subsector": "Specialty Trade Contractors",
+    "industry": "Other Specialty Trade Contractors",
+    "naicsIndustry": "All Other Specialty Trade Contractors",
+    "nationalIndustry": "All Other Specialty Trade Contractors"
+  },
+  {
+    "code": "311119",
+    "label": "Manufacturing > Food Manufacturing > Animal Food Manufacturing > Animal Food Manufacturing > Other Animal Food Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Animal Food Manufacturing",
+    "naicsIndustry": "Animal Food Manufacturing",
+    "nationalIndustry": "Other Animal Food Manufacturing"
+  },
+  {
+    "code": "311230",
+    "label": "Manufacturing > Food Manufacturing > Grain and Oilseed Milling > Breakfast Cereal Manufacturing > Breakfast Cereal Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Grain and Oilseed Milling",
+    "naicsIndustry": "Breakfast Cereal Manufacturing",
+    "nationalIndustry": "Breakfast Cereal Manufacturing"
+  },
+  {
+    "code": "311352",
+    "label": "Manufacturing > Food Manufacturing > Sugar and Confectionery Product Manufacturing > Chocolate and Confectionery Manufacturing > Confectionery Manufacturing from Purchased Chocolate",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Sugar and Confectionery Product Manufacturing",
+    "naicsIndustry": "Chocolate and Confectionery Manufacturing",
+    "nationalIndustry": "Confectionery Manufacturing from Purchased Chocolate"
+  },
+  {
+    "code": "311423",
+    "label": "Manufacturing > Food Manufacturing > Fruit and Vegetable Preserving and Specialty Food Manufacturing > Fruit and Vegetable Canning, Pickling, and Drying > Dried and Dehydrated Food Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Fruit and Vegetable Preserving and Specialty Food Manufacturing",
+    "naicsIndustry": "Fruit and Vegetable Canning, Pickling, and Drying",
+    "nationalIndustry": "Dried and Dehydrated Food Manufacturing"
+  },
+  {
+    "code": "311520",
+    "label": "Manufacturing > Food Manufacturing > Dairy Product Manufacturing > Ice Cream and Frozen Dessert Manufacturing > Ice Cream and Frozen Dessert Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Dairy Product Manufacturing",
+    "naicsIndustry": "Ice Cream and Frozen Dessert Manufacturing",
+    "nationalIndustry": "Ice Cream and Frozen Dessert Manufacturing"
+  },
+  {
+    "code": "311615",
+    "label": "Manufacturing > Food Manufacturing > Animal Slaughtering and Processing > Animal Slaughtering and Processing > Poultry Processing",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Animal Slaughtering and Processing",
+    "naicsIndustry": "Animal Slaughtering and Processing",
+    "nationalIndustry": "Poultry Processing"
+  },
+  {
+    "code": "311710",
+    "label": "Manufacturing > Food Manufacturing > Seafood Product Preparation and Packaging > Seafood Product Preparation and Packaging > Seafood Product Preparation and Packaging",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Seafood Product Preparation and Packaging",
+    "naicsIndustry": "Seafood Product Preparation and Packaging",
+    "nationalIndustry": "Seafood Product Preparation and Packaging"
+  },
+  {
+    "code": "311830",
+    "label": "Manufacturing > Food Manufacturing > Bakeries and Tortilla Manufacturing > Tortilla Manufacturing > Tortilla Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Bakeries and Tortilla Manufacturing",
+    "naicsIndustry": "Tortilla Manufacturing",
+    "nationalIndustry": "Tortilla Manufacturing"
+  },
+  {
+    "code": "311999",
+    "label": "Manufacturing > Food Manufacturing > Other Food Manufacturing > All Other Food Manufacturing > All Other Miscellaneous Food Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Food Manufacturing",
+    "industry": "Other Food Manufacturing",
+    "naicsIndustry": "All Other Food Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous Food Manufacturing"
+  },
+  {
+    "code": "312140",
+    "label": "Manufacturing > Beverage and Tobacco Product Manufacturing > Beverage Manufacturing > Distilleries > Distilleries",
+    "sector": "Manufacturing",
+    "subsector": "Beverage and Tobacco Product Manufacturing",
+    "industry": "Beverage Manufacturing",
+    "naicsIndustry": "Distilleries",
+    "nationalIndustry": "Distilleries"
+  },
+  {
+    "code": "312230",
+    "label": "Manufacturing > Beverage and Tobacco Product Manufacturing > Tobacco Manufacturing > Tobacco Manufacturing > Tobacco Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Beverage and Tobacco Product Manufacturing",
+    "industry": "Tobacco Manufacturing",
+    "naicsIndustry": "Tobacco Manufacturing",
+    "nationalIndustry": "Tobacco Manufacturing"
+  },
+  {
+    "code": "313110",
+    "label": "Manufacturing > Textile Mills > Fiber, Yarn, and Thread Mills > Fiber, Yarn, and Thread Mills > Fiber, Yarn, and Thread Mills",
+    "sector": "Manufacturing",
+    "subsector": "Textile Mills",
+    "industry": "Fiber, Yarn, and Thread Mills",
+    "naicsIndustry": "Fiber, Yarn, and Thread Mills",
+    "nationalIndustry": "Fiber, Yarn, and Thread Mills"
+  },
+  {
+    "code": "313240",
+    "label": "Manufacturing > Textile Mills > Fabric Mills > Knit Fabric Mills > Knit Fabric Mills",
+    "sector": "Manufacturing",
+    "subsector": "Textile Mills",
+    "industry": "Fabric Mills",
+    "naicsIndustry": "Knit Fabric Mills",
+    "nationalIndustry": "Knit Fabric Mills"
+  },
+  {
+    "code": "313320",
+    "label": "Manufacturing > Textile Mills > Textile and Fabric Finishing and Fabric Coating Mills > Fabric Coating Mills > Fabric Coating Mills",
+    "sector": "Manufacturing",
+    "subsector": "Textile Mills",
+    "industry": "Textile and Fabric Finishing and Fabric Coating Mills",
+    "naicsIndustry": "Fabric Coating Mills",
+    "nationalIndustry": "Fabric Coating Mills"
+  },
+  {
+    "code": "314120",
+    "label": "Manufacturing > Textile Product Mills > Textile Furnishings Mills > Curtain and Linen Mills > Curtain and Linen Mills",
+    "sector": "Manufacturing",
+    "subsector": "Textile Product Mills",
+    "industry": "Textile Furnishings Mills",
+    "naicsIndustry": "Curtain and Linen Mills",
+    "nationalIndustry": "Curtain and Linen Mills"
+  },
+  {
+    "code": "314999",
+    "label": "Manufacturing > Textile Product Mills > Other Textile Product Mills > All Other Textile Product Mills > All Other Miscellaneous Textile Product Mills",
+    "sector": "Manufacturing",
+    "subsector": "Textile Product Mills",
+    "industry": "Other Textile Product Mills",
+    "naicsIndustry": "All Other Textile Product Mills",
+    "nationalIndustry": "All Other Miscellaneous Textile Product Mills"
+  },
+  {
+    "code": "315120",
+    "label": "Manufacturing > Apparel Manufacturing > Apparel Knitting Mills > Apparel Knitting Mills  () > Apparel Knitting Mills()",
+    "sector": "Manufacturing",
+    "subsector": "Apparel Manufacturing",
+    "industry": "Apparel Knitting Mills",
+    "naicsIndustry": "Apparel Knitting Mills  ()",
+    "nationalIndustry": "Apparel Knitting Mills()"
+  },
+  {
+    "code": "315250",
+    "label": "Manufacturing > Apparel Manufacturing > Cut and Sew Apparel Manufacturing > Cut and Sew Apparel Manufacturing (except Contractors) () > Cut and Sew Apparel Manufacturing (except Contractors)()",
+    "sector": "Manufacturing",
+    "subsector": "Apparel Manufacturing",
+    "industry": "Cut and Sew Apparel Manufacturing",
+    "naicsIndustry": "Cut and Sew Apparel Manufacturing (except Contractors) ()",
+    "nationalIndustry": "Cut and Sew Apparel Manufacturing (except Contractors)()"
+  },
+  {
+    "code": "315990",
+    "label": "Manufacturing > Apparel Manufacturing > Apparel Accessories and Other Apparel Manufacturing > Apparel Accessories and Other Apparel Manufacturing > Apparel Accessories and Other Apparel Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Apparel Manufacturing",
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "naicsIndustry": "Apparel Accessories and Other Apparel Manufacturing",
+    "nationalIndustry": "Apparel Accessories and Other Apparel Manufacturing"
+  },
+  {
+    "code": "316110",
+    "label": "Manufacturing > Leather and Allied Product Manufacturing > Leather and Hide Tanning and Finishing > Leather and Hide Tanning and Finishing > Leather and Hide Tanning and Finishing",
+    "sector": "Manufacturing",
+    "subsector": "Leather and Allied Product Manufacturing",
+    "industry": "Leather and Hide Tanning and Finishing",
+    "naicsIndustry": "Leather and Hide Tanning and Finishing",
+    "nationalIndustry": "Leather and Hide Tanning and Finishing"
+  },
+  {
+    "code": "316210",
+    "label": "Manufacturing > Leather and Allied Product Manufacturing > Footwear Manufacturing > Footwear Manufacturing > Footwear Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Leather and Allied Product Manufacturing",
+    "industry": "Footwear Manufacturing",
+    "naicsIndustry": "Footwear Manufacturing",
+    "nationalIndustry": "Footwear Manufacturing"
+  },
+  {
+    "code": "316990",
+    "label": "Manufacturing > Leather and Allied Product Manufacturing > Other Leather and Allied Product Manufacturing > Other Leather and Allied Product Manufacturing > Other Leather and Allied Product Manufacturing()",
+    "sector": "Manufacturing",
+    "subsector": "Leather and Allied Product Manufacturing",
+    "industry": "Other Leather and Allied Product Manufacturing",
+    "naicsIndustry": "Other Leather and Allied Product Manufacturing",
+    "nationalIndustry": "Other Leather and Allied Product Manufacturing()"
+  },
+  {
+    "code": "321114",
+    "label": "Manufacturing > Wood Product Manufacturing > Sawmills and Wood Preservation > Sawmills and Wood Preservation > Wood Preservation",
+    "sector": "Manufacturing",
+    "subsector": "Wood Product Manufacturing",
+    "industry": "Sawmills and Wood Preservation",
+    "naicsIndustry": "Sawmills and Wood Preservation",
+    "nationalIndustry": "Wood Preservation"
+  },
+  {
+    "code": "321219",
+    "label": "Manufacturing > Wood Product Manufacturing > Veneer, Plywood, and Engineered Wood Product Manufacturing > Veneer, Plywood, and Engineered Wood Product Manufacturing > Reconstituted Wood Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Wood Product Manufacturing",
+    "industry": "Veneer, Plywood, and Engineered Wood Product Manufacturing",
+    "naicsIndustry": "Veneer, Plywood, and Engineered Wood Product Manufacturing",
+    "nationalIndustry": "Reconstituted Wood Product Manufacturing"
+  },
+  {
+    "code": "321999",
+    "label": "Manufacturing > Wood Product Manufacturing > Other Wood Product Manufacturing > All Other Wood Product Manufacturing > All Other Miscellaneous Wood Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Wood Product Manufacturing",
+    "industry": "Other Wood Product Manufacturing",
+    "naicsIndustry": "All Other Wood Product Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous Wood Product Manufacturing"
+  },
+  {
+    "code": "322130",
+    "label": "Manufacturing > Paper Manufacturing > Pulp, Paper, and Paperboard Mills > Paperboard Mills > Paperboard Mills",
+    "sector": "Manufacturing",
+    "subsector": "Paper Manufacturing",
+    "industry": "Pulp, Paper, and Paperboard Mills",
+    "naicsIndustry": "Paperboard Mills",
+    "nationalIndustry": "Paperboard Mills"
+  },
+  {
+    "code": "322299",
+    "label": "Manufacturing > Paper Manufacturing > Converted Paper Product Manufacturing > Other Converted Paper Product Manufacturing > All Other Converted Paper Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Paper Manufacturing",
+    "industry": "Converted Paper Product Manufacturing",
+    "naicsIndustry": "Other Converted Paper Product Manufacturing",
+    "nationalIndustry": "All Other Converted Paper Product Manufacturing"
+  },
+  {
+    "code": "323120",
+    "label": "Manufacturing > Printing and Related Support Activities > Printing and Related Support Activities > Support Activities for Printing > Support Activities for Printing",
+    "sector": "Manufacturing",
+    "subsector": "Printing and Related Support Activities",
+    "industry": "Printing and Related Support Activities",
+    "naicsIndustry": "Support Activities for Printing",
+    "nationalIndustry": "Support Activities for Printing"
+  },
+  {
+    "code": "324199",
+    "label": "Manufacturing > Petroleum and Coal Products Manufacturing > Petroleum and Coal Products Manufacturing > Other Petroleum and Coal Products Manufacturing > All Other Petroleum and Coal Products Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Petroleum and Coal Products Manufacturing",
+    "industry": "Petroleum and Coal Products Manufacturing",
+    "naicsIndustry": "Other Petroleum and Coal Products Manufacturing",
+    "nationalIndustry": "All Other Petroleum and Coal Products Manufacturing"
+  },
+  {
+    "code": "325199",
+    "label": "Manufacturing > Chemical Manufacturing > Basic Chemical Manufacturing > Other Basic Organic Chemical Manufacturing > All Other Basic Organic Chemical Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Chemical Manufacturing",
+    "industry": "Basic Chemical Manufacturing",
+    "naicsIndustry": "Other Basic Organic Chemical Manufacturing",
+    "nationalIndustry": "All Other Basic Organic Chemical Manufacturing"
+  },
+  {
+    "code": "325220",
+    "label": "Manufacturing > Chemical Manufacturing > Resin, Synthetic Rubber, and Artificial and Synthetic Fibers and Filaments Manufacturing > Artificial and Synthetic Fibers and Filaments Manufacturing > Artificial and Synthetic Fibers and Filaments Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Chemical Manufacturing",
+    "industry": "Resin, Synthetic Rubber, and Artificial and Synthetic Fibers and Filaments Manufacturing",
+    "naicsIndustry": "Artificial and Synthetic Fibers and Filaments Manufacturing",
+    "nationalIndustry": "Artificial and Synthetic Fibers and Filaments Manufacturing"
+  },
+  {
+    "code": "325320",
+    "label": "Manufacturing > Chemical Manufacturing > Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing > Pesticide and Other Agricultural Chemical Manufacturing > Pesticide and Other Agricultural Chemical Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Chemical Manufacturing",
+    "industry": "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing",
+    "naicsIndustry": "Pesticide and Other Agricultural Chemical Manufacturing",
+    "nationalIndustry": "Pesticide and Other Agricultural Chemical Manufacturing"
+  },
+  {
+    "code": "325414",
+    "label": "Manufacturing > Chemical Manufacturing > Pharmaceutical and Medicine Manufacturing > Pharmaceutical and Medicine Manufacturing > Biological Product (except Diagnostic) Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Chemical Manufacturing",
+    "industry": "Pharmaceutical and Medicine Manufacturing",
+    "naicsIndustry": "Pharmaceutical and Medicine Manufacturing",
+    "nationalIndustry": "Biological Product (except Diagnostic) Manufacturing"
+  },
+  {
+    "code": "325520",
+    "label": "Manufacturing > Chemical Manufacturing > Paint, Coating, and Adhesive Manufacturing > Adhesive Manufacturing > Adhesive Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Chemical Manufacturing",
+    "industry": "Paint, Coating, and Adhesive Manufacturing",
+    "naicsIndustry": "Adhesive Manufacturing",
+    "nationalIndustry": "Adhesive Manufacturing"
+  },
+  {
+    "code": "325620",
+    "label": "Manufacturing > Chemical Manufacturing > Soap, Cleaning Compound, and Toilet Preparation Manufacturing > Toilet Preparation Manufacturing > Toilet Preparation Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Chemical Manufacturing",
+    "industry": "Soap, Cleaning Compound, and Toilet Preparation Manufacturing",
+    "naicsIndustry": "Toilet Preparation Manufacturing",
+    "nationalIndustry": "Toilet Preparation Manufacturing"
+  },
+  {
+    "code": "325998",
+    "label": "Manufacturing > Chemical Manufacturing > Other Chemical Product and Preparation Manufacturing > All Other Chemical Product and Preparation Manufacturing > All Other Miscellaneous Chemical Product and Preparation Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Chemical Manufacturing",
+    "industry": "Other Chemical Product and Preparation Manufacturing",
+    "naicsIndustry": "All Other Chemical Product and Preparation Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous Chemical Product and Preparation Manufacturing"
+  },
+  {
+    "code": "326199",
+    "label": "Manufacturing > Plastics and Rubber Products Manufacturing > Plastics Product Manufacturing > Other Plastics Product Manufacturing > All Other Plastics Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Plastics and Rubber Products Manufacturing",
+    "industry": "Plastics Product Manufacturing",
+    "naicsIndustry": "Other Plastics Product Manufacturing",
+    "nationalIndustry": "All Other Plastics Product Manufacturing"
+  },
+  {
+    "code": "326299",
+    "label": "Manufacturing > Plastics and Rubber Products Manufacturing > Rubber Product Manufacturing > Other Rubber Product Manufacturing > All Other Rubber Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Plastics and Rubber Products Manufacturing",
+    "industry": "Rubber Product Manufacturing",
+    "naicsIndustry": "Other Rubber Product Manufacturing",
+    "nationalIndustry": "All Other Rubber Product Manufacturing"
+  },
+  {
+    "code": "327120",
+    "label": "Manufacturing > Nonmetallic Mineral Product Manufacturing > Clay Product and Refractory Manufacturing > Clay Building Material and Refractories Manufacturing > Clay Building Material and Refractories Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Nonmetallic Mineral Product Manufacturing",
+    "industry": "Clay Product and Refractory Manufacturing",
+    "naicsIndustry": "Clay Building Material and Refractories Manufacturing",
+    "nationalIndustry": "Clay Building Material and Refractories Manufacturing"
+  },
+  {
+    "code": "327215",
+    "label": "Manufacturing > Nonmetallic Mineral Product Manufacturing > Glass and Glass Product Manufacturing > Glass and Glass Product Manufacturing > Glass Product Manufacturing Made of Purchased Glass",
+    "sector": "Manufacturing",
+    "subsector": "Nonmetallic Mineral Product Manufacturing",
+    "industry": "Glass and Glass Product Manufacturing",
+    "naicsIndustry": "Glass and Glass Product Manufacturing",
+    "nationalIndustry": "Glass Product Manufacturing Made of Purchased Glass"
+  },
+  {
+    "code": "327390",
+    "label": "Manufacturing > Nonmetallic Mineral Product Manufacturing > Cement and Concrete Product Manufacturing > Other Concrete Product Manufacturing > Other Concrete Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Nonmetallic Mineral Product Manufacturing",
+    "industry": "Cement and Concrete Product Manufacturing",
+    "naicsIndustry": "Other Concrete Product Manufacturing",
+    "nationalIndustry": "Other Concrete Product Manufacturing"
+  },
+  {
+    "code": "327420",
+    "label": "Manufacturing > Nonmetallic Mineral Product Manufacturing > Lime and Gypsum Product Manufacturing > Gypsum Product Manufacturing > Gypsum Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Nonmetallic Mineral Product Manufacturing",
+    "industry": "Lime and Gypsum Product Manufacturing",
+    "naicsIndustry": "Gypsum Product Manufacturing",
+    "nationalIndustry": "Gypsum Product Manufacturing"
+  },
+  {
+    "code": "327999",
+    "label": "Manufacturing > Nonmetallic Mineral Product Manufacturing > Other Nonmetallic Mineral Product Manufacturing > All Other Nonmetallic Mineral Product Manufacturing > All Other Miscellaneous Nonmetallic Mineral Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Nonmetallic Mineral Product Manufacturing",
+    "industry": "Other Nonmetallic Mineral Product Manufacturing",
+    "naicsIndustry": "All Other Nonmetallic Mineral Product Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing"
+  },
+  {
+    "code": "331110",
+    "label": "Manufacturing > Primary Metal Manufacturing > Iron and Steel Mills and Ferroalloy Manufacturing > Iron and Steel Mills and Ferroalloy Manufacturing > Iron and Steel Mills and Ferroalloy Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Primary Metal Manufacturing",
+    "industry": "Iron and Steel Mills and Ferroalloy Manufacturing",
+    "naicsIndustry": "Iron and Steel Mills and Ferroalloy Manufacturing",
+    "nationalIndustry": "Iron and Steel Mills and Ferroalloy Manufacturing"
+  },
+  {
+    "code": "331222",
+    "label": "Manufacturing > Primary Metal Manufacturing > Steel Product Manufacturing from Purchased Steel > Rolling and Drawing of Purchased Steel > Steel Wire Drawing",
+    "sector": "Manufacturing",
+    "subsector": "Primary Metal Manufacturing",
+    "industry": "Steel Product Manufacturing from Purchased Steel",
+    "naicsIndustry": "Rolling and Drawing of Purchased Steel",
+    "nationalIndustry": "Steel Wire Drawing"
+  },
+  {
+    "code": "331318",
+    "label": "Manufacturing > Primary Metal Manufacturing > Alumina and Aluminum Production and Processing > Alumina and Aluminum Production and Processing > Other Aluminum Rolling, Drawing, and Extruding",
+    "sector": "Manufacturing",
+    "subsector": "Primary Metal Manufacturing",
+    "industry": "Alumina and Aluminum Production and Processing",
+    "naicsIndustry": "Alumina and Aluminum Production and Processing",
+    "nationalIndustry": "Other Aluminum Rolling, Drawing, and Extruding"
+  },
+  {
+    "code": "331492",
+    "label": "Manufacturing > Primary Metal Manufacturing > Nonferrous Metal (except Aluminum) Production and Processing > Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, Extruding, and Alloying > Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",
+    "sector": "Manufacturing",
+    "subsector": "Primary Metal Manufacturing",
+    "industry": "Nonferrous Metal (except Aluminum) Production and Processing",
+    "naicsIndustry": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, Extruding, and Alloying",
+    "nationalIndustry": "Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"
+  },
+  {
+    "code": "331529",
+    "label": "Manufacturing > Primary Metal Manufacturing > Foundries > Nonferrous Metal Foundries > Other Nonferrous Metal Foundries (except Die-Casting)",
+    "sector": "Manufacturing",
+    "subsector": "Primary Metal Manufacturing",
+    "industry": "Foundries",
+    "naicsIndustry": "Nonferrous Metal Foundries",
+    "nationalIndustry": "Other Nonferrous Metal Foundries (except Die-Casting)"
+  },
+  {
+    "code": "332119",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Forging and Stamping > Forging and Stamping > Metal Crown, Closure, and Other Metal Stamping (except Automotive)",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Forging and Stamping",
+    "naicsIndustry": "Forging and Stamping",
+    "nationalIndustry": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)"
+  },
+  {
+    "code": "332216",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Cutlery and Handtool Manufacturing > Cutlery and Handtool Manufacturing > Saw Blade and Handtool Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Cutlery and Handtool Manufacturing",
+    "naicsIndustry": "Cutlery and Handtool Manufacturing",
+    "nationalIndustry": "Saw Blade and Handtool Manufacturing"
+  },
+  {
+    "code": "332323",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Architectural and Structural Metals Manufacturing > Ornamental and Architectural Metal Products Manufacturing > Ornamental and Architectural Metal Work Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Architectural and Structural Metals Manufacturing",
+    "naicsIndustry": "Ornamental and Architectural Metal Products Manufacturing",
+    "nationalIndustry": "Ornamental and Architectural Metal Work Manufacturing"
+  },
+  {
+    "code": "332439",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Boiler, Tank, and Shipping Container Manufacturing > Metal Can, Box, and Other Metal Container (Light Gauge) Manufacturing > Other Metal Container Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Boiler, Tank, and Shipping Container Manufacturing",
+    "naicsIndustry": "Metal Can, Box, and Other Metal Container (Light Gauge) Manufacturing",
+    "nationalIndustry": "Other Metal Container Manufacturing"
+  },
+  {
+    "code": "332510",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Hardware Manufacturing > Hardware Manufacturing > Hardware Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Hardware Manufacturing",
+    "naicsIndustry": "Hardware Manufacturing",
+    "nationalIndustry": "Hardware Manufacturing"
+  },
+  {
+    "code": "332618",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Spring and Wire Product Manufacturing > Spring and Wire Product Manufacturing > Other Fabricated Wire Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Spring and Wire Product Manufacturing",
+    "naicsIndustry": "Spring and Wire Product Manufacturing",
+    "nationalIndustry": "Other Fabricated Wire Product Manufacturing"
+  },
+  {
+    "code": "332722",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing > Turned Product and Screw, Nut, and Bolt Manufacturing > Bolt, Nut, Screw, Rivet, and Washer Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing",
+    "naicsIndustry": "Turned Product and Screw, Nut, and Bolt Manufacturing",
+    "nationalIndustry": "Bolt, Nut, Screw, Rivet, and Washer Manufacturing"
+  },
+  {
+    "code": "332813",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Coating, Engraving, Heat Treating, and Allied Activities > Coating, Engraving, Heat Treating, and Allied Activities > Electroplating, Plating, Polishing, Anodizing, and Coloring",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Coating, Engraving, Heat Treating, and Allied Activities",
+    "naicsIndustry": "Coating, Engraving, Heat Treating, and Allied Activities",
+    "nationalIndustry": "Electroplating, Plating, Polishing, Anodizing, and Coloring"
+  },
+  {
+    "code": "332999",
+    "label": "Manufacturing > Fabricated Metal Product Manufacturing > Other Fabricated Metal Product Manufacturing > All Other Fabricated Metal Product Manufacturing > All Other Miscellaneous Fabricated Metal Product Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Fabricated Metal Product Manufacturing",
+    "industry": "Other Fabricated Metal Product Manufacturing",
+    "naicsIndustry": "All Other Fabricated Metal Product Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous Fabricated Metal Product Manufacturing"
+  },
+  {
+    "code": "333132",
+    "label": "Manufacturing > Machinery Manufacturing > Agriculture, Construction, and Mining Machinery Manufacturing > Mining and Oil and Gas Field Machinery Manufacturing > Oil and Gas Field Machinery and Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Machinery Manufacturing",
+    "industry": "Agriculture, Construction, and Mining Machinery Manufacturing",
+    "naicsIndustry": "Mining and Oil and Gas Field Machinery Manufacturing",
+    "nationalIndustry": "Oil and Gas Field Machinery and Equipment Manufacturing"
+  },
+  {
+    "code": "333248",
+    "label": "Manufacturing > Machinery Manufacturing > Industrial Machinery Manufacturing > Industrial Machinery Manufacturing > All Other Industrial Machinery Manufacturing()",
+    "sector": "Manufacturing",
+    "subsector": "Machinery Manufacturing",
+    "industry": "Industrial Machinery Manufacturing",
+    "naicsIndustry": "Industrial Machinery Manufacturing",
+    "nationalIndustry": "All Other Industrial Machinery Manufacturing()"
+  },
+  {
+    "code": "333310",
+    "label": "Manufacturing > Machinery Manufacturing > Commercial and Service Industry Machinery Manufacturing > Commercial and Service Industry Machinery Manufacturing > Commercial and Service Industry Machinery Manufacturing()",
+    "sector": "Manufacturing",
+    "subsector": "Machinery Manufacturing",
+    "industry": "Commercial and Service Industry Machinery Manufacturing",
+    "naicsIndustry": "Commercial and Service Industry Machinery Manufacturing",
+    "nationalIndustry": "Commercial and Service Industry Machinery Manufacturing()"
+  },
+  {
+    "code": "333415",
+    "label": "Manufacturing > Machinery Manufacturing > Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing > Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing > Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Machinery Manufacturing",
+    "industry": "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing",
+    "naicsIndustry": "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing",
+    "nationalIndustry": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing"
+  },
+  {
+    "code": "333519",
+    "label": "Manufacturing > Machinery Manufacturing > Metalworking Machinery Manufacturing > Metalworking Machinery Manufacturing > Rolling Mill and Other Metalworking Machinery Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Machinery Manufacturing",
+    "industry": "Metalworking Machinery Manufacturing",
+    "naicsIndustry": "Metalworking Machinery Manufacturing",
+    "nationalIndustry": "Rolling Mill and Other Metalworking Machinery Manufacturing"
+  },
+  {
+    "code": "333618",
+    "label": "Manufacturing > Machinery Manufacturing > Engine, Turbine, and Power Transmission Equipment Manufacturing > Engine, Turbine, and Power Transmission Equipment Manufacturing > Other Engine Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Machinery Manufacturing",
+    "industry": "Engine, Turbine, and Power Transmission Equipment Manufacturing",
+    "naicsIndustry": "Engine, Turbine, and Power Transmission Equipment Manufacturing",
+    "nationalIndustry": "Other Engine Equipment Manufacturing"
+  },
+  {
+    "code": "333998",
+    "label": "Manufacturing > Machinery Manufacturing > Other General Purpose Machinery Manufacturing > All Other General Purpose Machinery Manufacturing > All Other Miscellaneous General Purpose Machinery Manufacturing()",
+    "sector": "Manufacturing",
+    "subsector": "Machinery Manufacturing",
+    "industry": "Other General Purpose Machinery Manufacturing",
+    "naicsIndustry": "All Other General Purpose Machinery Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous General Purpose Machinery Manufacturing()"
+  },
+  {
+    "code": "334118",
+    "label": "Manufacturing > Computer and Electronic Product Manufacturing > Computer and Peripheral Equipment Manufacturing > Computer and Peripheral Equipment Manufacturing > Computer Terminal and Other Computer Peripheral Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Computer and Electronic Product Manufacturing",
+    "industry": "Computer and Peripheral Equipment Manufacturing",
+    "naicsIndustry": "Computer and Peripheral Equipment Manufacturing",
+    "nationalIndustry": "Computer Terminal and Other Computer Peripheral Equipment Manufacturing"
+  },
+  {
+    "code": "334290",
+    "label": "Manufacturing > Computer and Electronic Product Manufacturing > Communications Equipment Manufacturing > Other Communications Equipment Manufacturing > Other Communications Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Computer and Electronic Product Manufacturing",
+    "industry": "Communications Equipment Manufacturing",
+    "naicsIndustry": "Other Communications Equipment Manufacturing",
+    "nationalIndustry": "Other Communications Equipment Manufacturing"
+  },
+  {
+    "code": "334310",
+    "label": "Manufacturing > Computer and Electronic Product Manufacturing > Audio and Video Equipment Manufacturing > Audio and Video Equipment Manufacturing > Audio and Video Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Computer and Electronic Product Manufacturing",
+    "industry": "Audio and Video Equipment Manufacturing",
+    "naicsIndustry": "Audio and Video Equipment Manufacturing",
+    "nationalIndustry": "Audio and Video Equipment Manufacturing"
+  },
+  {
+    "code": "334419",
+    "label": "Manufacturing > Computer and Electronic Product Manufacturing > Semiconductor and Other Electronic Component Manufacturing > Semiconductor and Other Electronic Component Manufacturing > Other Electronic Component Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Computer and Electronic Product Manufacturing",
+    "industry": "Semiconductor and Other Electronic Component Manufacturing",
+    "naicsIndustry": "Semiconductor and Other Electronic Component Manufacturing",
+    "nationalIndustry": "Other Electronic Component Manufacturing"
+  },
+  {
+    "code": "334519",
+    "label": "Manufacturing > Computer and Electronic Product Manufacturing > Navigational, Measuring, Electromedical, and Control Instruments Manufacturing > Navigational, Measuring, Electromedical, and Control Instruments Manufacturing > Other Measuring and Controlling Device Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Computer and Electronic Product Manufacturing",
+    "industry": "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing",
+    "naicsIndustry": "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing",
+    "nationalIndustry": "Other Measuring and Controlling Device Manufacturing"
+  },
+  {
+    "code": "334610",
+    "label": "Manufacturing > Computer and Electronic Product Manufacturing > Manufacturing and Reproducing Magnetic and Optical Media > Manufacturing and Reproducing Magnetic and Optical Media > Manufacturing and Reproducing Magnetic and Optical Media()",
+    "sector": "Manufacturing",
+    "subsector": "Computer and Electronic Product Manufacturing",
+    "industry": "Manufacturing and Reproducing Magnetic and Optical Media",
+    "naicsIndustry": "Manufacturing and Reproducing Magnetic and Optical Media",
+    "nationalIndustry": "Manufacturing and Reproducing Magnetic and Optical Media()"
+  },
+  {
+    "code": "335139",
+    "label": "Manufacturing > Electrical Equipment, Appliance, and Component Manufacturing > Electric Lighting Equipment Manufacturing > Electric Lighting Equipment Manufacturing  () > Electric Lamp Bulb and Other Lighting Equipment Manufacturing()",
+    "sector": "Manufacturing",
+    "subsector": "Electrical Equipment, Appliance, and Component Manufacturing",
+    "industry": "Electric Lighting Equipment Manufacturing",
+    "naicsIndustry": "Electric Lighting Equipment Manufacturing  ()",
+    "nationalIndustry": "Electric Lamp Bulb and Other Lighting Equipment Manufacturing()"
+  },
+  {
+    "code": "335220",
+    "label": "Manufacturing > Electrical Equipment, Appliance, and Component Manufacturing > Household Appliance Manufacturing > Major Household Appliance Manufacturing > Major Household Appliance Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Electrical Equipment, Appliance, and Component Manufacturing",
+    "industry": "Household Appliance Manufacturing",
+    "naicsIndustry": "Major Household Appliance Manufacturing",
+    "nationalIndustry": "Major Household Appliance Manufacturing"
+  },
+  {
+    "code": "335314",
+    "label": "Manufacturing > Electrical Equipment, Appliance, and Component Manufacturing > Electrical Equipment Manufacturing > Electrical Equipment Manufacturing > Relay and Industrial Control Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Electrical Equipment, Appliance, and Component Manufacturing",
+    "industry": "Electrical Equipment Manufacturing",
+    "naicsIndustry": "Electrical Equipment Manufacturing",
+    "nationalIndustry": "Relay and Industrial Control Manufacturing"
+  },
+  {
+    "code": "335999",
+    "label": "Manufacturing > Electrical Equipment, Appliance, and Component Manufacturing > Other Electrical Equipment and Component Manufacturing > All Other Electrical Equipment and Component Manufacturing > All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Electrical Equipment, Appliance, and Component Manufacturing",
+    "industry": "Other Electrical Equipment and Component Manufacturing",
+    "naicsIndustry": "All Other Electrical Equipment and Component Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous Electrical Equipment and Component Manufacturing"
+  },
+  {
+    "code": "336120",
+    "label": "Manufacturing > Transportation Equipment Manufacturing > Motor Vehicle Manufacturing > Heavy Duty Truck Manufacturing > Heavy Duty Truck Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Transportation Equipment Manufacturing",
+    "industry": "Motor Vehicle Manufacturing",
+    "naicsIndustry": "Heavy Duty Truck Manufacturing",
+    "nationalIndustry": "Heavy Duty Truck Manufacturing"
+  },
+  {
+    "code": "336214",
+    "label": "Manufacturing > Transportation Equipment Manufacturing > Motor Vehicle Body and Trailer Manufacturing > Motor Vehicle Body and Trailer Manufacturing > Travel Trailer and Camper Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Transportation Equipment Manufacturing",
+    "industry": "Motor Vehicle Body and Trailer Manufacturing",
+    "naicsIndustry": "Motor Vehicle Body and Trailer Manufacturing",
+    "nationalIndustry": "Travel Trailer and Camper Manufacturing"
+  },
+  {
+    "code": "336390",
+    "label": "Manufacturing > Transportation Equipment Manufacturing > Motor Vehicle Parts Manufacturing > Other Motor Vehicle Parts Manufacturing > Other Motor Vehicle Parts Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Transportation Equipment Manufacturing",
+    "industry": "Motor Vehicle Parts Manufacturing",
+    "naicsIndustry": "Other Motor Vehicle Parts Manufacturing",
+    "nationalIndustry": "Other Motor Vehicle Parts Manufacturing"
+  },
+  {
+    "code": "336419",
+    "label": "Manufacturing > Transportation Equipment Manufacturing > Aerospace Product and Parts Manufacturing > Aerospace Product and Parts Manufacturing > Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Transportation Equipment Manufacturing",
+    "industry": "Aerospace Product and Parts Manufacturing",
+    "naicsIndustry": "Aerospace Product and Parts Manufacturing",
+    "nationalIndustry": "Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing"
+  },
+  {
+    "code": "336510",
+    "label": "Manufacturing > Transportation Equipment Manufacturing > Railroad Rolling Stock Manufacturing > Railroad Rolling Stock Manufacturing > Railroad Rolling Stock Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Transportation Equipment Manufacturing",
+    "industry": "Railroad Rolling Stock Manufacturing",
+    "naicsIndustry": "Railroad Rolling Stock Manufacturing",
+    "nationalIndustry": "Railroad Rolling Stock Manufacturing"
+  },
+  {
+    "code": "336612",
+    "label": "Manufacturing > Transportation Equipment Manufacturing > Ship and Boat Building > Ship and Boat Building > Boat Building",
+    "sector": "Manufacturing",
+    "subsector": "Transportation Equipment Manufacturing",
+    "industry": "Ship and Boat Building",
+    "naicsIndustry": "Ship and Boat Building",
+    "nationalIndustry": "Boat Building"
+  },
+  {
+    "code": "336999",
+    "label": "Manufacturing > Transportation Equipment Manufacturing > Other Transportation Equipment Manufacturing > Other Transportation Equipment Manufacturing > All Other Transportation Equipment Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Transportation Equipment Manufacturing",
+    "industry": "Other Transportation Equipment Manufacturing",
+    "naicsIndustry": "Other Transportation Equipment Manufacturing",
+    "nationalIndustry": "All Other Transportation Equipment Manufacturing"
+  },
+  {
+    "code": "337127",
+    "label": "Manufacturing > Furniture and Related Product Manufacturing > Household and Institutional Furniture and Kitchen Cabinet Manufacturing > Household and Institutional Furniture Manufacturing > Institutional Furniture Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Furniture and Related Product Manufacturing",
+    "industry": "Household and Institutional Furniture and Kitchen Cabinet Manufacturing",
+    "naicsIndustry": "Household and Institutional Furniture Manufacturing",
+    "nationalIndustry": "Institutional Furniture Manufacturing"
+  },
+  {
+    "code": "337215",
+    "label": "Manufacturing > Furniture and Related Product Manufacturing > Office Furniture (including Fixtures) Manufacturing > Office Furniture (including Fixtures) Manufacturing > Showcase, Partition, Shelving, and Locker Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Furniture and Related Product Manufacturing",
+    "industry": "Office Furniture (including Fixtures) Manufacturing",
+    "naicsIndustry": "Office Furniture (including Fixtures) Manufacturing",
+    "nationalIndustry": "Showcase, Partition, Shelving, and Locker Manufacturing"
+  },
+  {
+    "code": "337920",
+    "label": "Manufacturing > Furniture and Related Product Manufacturing > Other Furniture Related Product Manufacturing > Blind and Shade Manufacturing > Blind and Shade Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Furniture and Related Product Manufacturing",
+    "industry": "Other Furniture Related Product Manufacturing",
+    "naicsIndustry": "Blind and Shade Manufacturing",
+    "nationalIndustry": "Blind and Shade Manufacturing"
+  },
+  {
+    "code": "339116",
+    "label": "Manufacturing > Miscellaneous Manufacturing > Medical Equipment and Supplies Manufacturing > Medical Equipment and Supplies Manufacturing > Dental Laboratories",
+    "sector": "Manufacturing",
+    "subsector": "Miscellaneous Manufacturing",
+    "industry": "Medical Equipment and Supplies Manufacturing",
+    "naicsIndustry": "Medical Equipment and Supplies Manufacturing",
+    "nationalIndustry": "Dental Laboratories"
+  },
+  {
+    "code": "339999",
+    "label": "Manufacturing > Miscellaneous Manufacturing > Other Miscellaneous Manufacturing > All Other Miscellaneous Manufacturing > All Other Miscellaneous Manufacturing",
+    "sector": "Manufacturing",
+    "subsector": "Miscellaneous Manufacturing",
+    "industry": "Other Miscellaneous Manufacturing",
+    "naicsIndustry": "All Other Miscellaneous Manufacturing",
+    "nationalIndustry": "All Other Miscellaneous Manufacturing"
+  },
+  {
+    "code": "423140",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers > Motor Vehicle Parts (Used) Merchant Wholesalers > Motor Vehicle Parts (Used) Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers",
+    "naicsIndustry": "Motor Vehicle Parts (Used) Merchant Wholesalers",
+    "nationalIndustry": "Motor Vehicle Parts (Used) Merchant Wholesalers"
+  },
+  {
+    "code": "423220",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Furniture and Home Furnishing Merchant Wholesalers > Home Furnishing Merchant Wholesalers > Home Furnishing Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Furniture and Home Furnishing Merchant Wholesalers",
+    "naicsIndustry": "Home Furnishing Merchant Wholesalers",
+    "nationalIndustry": "Home Furnishing Merchant Wholesalers"
+  },
+  {
+    "code": "423390",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Lumber and Other Construction Materials Merchant Wholesalers > Other Construction Material Merchant Wholesalers > Other Construction Material Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Lumber and Other Construction Materials Merchant Wholesalers",
+    "naicsIndustry": "Other Construction Material Merchant Wholesalers",
+    "nationalIndustry": "Other Construction Material Merchant Wholesalers"
+  },
+  {
+    "code": "423490",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Professional and Commercial Equipment and Supplies Merchant Wholesalers > Other Professional Equipment and Supplies Merchant Wholesalers > Other Professional Equipment and Supplies Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Professional and Commercial Equipment and Supplies Merchant Wholesalers",
+    "naicsIndustry": "Other Professional Equipment and Supplies Merchant Wholesalers",
+    "nationalIndustry": "Other Professional Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "code": "423520",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Metal and Mineral (except Petroleum) Merchant Wholesalers > Coal and Other Mineral and Ore Merchant Wholesalers > Coal and Other Mineral and Ore Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Metal and Mineral (except Petroleum) Merchant Wholesalers",
+    "naicsIndustry": "Coal and Other Mineral and Ore Merchant Wholesalers",
+    "nationalIndustry": "Coal and Other Mineral and Ore Merchant Wholesalers"
+  },
+  {
+    "code": "423690",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Household Appliances and Electrical and Electronic Goods Merchant Wholesalers > Other Electronic Parts and Equipment Merchant Wholesalers > Other Electronic Parts and Equipment Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Household Appliances and Electrical and Electronic Goods Merchant Wholesalers",
+    "naicsIndustry": "Other Electronic Parts and Equipment Merchant Wholesalers",
+    "nationalIndustry": "Other Electronic Parts and Equipment Merchant Wholesalers"
+  },
+  {
+    "code": "423740",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers > Refrigeration Equipment and Supplies Merchant Wholesalers > Refrigeration Equipment and Supplies Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",
+    "naicsIndustry": "Refrigeration Equipment and Supplies Merchant Wholesalers",
+    "nationalIndustry": "Refrigeration Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "code": "423860",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Machinery, Equipment, and Supplies Merchant Wholesalers > Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers > Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Machinery, Equipment, and Supplies Merchant Wholesalers",
+    "naicsIndustry": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers",
+    "nationalIndustry": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers"
+  },
+  {
+    "code": "423990",
+    "label": "Wholesale Trade > Merchant Wholesalers, Durable Goods > Miscellaneous Durable Goods Merchant Wholesalers > Other Miscellaneous Durable Goods Merchant Wholesalers > Other Miscellaneous Durable Goods Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Durable Goods",
+    "industry": "Miscellaneous Durable Goods Merchant Wholesalers",
+    "naicsIndustry": "Other Miscellaneous Durable Goods Merchant Wholesalers",
+    "nationalIndustry": "Other Miscellaneous Durable Goods Merchant Wholesalers"
+  },
+  {
+    "code": "424130",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Paper and Paper Product Merchant Wholesalers > Industrial and Personal Service Paper Merchant Wholesalers > Industrial and Personal Service Paper Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Paper and Paper Product Merchant Wholesalers",
+    "naicsIndustry": "Industrial and Personal Service Paper Merchant Wholesalers",
+    "nationalIndustry": "Industrial and Personal Service Paper Merchant Wholesalers"
+  },
+  {
+    "code": "424210",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Drugs and Druggists' Sundries Merchant Wholesalers > Drugs and Druggists' Sundries Merchant Wholesalers > Drugs and Druggists' Sundries Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Drugs and Druggists' Sundries Merchant Wholesalers",
+    "naicsIndustry": "Drugs and Druggists' Sundries Merchant Wholesalers",
+    "nationalIndustry": "Drugs and Druggists' Sundries Merchant Wholesalers"
+  },
+  {
+    "code": "424350",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Apparel, Piece Goods, and Notions Merchant Wholesalers > Clothing and Clothing Accessories Merchant Wholesalers () > Clothing and Clothing Accessories Merchant Wholesalers()",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Apparel, Piece Goods, and Notions Merchant Wholesalers",
+    "naicsIndustry": "Clothing and Clothing Accessories Merchant Wholesalers ()",
+    "nationalIndustry": "Clothing and Clothing Accessories Merchant Wholesalers()"
+  },
+  {
+    "code": "424490",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Grocery and Related Product Merchant Wholesalers > Other Grocery and Related Products Merchant Wholesalers > Other Grocery and Related Products Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Grocery and Related Product Merchant Wholesalers",
+    "naicsIndustry": "Other Grocery and Related Products Merchant Wholesalers",
+    "nationalIndustry": "Other Grocery and Related Products Merchant Wholesalers"
+  },
+  {
+    "code": "424590",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Farm Product Raw Material Merchant Wholesalers > Other Farm Product Raw Material Merchant Wholesalers > Other Farm Product Raw Material Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Farm Product Raw Material Merchant Wholesalers",
+    "naicsIndustry": "Other Farm Product Raw Material Merchant Wholesalers",
+    "nationalIndustry": "Other Farm Product Raw Material Merchant Wholesalers"
+  },
+  {
+    "code": "424690",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Chemical and Allied Products Merchant Wholesalers > Other Chemical and Allied Products Merchant Wholesalers > Other Chemical and Allied Products Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Chemical and Allied Products Merchant Wholesalers",
+    "naicsIndustry": "Other Chemical and Allied Products Merchant Wholesalers",
+    "nationalIndustry": "Other Chemical and Allied Products Merchant Wholesalers"
+  },
+  {
+    "code": "424720",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Petroleum and Petroleum Products Merchant Wholesalers > Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals) > Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Petroleum and Petroleum Products Merchant Wholesalers",
+    "naicsIndustry": "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)",
+    "nationalIndustry": "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)"
+  },
+  {
+    "code": "424820",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Beer, Wine, and Distilled Alcoholic Beverage Merchant Wholesalers > Wine and Distilled Alcoholic Beverage Merchant Wholesalers > Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Beer, Wine, and Distilled Alcoholic Beverage Merchant Wholesalers",
+    "naicsIndustry": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+    "nationalIndustry": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers"
+  },
+  {
+    "code": "424990",
+    "label": "Wholesale Trade > Merchant Wholesalers, Nondurable Goods > Miscellaneous Nondurable Goods Merchant Wholesalers > Other Miscellaneous Nondurable Goods Merchant Wholesalers > Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "sector": "Wholesale Trade",
+    "subsector": "Merchant Wholesalers, Nondurable Goods",
+    "industry": "Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "naicsIndustry": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "nationalIndustry": "Other Miscellaneous Nondurable Goods Merchant Wholesalers"
+  },
+  {
+    "code": "425120",
+    "label": "Wholesale Trade > Wholesale Trade Agents and Brokers () > Wholesale Trade Agents and Brokers () > Wholesale Trade Agents and Brokers () > Wholesale Trade Agents and Brokers()",
+    "sector": "Wholesale Trade",
+    "subsector": "Wholesale Trade Agents and Brokers ()",
+    "industry": "Wholesale Trade Agents and Brokers ()",
+    "naicsIndustry": "Wholesale Trade Agents and Brokers ()",
+    "nationalIndustry": "Wholesale Trade Agents and Brokers()"
+  },
+  {
+    "code": "441120",
+    "label": "Retail Trade > Motor Vehicle and Parts Dealers () > Automobile Dealers > Used Car Dealers > Used Car Dealers",
+    "sector": "Retail Trade",
+    "subsector": "Motor Vehicle and Parts Dealers ()",
+    "industry": "Automobile Dealers",
+    "naicsIndustry": "Used Car Dealers",
+    "nationalIndustry": "Used Car Dealers"
+  },
+  {
+    "code": "441227",
+    "label": "Retail Trade > Motor Vehicle and Parts Dealers () > Other Motor Vehicle Dealers > Motorcycle, Boat, and Other Motor Vehicle Dealers > Motorcycle, ATV, and All Other Motor Vehicle Dealers()",
+    "sector": "Retail Trade",
+    "subsector": "Motor Vehicle and Parts Dealers ()",
+    "industry": "Other Motor Vehicle Dealers",
+    "naicsIndustry": "Motorcycle, Boat, and Other Motor Vehicle Dealers",
+    "nationalIndustry": "Motorcycle, ATV, and All Other Motor Vehicle Dealers()"
+  },
+  {
+    "code": "441340",
+    "label": "Retail Trade > Motor Vehicle and Parts Dealers () > Automotive Parts, Accessories, and Tire Retailers () > Tire Dealers () > Tire Dealers()",
+    "sector": "Retail Trade",
+    "subsector": "Motor Vehicle and Parts Dealers ()",
+    "industry": "Automotive Parts, Accessories, and Tire Retailers ()",
+    "naicsIndustry": "Tire Dealers ()",
+    "nationalIndustry": "Tire Dealers()"
+  },
+  {
+    "code": "444180",
+    "label": "Retail Trade > Building Material and Garden Equipment and Supplies Dealers () > Building Material and Supplies Dealers > Other Building Material Dealers () > Other Building Material Dealers()",
+    "sector": "Retail Trade",
+    "subsector": "Building Material and Garden Equipment and Supplies Dealers ()",
+    "industry": "Building Material and Supplies Dealers",
+    "naicsIndustry": "Other Building Material Dealers ()",
+    "nationalIndustry": "Other Building Material Dealers()"
+  },
+  {
+    "code": "444240",
+    "label": "Retail Trade > Building Material and Garden Equipment and Supplies Dealers () > Lawn and Garden Equipment and Supplies Retailers () > Nursery, Garden Center, and Farm Supply Retailers () > Nursery, Garden Center, and Farm Supply Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Building Material and Garden Equipment and Supplies Dealers ()",
+    "industry": "Lawn and Garden Equipment and Supplies Retailers ()",
+    "naicsIndustry": "Nursery, Garden Center, and Farm Supply Retailers ()",
+    "nationalIndustry": "Nursery, Garden Center, and Farm Supply Retailers()"
+  },
+  {
+    "code": "445132",
+    "label": "Retail Trade > Food and Beverage Retailers () > Grocery and Convenience Retailers () > Convenience Retailers and Vending Machine Operators () > Vending Machine Operators()",
+    "sector": "Retail Trade",
+    "subsector": "Food and Beverage Retailers ()",
+    "industry": "Grocery and Convenience Retailers ()",
+    "naicsIndustry": "Convenience Retailers and Vending Machine Operators ()",
+    "nationalIndustry": "Vending Machine Operators()"
+  },
+  {
+    "code": "445298",
+    "label": "Retail Trade > Food and Beverage Retailers () > Specialty Food Retailers () > Other Specialty Food Retailers () > All Other Specialty Food Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Food and Beverage Retailers ()",
+    "industry": "Specialty Food Retailers ()",
+    "naicsIndustry": "Other Specialty Food Retailers ()",
+    "nationalIndustry": "All Other Specialty Food Retailers()"
+  },
+  {
+    "code": "445320",
+    "label": "Retail Trade > Food and Beverage Retailers () > Beer, Wine, and Liquor Retailers () > Beer, Wine, and Liquor Retailers () > Beer, Wine, and Liquor Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Food and Beverage Retailers ()",
+    "industry": "Beer, Wine, and Liquor Retailers ()",
+    "naicsIndustry": "Beer, Wine, and Liquor Retailers ()",
+    "nationalIndustry": "Beer, Wine, and Liquor Retailers()"
+  },
+  {
+    "code": "449129",
+    "label": "Retail Trade > Furniture, Home Furnishings, Electronics, and Appliance Retailers () > Furniture and Home Furnishings Retailers () > Home Furnishings Retailers () > All Other Home Furnishings Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Furniture, Home Furnishings, Electronics, and Appliance Retailers ()",
+    "industry": "Furniture and Home Furnishings Retailers ()",
+    "naicsIndustry": "Home Furnishings Retailers ()",
+    "nationalIndustry": "All Other Home Furnishings Retailers()"
+  },
+  {
+    "code": "449210",
+    "label": "Retail Trade > Furniture, Home Furnishings, Electronics, and Appliance Retailers () > Electronics and Appliance Retailers () > Electronics and Appliance Retailers () > Electronics and Appliance Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Furniture, Home Furnishings, Electronics, and Appliance Retailers ()",
+    "industry": "Electronics and Appliance Retailers ()",
+    "naicsIndustry": "Electronics and Appliance Retailers ()",
+    "nationalIndustry": "Electronics and Appliance Retailers()"
+  },
+  {
+    "code": "455110",
+    "label": "Retail Trade > General Merchandise Retailers () > Department Stores () > Department Stores () > Department Stores()",
+    "sector": "Retail Trade",
+    "subsector": "General Merchandise Retailers ()",
+    "industry": "Department Stores ()",
+    "naicsIndustry": "Department Stores ()",
+    "nationalIndustry": "Department Stores()"
+  },
+  {
+    "code": "455219",
+    "label": "Retail Trade > General Merchandise Retailers () > Warehouse Clubs, Supercenters, and Other General Merchandise Retailers () > Warehouse Clubs, Supercenters, and Other General Merchandise Retailers () > All Other General Merchandise Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "General Merchandise Retailers ()",
+    "industry": "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers ()",
+    "naicsIndustry": "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers ()",
+    "nationalIndustry": "All Other General Merchandise Retailers()"
+  },
+  {
+    "code": "456199",
+    "label": "Retail Trade > Health and Personal Care Retailers () > Health and Personal Care Retailers () > Other Health and Personal Care Retailers () > All Other Health and Personal Care Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Health and Personal Care Retailers ()",
+    "industry": "Health and Personal Care Retailers ()",
+    "naicsIndustry": "Other Health and Personal Care Retailers ()",
+    "nationalIndustry": "All Other Health and Personal Care Retailers()"
+  },
+  {
+    "code": "457120",
+    "label": "Retail Trade > Gasoline Stations and Fuel Dealers () > Gasoline Stations () > Other Gasoline Stations () > Other Gasoline Stations()",
+    "sector": "Retail Trade",
+    "subsector": "Gasoline Stations and Fuel Dealers ()",
+    "industry": "Gasoline Stations ()",
+    "naicsIndustry": "Other Gasoline Stations ()",
+    "nationalIndustry": "Other Gasoline Stations()"
+  },
+  {
+    "code": "457210",
+    "label": "Retail Trade > Gasoline Stations and Fuel Dealers () > Fuel Dealers () > Fuel Dealers () > Fuel Dealers()",
+    "sector": "Retail Trade",
+    "subsector": "Gasoline Stations and Fuel Dealers ()",
+    "industry": "Fuel Dealers ()",
+    "naicsIndustry": "Fuel Dealers ()",
+    "nationalIndustry": "Fuel Dealers()"
+  },
+  {
+    "code": "458110",
+    "label": "Retail Trade > Clothing, Clothing Accessories, Shoe, and Jewelry Retailers () > Clothing and Clothing Accessories Retailers () > Clothing and Clothing Accessories Retailers () > Clothing and Clothing Accessories Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Clothing, Clothing Accessories, Shoe, and Jewelry Retailers ()",
+    "industry": "Clothing and Clothing Accessories Retailers ()",
+    "naicsIndustry": "Clothing and Clothing Accessories Retailers ()",
+    "nationalIndustry": "Clothing and Clothing Accessories Retailers()"
+  },
+  {
+    "code": "458210",
+    "label": "Retail Trade > Clothing, Clothing Accessories, Shoe, and Jewelry Retailers () > Shoe Retailers () > Shoe Retailers () > Shoe Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Clothing, Clothing Accessories, Shoe, and Jewelry Retailers ()",
+    "industry": "Shoe Retailers ()",
+    "naicsIndustry": "Shoe Retailers ()",
+    "nationalIndustry": "Shoe Retailers()"
+  },
+  {
+    "code": "458320",
+    "label": "Retail Trade > Clothing, Clothing Accessories, Shoe, and Jewelry Retailers () > Jewelry, Luggage, and Leather Goods Retailers () > Luggage and Leather Goods Retailers () > Luggage and Leather Goods Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Clothing, Clothing Accessories, Shoe, and Jewelry Retailers ()",
+    "industry": "Jewelry, Luggage, and Leather Goods Retailers ()",
+    "naicsIndustry": "Luggage and Leather Goods Retailers ()",
+    "nationalIndustry": "Luggage and Leather Goods Retailers()"
+  },
+  {
+    "code": "459140",
+    "label": "Retail Trade > Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers () > Sporting Goods, Hobby, and Musical Instrument Retailers () > Musical Instrument and Supplies Retailers () > Musical Instrument and Supplies Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers ()",
+    "industry": "Sporting Goods, Hobby, and Musical Instrument Retailers ()",
+    "naicsIndustry": "Musical Instrument and Supplies Retailers ()",
+    "nationalIndustry": "Musical Instrument and Supplies Retailers()"
+  },
+  {
+    "code": "459210",
+    "label": "Retail Trade > Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers () > Book Retailers and News Dealers () > Book Retailers and News Dealers () > Book Retailers and News Dealers()",
+    "sector": "Retail Trade",
+    "subsector": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers ()",
+    "industry": "Book Retailers and News Dealers ()",
+    "naicsIndustry": "Book Retailers and News Dealers ()",
+    "nationalIndustry": "Book Retailers and News Dealers()"
+  },
+  {
+    "code": "459310",
+    "label": "Retail Trade > Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers () > Florists () > Florists () > Florists()",
+    "sector": "Retail Trade",
+    "subsector": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers ()",
+    "industry": "Florists ()",
+    "naicsIndustry": "Florists ()",
+    "nationalIndustry": "Florists()"
+  },
+  {
+    "code": "459420",
+    "label": "Retail Trade > Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers () > Office Supplies, Stationery, and Gift Retailers () > Gift, Novelty, and Souvenir Retailers () > Gift, Novelty, and Souvenir Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers ()",
+    "industry": "Office Supplies, Stationery, and Gift Retailers ()",
+    "naicsIndustry": "Gift, Novelty, and Souvenir Retailers ()",
+    "nationalIndustry": "Gift, Novelty, and Souvenir Retailers()"
+  },
+  {
+    "code": "459510",
+    "label": "Retail Trade > Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers () > Used Merchandise Retailers () > Used Merchandise Retailers () > Used Merchandise Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers ()",
+    "industry": "Used Merchandise Retailers ()",
+    "naicsIndustry": "Used Merchandise Retailers ()",
+    "nationalIndustry": "Used Merchandise Retailers()"
+  },
+  {
+    "code": "459999",
+    "label": "Retail Trade > Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers () > Other Miscellaneous Retailers () > All Other Miscellaneous Retailers () > All Other Miscellaneous Retailers()",
+    "sector": "Retail Trade",
+    "subsector": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers ()",
+    "industry": "Other Miscellaneous Retailers ()",
+    "naicsIndustry": "All Other Miscellaneous Retailers ()",
+    "nationalIndustry": "All Other Miscellaneous Retailers()"
+  },
+  {
+    "code": "481112",
+    "label": "Transportation and Warehousing > Air Transportation > Scheduled Air Transportation > Scheduled Air Transportation > Scheduled Freight Air Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Air Transportation",
+    "industry": "Scheduled Air Transportation",
+    "naicsIndustry": "Scheduled Air Transportation",
+    "nationalIndustry": "Scheduled Freight Air Transportation"
+  },
+  {
+    "code": "481219",
+    "label": "Transportation and Warehousing > Air Transportation > Nonscheduled Air Transportation > Nonscheduled Air Transportation > Other Nonscheduled Air Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Air Transportation",
+    "industry": "Nonscheduled Air Transportation",
+    "naicsIndustry": "Nonscheduled Air Transportation",
+    "nationalIndustry": "Other Nonscheduled Air Transportation"
+  },
+  {
+    "code": "482112",
+    "label": "Transportation and Warehousing > Rail Transportation > Rail Transportation > Rail Transportation > Short Line Railroads",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Rail Transportation",
+    "industry": "Rail Transportation",
+    "naicsIndustry": "Rail Transportation",
+    "nationalIndustry": "Short Line Railroads"
+  },
+  {
+    "code": "483114",
+    "label": "Transportation and Warehousing > Water Transportation > Deep Sea, Coastal, and Great Lakes Water Transportation > Deep Sea, Coastal, and Great Lakes Water Transportation > Coastal and Great Lakes Passenger Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Water Transportation",
+    "industry": "Deep Sea, Coastal, and Great Lakes Water Transportation",
+    "naicsIndustry": "Deep Sea, Coastal, and Great Lakes Water Transportation",
+    "nationalIndustry": "Coastal and Great Lakes Passenger Transportation"
+  },
+  {
+    "code": "483212",
+    "label": "Transportation and Warehousing > Water Transportation > Inland Water Transportation > Inland Water Transportation > Inland Water Passenger Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Water Transportation",
+    "industry": "Inland Water Transportation",
+    "naicsIndustry": "Inland Water Transportation",
+    "nationalIndustry": "Inland Water Passenger Transportation"
+  },
+  {
+    "code": "484122",
+    "label": "Transportation and Warehousing > Truck Transportation > General Freight Trucking > General Freight Trucking, Long-Distance > General Freight Trucking, Long-Distance, Less Than Truckload",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Truck Transportation",
+    "industry": "General Freight Trucking",
+    "naicsIndustry": "General Freight Trucking, Long-Distance",
+    "nationalIndustry": "General Freight Trucking, Long-Distance, Less Than Truckload"
+  },
+  {
+    "code": "484230",
+    "label": "Transportation and Warehousing > Truck Transportation > Specialized Freight Trucking > Specialized Freight (except Used Goods) Trucking, Long-Distance > Specialized Freight (except Used Goods) Trucking, Long-Distance",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Truck Transportation",
+    "industry": "Specialized Freight Trucking",
+    "naicsIndustry": "Specialized Freight (except Used Goods) Trucking, Long-Distance",
+    "nationalIndustry": "Specialized Freight (except Used Goods) Trucking, Long-Distance"
+  },
+  {
+    "code": "485119",
+    "label": "Transportation and Warehousing > Transit and Ground Passenger Transportation > Urban Transit Systems > Urban Transit Systems > Other Urban Transit Systems",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Transit and Ground Passenger Transportation",
+    "industry": "Urban Transit Systems",
+    "naicsIndustry": "Urban Transit Systems",
+    "nationalIndustry": "Other Urban Transit Systems"
+  },
+  {
+    "code": "485210",
+    "label": "Transportation and Warehousing > Transit and Ground Passenger Transportation > Interurban and Rural Bus Transportation > Interurban and Rural Bus Transportation > Interurban and Rural Bus Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Transit and Ground Passenger Transportation",
+    "industry": "Interurban and Rural Bus Transportation",
+    "naicsIndustry": "Interurban and Rural Bus Transportation",
+    "nationalIndustry": "Interurban and Rural Bus Transportation"
+  },
+  {
+    "code": "485320",
+    "label": "Transportation and Warehousing > Transit and Ground Passenger Transportation > Taxi and Limousine Service > Limousine Service > Limousine Service",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Transit and Ground Passenger Transportation",
+    "industry": "Taxi and Limousine Service",
+    "naicsIndustry": "Limousine Service",
+    "nationalIndustry": "Limousine Service"
+  },
+  {
+    "code": "485410",
+    "label": "Transportation and Warehousing > Transit and Ground Passenger Transportation > School and Employee Bus Transportation > School and Employee Bus Transportation > School and Employee Bus Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Transit and Ground Passenger Transportation",
+    "industry": "School and Employee Bus Transportation",
+    "naicsIndustry": "School and Employee Bus Transportation",
+    "nationalIndustry": "School and Employee Bus Transportation"
+  },
+  {
+    "code": "485510",
+    "label": "Transportation and Warehousing > Transit and Ground Passenger Transportation > Charter Bus Industry > Charter Bus Industry > Charter Bus Industry",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Transit and Ground Passenger Transportation",
+    "industry": "Charter Bus Industry",
+    "naicsIndustry": "Charter Bus Industry",
+    "nationalIndustry": "Charter Bus Industry"
+  },
+  {
+    "code": "485999",
+    "label": "Transportation and Warehousing > Transit and Ground Passenger Transportation > Other Transit and Ground Passenger Transportation > Other Transit and Ground Passenger Transportation > All Other Transit and Ground Passenger Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Transit and Ground Passenger Transportation",
+    "industry": "Other Transit and Ground Passenger Transportation",
+    "naicsIndustry": "Other Transit and Ground Passenger Transportation",
+    "nationalIndustry": "All Other Transit and Ground Passenger Transportation"
+  },
+  {
+    "code": "486110",
+    "label": "Transportation and Warehousing > Pipeline Transportation > Pipeline Transportation of Crude Oil > Pipeline Transportation of Crude Oil > Pipeline Transportation of Crude Oil",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Pipeline Transportation",
+    "industry": "Pipeline Transportation of Crude Oil",
+    "naicsIndustry": "Pipeline Transportation of Crude Oil",
+    "nationalIndustry": "Pipeline Transportation of Crude Oil"
+  },
+  {
+    "code": "486210",
+    "label": "Transportation and Warehousing > Pipeline Transportation > Pipeline Transportation of Natural Gas > Pipeline Transportation of Natural Gas > Pipeline Transportation of Natural Gas",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Pipeline Transportation",
+    "industry": "Pipeline Transportation of Natural Gas",
+    "naicsIndustry": "Pipeline Transportation of Natural Gas",
+    "nationalIndustry": "Pipeline Transportation of Natural Gas"
+  },
+  {
+    "code": "486990",
+    "label": "Transportation and Warehousing > Pipeline Transportation > Other Pipeline Transportation > All Other Pipeline Transportation > All Other Pipeline Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Pipeline Transportation",
+    "industry": "Other Pipeline Transportation",
+    "naicsIndustry": "All Other Pipeline Transportation",
+    "nationalIndustry": "All Other Pipeline Transportation"
+  },
+  {
+    "code": "487110",
+    "label": "Transportation and Warehousing > Scenic and Sightseeing Transportation > Scenic and Sightseeing Transportation, Land > Scenic and Sightseeing Transportation, Land > Scenic and Sightseeing Transportation, Land",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Scenic and Sightseeing Transportation",
+    "industry": "Scenic and Sightseeing Transportation, Land",
+    "naicsIndustry": "Scenic and Sightseeing Transportation, Land",
+    "nationalIndustry": "Scenic and Sightseeing Transportation, Land"
+  },
+  {
+    "code": "487210",
+    "label": "Transportation and Warehousing > Scenic and Sightseeing Transportation > Scenic and Sightseeing Transportation, Water > Scenic and Sightseeing Transportation, Water > Scenic and Sightseeing Transportation, Water",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Scenic and Sightseeing Transportation",
+    "industry": "Scenic and Sightseeing Transportation, Water",
+    "naicsIndustry": "Scenic and Sightseeing Transportation, Water",
+    "nationalIndustry": "Scenic and Sightseeing Transportation, Water"
+  },
+  {
+    "code": "487990",
+    "label": "Transportation and Warehousing > Scenic and Sightseeing Transportation > Scenic and Sightseeing Transportation, Other > Scenic and Sightseeing Transportation, Other > Scenic and Sightseeing Transportation, Other",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Scenic and Sightseeing Transportation",
+    "industry": "Scenic and Sightseeing Transportation, Other",
+    "naicsIndustry": "Scenic and Sightseeing Transportation, Other",
+    "nationalIndustry": "Scenic and Sightseeing Transportation, Other"
+  },
+  {
+    "code": "488190",
+    "label": "Transportation and Warehousing > Support Activities for Transportation > Support Activities for Air Transportation > Other Support Activities for Air Transportation > Other Support Activities for Air Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Support Activities for Transportation",
+    "industry": "Support Activities for Air Transportation",
+    "naicsIndustry": "Other Support Activities for Air Transportation",
+    "nationalIndustry": "Other Support Activities for Air Transportation"
+  },
+  {
+    "code": "488210",
+    "label": "Transportation and Warehousing > Support Activities for Transportation > Support Activities for Rail Transportation > Support Activities for Rail Transportation > Support Activities for Rail Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Support Activities for Transportation",
+    "industry": "Support Activities for Rail Transportation",
+    "naicsIndustry": "Support Activities for Rail Transportation",
+    "nationalIndustry": "Support Activities for Rail Transportation"
+  },
+  {
+    "code": "488390",
+    "label": "Transportation and Warehousing > Support Activities for Transportation > Support Activities for Water Transportation > Other Support Activities for Water Transportation > Other Support Activities for Water Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Support Activities for Transportation",
+    "industry": "Support Activities for Water Transportation",
+    "naicsIndustry": "Other Support Activities for Water Transportation",
+    "nationalIndustry": "Other Support Activities for Water Transportation"
+  },
+  {
+    "code": "488490",
+    "label": "Transportation and Warehousing > Support Activities for Transportation > Support Activities for Road Transportation > Other Support Activities for Road Transportation > Other Support Activities for Road Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Support Activities for Transportation",
+    "industry": "Support Activities for Road Transportation",
+    "naicsIndustry": "Other Support Activities for Road Transportation",
+    "nationalIndustry": "Other Support Activities for Road Transportation"
+  },
+  {
+    "code": "488510",
+    "label": "Transportation and Warehousing > Support Activities for Transportation > Freight Transportation Arrangement > Freight Transportation Arrangement > Freight Transportation Arrangement",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Support Activities for Transportation",
+    "industry": "Freight Transportation Arrangement",
+    "naicsIndustry": "Freight Transportation Arrangement",
+    "nationalIndustry": "Freight Transportation Arrangement"
+  },
+  {
+    "code": "488999",
+    "label": "Transportation and Warehousing > Support Activities for Transportation > Other Support Activities for Transportation > Other Support Activities for Transportation > All Other Support Activities for Transportation",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Support Activities for Transportation",
+    "industry": "Other Support Activities for Transportation",
+    "naicsIndustry": "Other Support Activities for Transportation",
+    "nationalIndustry": "All Other Support Activities for Transportation"
+  },
+  {
+    "code": "491110",
+    "label": "Transportation and Warehousing > Postal Service > Postal Service > Postal Service > Postal Service",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Postal Service",
+    "industry": "Postal Service",
+    "naicsIndustry": "Postal Service",
+    "nationalIndustry": "Postal Service"
+  },
+  {
+    "code": "492110",
+    "label": "Transportation and Warehousing > Couriers and Messengers > Couriers and Express Delivery Services > Couriers and Express Delivery Services > Couriers and Express Delivery Services",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Couriers and Messengers",
+    "industry": "Couriers and Express Delivery Services",
+    "naicsIndustry": "Couriers and Express Delivery Services",
+    "nationalIndustry": "Couriers and Express Delivery Services"
+  },
+  {
+    "code": "492210",
+    "label": "Transportation and Warehousing > Couriers and Messengers > Local Messengers and Local Delivery > Local Messengers and Local Delivery > Local Messengers and Local Delivery",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Couriers and Messengers",
+    "industry": "Local Messengers and Local Delivery",
+    "naicsIndustry": "Local Messengers and Local Delivery",
+    "nationalIndustry": "Local Messengers and Local Delivery"
+  },
+  {
+    "code": "493190",
+    "label": "Transportation and Warehousing > Warehousing and Storage > Warehousing and Storage > Other Warehousing and Storage > Other Warehousing and Storage",
+    "sector": "Transportation and Warehousing",
+    "subsector": "Warehousing and Storage",
+    "industry": "Warehousing and Storage",
+    "naicsIndustry": "Other Warehousing and Storage",
+    "nationalIndustry": "Other Warehousing and Storage"
+  },
+  {
+    "code": "512199",
+    "label": "Information > Motion Picture and Sound Recording Industries > Motion Picture and Video Industries > Postproduction Services and Other Motion Picture and Video Industries > Other Motion Picture and Video Industries",
+    "sector": "Information",
+    "subsector": "Motion Picture and Sound Recording Industries",
+    "industry": "Motion Picture and Video Industries",
+    "naicsIndustry": "Postproduction Services and Other Motion Picture and Video Industries",
+    "nationalIndustry": "Other Motion Picture and Video Industries"
+  },
+  {
+    "code": "512290",
+    "label": "Information > Motion Picture and Sound Recording Industries > Sound Recording Industries > Other Sound Recording Industries > Other Sound Recording Industries",
+    "sector": "Information",
+    "subsector": "Motion Picture and Sound Recording Industries",
+    "industry": "Sound Recording Industries",
+    "naicsIndustry": "Other Sound Recording Industries",
+    "nationalIndustry": "Other Sound Recording Industries"
+  },
+  {
+    "code": "513199",
+    "label": "Information > Publishing Industries  () > Newspaper, Periodical, Book, and Directory Publishers  () > Other Publishers  () > All Other Publishers()",
+    "sector": "Information",
+    "subsector": "Publishing Industries  ()",
+    "industry": "Newspaper, Periodical, Book, and Directory Publishers  ()",
+    "naicsIndustry": "Other Publishers  ()",
+    "nationalIndustry": "All Other Publishers()"
+  },
+  {
+    "code": "513210",
+    "label": "Information > Publishing Industries  () > Software Publishers  () > Software Publishers  () > Software Publishers()",
+    "sector": "Information",
+    "subsector": "Publishing Industries  ()",
+    "industry": "Software Publishers  ()",
+    "naicsIndustry": "Software Publishers  ()",
+    "nationalIndustry": "Software Publishers()"
+  },
+  {
+    "code": "516120",
+    "label": "Information > Broadcasting and Content Providers  () > Radio and Television Broadcasting Stations  () > Television Broadcasting Stations  () > Television Broadcasting Stations()",
+    "sector": "Information",
+    "subsector": "Broadcasting and Content Providers  ()",
+    "industry": "Radio and Television Broadcasting Stations  ()",
+    "naicsIndustry": "Television Broadcasting Stations  ()",
+    "nationalIndustry": "Television Broadcasting Stations()"
+  },
+  {
+    "code": "516210",
+    "label": "Information > Broadcasting and Content Providers  () > Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers  () > Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers  () > Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers()",
+    "sector": "Information",
+    "subsector": "Broadcasting and Content Providers  ()",
+    "industry": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers  ()",
+    "naicsIndustry": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers  ()",
+    "nationalIndustry": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers()"
+  },
+  {
+    "code": "517122",
+    "label": "Information > Telecommunications > Wired and Wireless Telecommunications (except Satellite) () > Telecommunications Resellers and Agents for Wireless Telecommunication Services () > Agents for Wireless Telecommunications Services()",
+    "sector": "Information",
+    "subsector": "Telecommunications",
+    "industry": "Wired and Wireless Telecommunications (except Satellite) ()",
+    "naicsIndustry": "Telecommunications Resellers and Agents for Wireless Telecommunication Services ()",
+    "nationalIndustry": "Agents for Wireless Telecommunications Services()"
+  },
+  {
+    "code": "517410",
+    "label": "Information > Telecommunications > Satellite Telecommunications > Satellite Telecommunications > Satellite Telecommunications",
+    "sector": "Information",
+    "subsector": "Telecommunications",
+    "industry": "Satellite Telecommunications",
+    "naicsIndustry": "Satellite Telecommunications",
+    "nationalIndustry": "Satellite Telecommunications"
+  },
+  {
+    "code": "517810",
+    "label": "Information > Telecommunications > All Other Telecommunications () > All Other Telecommunications () > All Other Telecommunications()",
+    "sector": "Information",
+    "subsector": "Telecommunications",
+    "industry": "All Other Telecommunications ()",
+    "naicsIndustry": "All Other Telecommunications ()",
+    "nationalIndustry": "All Other Telecommunications()"
+  },
+  {
+    "code": "518210",
+    "label": "Information > Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services  () > Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services  () > Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services  () > Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services()",
+    "sector": "Information",
+    "subsector": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services  ()",
+    "industry": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services  ()",
+    "naicsIndustry": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services  ()",
+    "nationalIndustry": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services()"
+  },
+  {
+    "code": "519290",
+    "label": "Information > Web Search Portals, Libraries, Archives, and Other Information Services  () > Web Search Portals, Libraries, Archives, and Other Information Services  () > Web Search Portals and All Other Information Services  () > Web Search Portals and All Other Information Services()",
+    "sector": "Information",
+    "subsector": "Web Search Portals, Libraries, Archives, and Other Information Services  ()",
+    "industry": "Web Search Portals, Libraries, Archives, and Other Information Services  ()",
+    "naicsIndustry": "Web Search Portals and All Other Information Services  ()",
+    "nationalIndustry": "Web Search Portals and All Other Information Services()"
+  },
+  {
+    "code": "521110",
+    "label": "Finance and Insurance > Monetary Authorities-Central Bank > Monetary Authorities-Central Bank > Monetary Authorities-Central Bank > Monetary Authorities-Central Bank",
+    "sector": "Finance and Insurance",
+    "subsector": "Monetary Authorities-Central Bank",
+    "industry": "Monetary Authorities-Central Bank",
+    "naicsIndustry": "Monetary Authorities-Central Bank",
+    "nationalIndustry": "Monetary Authorities-Central Bank"
+  },
+  {
+    "code": "522180",
+    "label": "Finance and Insurance > Credit Intermediation and Related Activities > Depository Credit Intermediation > Savings Institutions and Other Depository Credit Intermediation () > Savings Institutions and Other Depository Credit Intermediation()",
+    "sector": "Finance and Insurance",
+    "subsector": "Credit Intermediation and Related Activities",
+    "industry": "Depository Credit Intermediation",
+    "naicsIndustry": "Savings Institutions and Other Depository Credit Intermediation ()",
+    "nationalIndustry": "Savings Institutions and Other Depository Credit Intermediation()"
+  },
+  {
+    "code": "522299",
+    "label": "Finance and Insurance > Credit Intermediation and Related Activities > Nondepository Credit Intermediation > Other Nondepository Credit Intermediation > International, Secondary Market, and All Other Nondepository Credit Intermediation()",
+    "sector": "Finance and Insurance",
+    "subsector": "Credit Intermediation and Related Activities",
+    "industry": "Nondepository Credit Intermediation",
+    "naicsIndustry": "Other Nondepository Credit Intermediation",
+    "nationalIndustry": "International, Secondary Market, and All Other Nondepository Credit Intermediation()"
+  },
+  {
+    "code": "522390",
+    "label": "Finance and Insurance > Credit Intermediation and Related Activities > Activities Related to Credit Intermediation > Other Activities Related to Credit Intermediation > Other Activities Related to Credit Intermediation",
+    "sector": "Finance and Insurance",
+    "subsector": "Credit Intermediation and Related Activities",
+    "industry": "Activities Related to Credit Intermediation",
+    "naicsIndustry": "Other Activities Related to Credit Intermediation",
+    "nationalIndustry": "Other Activities Related to Credit Intermediation"
+  },
+  {
+    "code": "523160",
+    "label": "Finance and Insurance > Securities, Commodity Contracts, and Other Financial Investments and Related Activities > Securities and Commodity Contracts Intermediation and Brokerage > Commodity Contracts Intermediation () > Commodity Contracts Intermediation()",
+    "sector": "Finance and Insurance",
+    "subsector": "Securities, Commodity Contracts, and Other Financial Investments and Related Activities",
+    "industry": "Securities and Commodity Contracts Intermediation and Brokerage",
+    "naicsIndustry": "Commodity Contracts Intermediation ()",
+    "nationalIndustry": "Commodity Contracts Intermediation()"
+  },
+  {
+    "code": "523210",
+    "label": "Finance and Insurance > Securities, Commodity Contracts, and Other Financial Investments and Related Activities > Securities and Commodity Exchanges > Securities and Commodity Exchanges > Securities and Commodity Exchanges",
+    "sector": "Finance and Insurance",
+    "subsector": "Securities, Commodity Contracts, and Other Financial Investments and Related Activities",
+    "industry": "Securities and Commodity Exchanges",
+    "naicsIndustry": "Securities and Commodity Exchanges",
+    "nationalIndustry": "Securities and Commodity Exchanges"
+  },
+  {
+    "code": "523999",
+    "label": "Finance and Insurance > Securities, Commodity Contracts, and Other Financial Investments and Related Activities > Other Financial Investment Activities > All Other Financial Investment Activities > Miscellaneous Financial Investment Activities",
+    "sector": "Finance and Insurance",
+    "subsector": "Securities, Commodity Contracts, and Other Financial Investments and Related Activities",
+    "industry": "Other Financial Investment Activities",
+    "naicsIndustry": "All Other Financial Investment Activities",
+    "nationalIndustry": "Miscellaneous Financial Investment Activities"
+  },
+  {
+    "code": "524130",
+    "label": "Finance and Insurance > Insurance Carriers and Related Activities > Insurance Carriers > Reinsurance Carriers > Reinsurance Carriers",
+    "sector": "Finance and Insurance",
+    "subsector": "Insurance Carriers and Related Activities",
+    "industry": "Insurance Carriers",
+    "naicsIndustry": "Reinsurance Carriers",
+    "nationalIndustry": "Reinsurance Carriers"
+  },
+  {
+    "code": "524298",
+    "label": "Finance and Insurance > Insurance Carriers and Related Activities > Agencies, Brokerages, and Other Insurance Related Activities > Other Insurance Related Activities > All Other Insurance Related Activities",
+    "sector": "Finance and Insurance",
+    "subsector": "Insurance Carriers and Related Activities",
+    "industry": "Agencies, Brokerages, and Other Insurance Related Activities",
+    "naicsIndustry": "Other Insurance Related Activities",
+    "nationalIndustry": "All Other Insurance Related Activities"
+  },
+  {
+    "code": "525190",
+    "label": "Finance and Insurance > Funds, Trusts, and Other Financial Vehicles > Insurance and Employee Benefit Funds > Other Insurance Funds > Other Insurance Funds",
+    "sector": "Finance and Insurance",
+    "subsector": "Funds, Trusts, and Other Financial Vehicles",
+    "industry": "Insurance and Employee Benefit Funds",
+    "naicsIndustry": "Other Insurance Funds",
+    "nationalIndustry": "Other Insurance Funds"
+  },
+  {
+    "code": "525990",
+    "label": "Finance and Insurance > Funds, Trusts, and Other Financial Vehicles > Other Investment Pools and Funds > Other Financial Vehicles > Other Financial Vehicles",
+    "sector": "Finance and Insurance",
+    "subsector": "Funds, Trusts, and Other Financial Vehicles",
+    "industry": "Other Investment Pools and Funds",
+    "naicsIndustry": "Other Financial Vehicles",
+    "nationalIndustry": "Other Financial Vehicles"
+  },
+  {
+    "code": "531190",
+    "label": "Real Estate and Rental and Leasing > Real Estate > Lessors of Real Estate > Lessors of Other Real Estate Property > Lessors of Other Real Estate Property",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Real Estate",
+    "industry": "Lessors of Real Estate",
+    "naicsIndustry": "Lessors of Other Real Estate Property",
+    "nationalIndustry": "Lessors of Other Real Estate Property"
+  },
+  {
+    "code": "531210",
+    "label": "Real Estate and Rental and Leasing > Real Estate > Offices of Real Estate Agents and Brokers > Offices of Real Estate Agents and Brokers > Offices of Real Estate Agents and Brokers",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Real Estate",
+    "industry": "Offices of Real Estate Agents and Brokers",
+    "naicsIndustry": "Offices of Real Estate Agents and Brokers",
+    "nationalIndustry": "Offices of Real Estate Agents and Brokers"
+  },
+  {
+    "code": "531390",
+    "label": "Real Estate and Rental and Leasing > Real Estate > Activities Related to Real Estate > Other Activities Related to Real Estate > Other Activities Related to Real Estate",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Real Estate",
+    "industry": "Activities Related to Real Estate",
+    "naicsIndustry": "Other Activities Related to Real Estate",
+    "nationalIndustry": "Other Activities Related to Real Estate"
+  },
+  {
+    "code": "532120",
+    "label": "Real Estate and Rental and Leasing > Rental and Leasing Services > Automotive Equipment Rental and Leasing > Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing > Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Rental and Leasing Services",
+    "industry": "Automotive Equipment Rental and Leasing",
+    "naicsIndustry": "Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",
+    "nationalIndustry": "Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing"
+  },
+  {
+    "code": "532289",
+    "label": "Real Estate and Rental and Leasing > Rental and Leasing Services > Consumer Goods Rental > Other Consumer Goods Rental > All Other Consumer Goods Rental",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Rental and Leasing Services",
+    "industry": "Consumer Goods Rental",
+    "naicsIndustry": "Other Consumer Goods Rental",
+    "nationalIndustry": "All Other Consumer Goods Rental"
+  },
+  {
+    "code": "532310",
+    "label": "Real Estate and Rental and Leasing > Rental and Leasing Services > General Rental Centers > General Rental Centers > General Rental Centers",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Rental and Leasing Services",
+    "industry": "General Rental Centers",
+    "naicsIndustry": "General Rental Centers",
+    "nationalIndustry": "General Rental Centers"
+  },
+  {
+    "code": "532490",
+    "label": "Real Estate and Rental and Leasing > Rental and Leasing Services > Commercial and Industrial Machinery and Equipment Rental and Leasing > Other Commercial and Industrial Machinery and Equipment Rental and Leasing > Other Commercial and Industrial Machinery and Equipment Rental and Leasing",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Rental and Leasing Services",
+    "industry": "Commercial and Industrial Machinery and Equipment Rental and Leasing",
+    "naicsIndustry": "Other Commercial and Industrial Machinery and Equipment Rental and Leasing",
+    "nationalIndustry": "Other Commercial and Industrial Machinery and Equipment Rental and Leasing"
+  },
+  {
+    "code": "533110",
+    "label": "Real Estate and Rental and Leasing > Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) > Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) > Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) > Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+    "sector": "Real Estate and Rental and Leasing",
+    "subsector": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+    "industry": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+    "naicsIndustry": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+    "nationalIndustry": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)"
+  },
+  {
+    "code": "541199",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Legal Services > Other Legal Services > All Other Legal Services",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Legal Services",
+    "naicsIndustry": "Other Legal Services",
+    "nationalIndustry": "All Other Legal Services"
+  },
+  {
+    "code": "541219",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Accounting, Tax Preparation, Bookkeeping, and Payroll Services > Accounting, Tax Preparation, Bookkeeping, and Payroll Services > Other Accounting Services",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services",
+    "naicsIndustry": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services",
+    "nationalIndustry": "Other Accounting Services"
+  },
+  {
+    "code": "541380",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Architectural, Engineering, and Related Services > Testing Laboratories and Services  () > Testing Laboratories and Services()",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Architectural, Engineering, and Related Services",
+    "naicsIndustry": "Testing Laboratories and Services  ()",
+    "nationalIndustry": "Testing Laboratories and Services()"
+  },
+  {
+    "code": "541490",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Specialized Design Services > Other Specialized Design Services > Other Specialized Design Services",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Specialized Design Services",
+    "naicsIndustry": "Other Specialized Design Services",
+    "nationalIndustry": "Other Specialized Design Services"
+  },
+  {
+    "code": "541519",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Computer Systems Design and Related Services > Computer Systems Design and Related Services > Other Computer Related Services",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Computer Systems Design and Related Services",
+    "naicsIndustry": "Computer Systems Design and Related Services",
+    "nationalIndustry": "Other Computer Related Services"
+  },
+  {
+    "code": "541690",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Management, Scientific, and Technical Consulting Services > Other Scientific and Technical Consulting Services > Other Scientific and Technical Consulting Services",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Management, Scientific, and Technical Consulting Services",
+    "naicsIndustry": "Other Scientific and Technical Consulting Services",
+    "nationalIndustry": "Other Scientific and Technical Consulting Services"
+  },
+  {
+    "code": "541720",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Scientific Research and Development Services > Research and Development in the Social Sciences and Humanities > Research and Development in the Social Sciences and Humanities",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Scientific Research and Development Services",
+    "naicsIndustry": "Research and Development in the Social Sciences and Humanities",
+    "nationalIndustry": "Research and Development in the Social Sciences and Humanities"
+  },
+  {
+    "code": "541890",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Advertising, Public Relations, and Related Services > Other Services Related to Advertising > Other Services Related to Advertising",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Advertising, Public Relations, and Related Services",
+    "naicsIndustry": "Other Services Related to Advertising",
+    "nationalIndustry": "Other Services Related to Advertising"
+  },
+  {
+    "code": "541990",
+    "label": "Professional, Scientific, and Technical Services > Professional, Scientific, and Technical Services > Other Professional, Scientific, and Technical Services > All Other Professional, Scientific, and Technical Services > All Other Professional, Scientific, and Technical Services",
+    "sector": "Professional, Scientific, and Technical Services",
+    "subsector": "Professional, Scientific, and Technical Services",
+    "industry": "Other Professional, Scientific, and Technical Services",
+    "naicsIndustry": "All Other Professional, Scientific, and Technical Services",
+    "nationalIndustry": "All Other Professional, Scientific, and Technical Services"
+  },
+  {
+    "code": "551114",
+    "label": "Management of Companies and Enterprises > Management of Companies and Enterprises > Management of Companies and Enterprises > Management of Companies and Enterprises > Corporate, Subsidiary, and Regional Managing Offices",
+    "sector": "Management of Companies and Enterprises",
+    "subsector": "Management of Companies and Enterprises",
+    "industry": "Management of Companies and Enterprises",
+    "naicsIndustry": "Management of Companies and Enterprises",
+    "nationalIndustry": "Corporate, Subsidiary, and Regional Managing Offices"
+  },
+  {
+    "code": "561110",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Office Administrative Services > Office Administrative Services > Office Administrative Services",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Office Administrative Services",
+    "naicsIndustry": "Office Administrative Services",
+    "nationalIndustry": "Office Administrative Services"
+  },
+  {
+    "code": "561210",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Facilities Support Services > Facilities Support Services > Facilities Support Services",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Facilities Support Services",
+    "naicsIndustry": "Facilities Support Services",
+    "nationalIndustry": "Facilities Support Services"
+  },
+  {
+    "code": "561330",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Employment Services > Professional Employer Organizations > Professional Employer Organizations",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Employment Services",
+    "naicsIndustry": "Professional Employer Organizations",
+    "nationalIndustry": "Professional Employer Organizations"
+  },
+  {
+    "code": "561499",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Business Support Services > Other Business Support Services > All Other Business Support Services",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Business Support Services",
+    "naicsIndustry": "Other Business Support Services",
+    "nationalIndustry": "All Other Business Support Services"
+  },
+  {
+    "code": "561599",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Travel Arrangement and Reservation Services > Other Travel Arrangement and Reservation Services > All Other Travel Arrangement and Reservation Services",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Travel Arrangement and Reservation Services",
+    "naicsIndustry": "Other Travel Arrangement and Reservation Services",
+    "nationalIndustry": "All Other Travel Arrangement and Reservation Services"
+  },
+  {
+    "code": "561622",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Investigation and Security Services > Security Systems Services > Locksmiths",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Investigation and Security Services",
+    "naicsIndustry": "Security Systems Services",
+    "nationalIndustry": "Locksmiths"
+  },
+  {
+    "code": "561790",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Services to Buildings and Dwellings > Other Services to Buildings and Dwellings > Other Services to Buildings and Dwellings",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Services to Buildings and Dwellings",
+    "naicsIndustry": "Other Services to Buildings and Dwellings",
+    "nationalIndustry": "Other Services to Buildings and Dwellings"
+  },
+  {
+    "code": "561990",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Administrative and Support Services > Other Support Services > All Other Support Services > All Other Support Services",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Administrative and Support Services",
+    "industry": "Other Support Services",
+    "naicsIndustry": "All Other Support Services",
+    "nationalIndustry": "All Other Support Services"
+  },
+  {
+    "code": "562119",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Waste Management and Remediation Services > Waste Collection > Waste Collection > Other Waste Collection",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Waste Management and Remediation Services",
+    "industry": "Waste Collection",
+    "naicsIndustry": "Waste Collection",
+    "nationalIndustry": "Other Waste Collection"
+  },
+  {
+    "code": "562219",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Waste Management and Remediation Services > Waste Treatment and Disposal > Waste Treatment and Disposal > Other Nonhazardous Waste Treatment and Disposal",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Waste Management and Remediation Services",
+    "industry": "Waste Treatment and Disposal",
+    "naicsIndustry": "Waste Treatment and Disposal",
+    "nationalIndustry": "Other Nonhazardous Waste Treatment and Disposal"
+  },
+  {
+    "code": "562998",
+    "label": "Administrative and Support and Waste Management and Remediation Services > Waste Management and Remediation Services > Remediation and Other Waste Management Services > All Other Waste Management Services > All Other Miscellaneous Waste Management Services",
+    "sector": "Administrative and Support and Waste Management and Remediation Services",
+    "subsector": "Waste Management and Remediation Services",
+    "industry": "Remediation and Other Waste Management Services",
+    "naicsIndustry": "All Other Waste Management Services",
+    "nationalIndustry": "All Other Miscellaneous Waste Management Services"
+  },
+  {
+    "code": "611110",
+    "label": "Educational Services > Educational Services > Elementary and Secondary Schools > Elementary and Secondary Schools > Elementary and Secondary Schools",
+    "sector": "Educational Services",
+    "subsector": "Educational Services",
+    "industry": "Elementary and Secondary Schools",
+    "naicsIndustry": "Elementary and Secondary Schools",
+    "nationalIndustry": "Elementary and Secondary Schools"
+  },
+  {
+    "code": "611210",
+    "label": "Educational Services > Educational Services > Junior Colleges > Junior Colleges > Junior Colleges",
+    "sector": "Educational Services",
+    "subsector": "Educational Services",
+    "industry": "Junior Colleges",
+    "naicsIndustry": "Junior Colleges",
+    "nationalIndustry": "Junior Colleges"
+  },
+  {
+    "code": "611310",
+    "label": "Educational Services > Educational Services > Colleges, Universities, and Professional Schools > Colleges, Universities, and Professional Schools > Colleges, Universities, and Professional Schools",
+    "sector": "Educational Services",
+    "subsector": "Educational Services",
+    "industry": "Colleges, Universities, and Professional Schools",
+    "naicsIndustry": "Colleges, Universities, and Professional Schools",
+    "nationalIndustry": "Colleges, Universities, and Professional Schools"
+  },
+  {
+    "code": "611430",
+    "label": "Educational Services > Educational Services > Business Schools and Computer and Management Training > Professional and Management Development Training > Professional and Management Development Training",
+    "sector": "Educational Services",
+    "subsector": "Educational Services",
+    "industry": "Business Schools and Computer and Management Training",
+    "naicsIndustry": "Professional and Management Development Training",
+    "nationalIndustry": "Professional and Management Development Training"
+  },
+  {
+    "code": "611519",
+    "label": "Educational Services > Educational Services > Technical and Trade Schools > Technical and Trade Schools > Other Technical and Trade Schools",
+    "sector": "Educational Services",
+    "subsector": "Educational Services",
+    "industry": "Technical and Trade Schools",
+    "naicsIndustry": "Technical and Trade Schools",
+    "nationalIndustry": "Other Technical and Trade Schools"
+  },
+  {
+    "code": "611699",
+    "label": "Educational Services > Educational Services > Other Schools and Instruction > All Other Schools and Instruction > All Other Miscellaneous Schools and Instruction",
+    "sector": "Educational Services",
+    "subsector": "Educational Services",
+    "industry": "Other Schools and Instruction",
+    "naicsIndustry": "All Other Schools and Instruction",
+    "nationalIndustry": "All Other Miscellaneous Schools and Instruction"
+  },
+  {
+    "code": "611710",
+    "label": "Educational Services > Educational Services > Educational Support Services > Educational Support Services > Educational Support Services",
+    "sector": "Educational Services",
+    "subsector": "Educational Services",
+    "industry": "Educational Support Services",
+    "naicsIndustry": "Educational Support Services",
+    "nationalIndustry": "Educational Support Services"
+  },
+  {
+    "code": "621112",
+    "label": "Health Care and Social Assistance > Ambulatory Health Care Services > Offices of Physicians > Offices of Physicians > Offices of Physicians, Mental Health Specialists",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Ambulatory Health Care Services",
+    "industry": "Offices of Physicians",
+    "naicsIndustry": "Offices of Physicians",
+    "nationalIndustry": "Offices of Physicians, Mental Health Specialists"
+  },
+  {
+    "code": "621210",
+    "label": "Health Care and Social Assistance > Ambulatory Health Care Services > Offices of Dentists > Offices of Dentists > Offices of Dentists",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Ambulatory Health Care Services",
+    "industry": "Offices of Dentists",
+    "naicsIndustry": "Offices of Dentists",
+    "nationalIndustry": "Offices of Dentists"
+  },
+  {
+    "code": "621399",
+    "label": "Health Care and Social Assistance > Ambulatory Health Care Services > Offices of Other Health Practitioners > Offices of All Other Health Practitioners > Offices of All Other Miscellaneous Health Practitioners",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Ambulatory Health Care Services",
+    "industry": "Offices of Other Health Practitioners",
+    "naicsIndustry": "Offices of All Other Health Practitioners",
+    "nationalIndustry": "Offices of All Other Miscellaneous Health Practitioners"
+  },
+  {
+    "code": "621498",
+    "label": "Health Care and Social Assistance > Ambulatory Health Care Services > Outpatient Care Centers > Other Outpatient Care Centers > All Other Outpatient Care Centers",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Ambulatory Health Care Services",
+    "industry": "Outpatient Care Centers",
+    "naicsIndustry": "Other Outpatient Care Centers",
+    "nationalIndustry": "All Other Outpatient Care Centers"
+  },
+  {
+    "code": "621512",
+    "label": "Health Care and Social Assistance > Ambulatory Health Care Services > Medical and Diagnostic Laboratories > Medical and Diagnostic Laboratories > Diagnostic Imaging Centers",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Ambulatory Health Care Services",
+    "industry": "Medical and Diagnostic Laboratories",
+    "naicsIndustry": "Medical and Diagnostic Laboratories",
+    "nationalIndustry": "Diagnostic Imaging Centers"
+  },
+  {
+    "code": "621610",
+    "label": "Health Care and Social Assistance > Ambulatory Health Care Services > Home Health Care Services > Home Health Care Services > Home Health Care Services",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Ambulatory Health Care Services",
+    "industry": "Home Health Care Services",
+    "naicsIndustry": "Home Health Care Services",
+    "nationalIndustry": "Home Health Care Services"
+  },
+  {
+    "code": "621999",
+    "label": "Health Care and Social Assistance > Ambulatory Health Care Services > Other Ambulatory Health Care Services > All Other Ambulatory Health Care Services > All Other Miscellaneous Ambulatory Health Care Services",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Ambulatory Health Care Services",
+    "industry": "Other Ambulatory Health Care Services",
+    "naicsIndustry": "All Other Ambulatory Health Care Services",
+    "nationalIndustry": "All Other Miscellaneous Ambulatory Health Care Services"
+  },
+  {
+    "code": "622110",
+    "label": "Health Care and Social Assistance > Hospitals > General Medical and Surgical Hospitals > General Medical and Surgical Hospitals > General Medical and Surgical Hospitals",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Hospitals",
+    "industry": "General Medical and Surgical Hospitals",
+    "naicsIndustry": "General Medical and Surgical Hospitals",
+    "nationalIndustry": "General Medical and Surgical Hospitals"
+  },
+  {
+    "code": "622210",
+    "label": "Health Care and Social Assistance > Hospitals > Psychiatric and Substance Abuse Hospitals > Psychiatric and Substance Abuse Hospitals > Psychiatric and Substance Abuse Hospitals",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Hospitals",
+    "industry": "Psychiatric and Substance Abuse Hospitals",
+    "naicsIndustry": "Psychiatric and Substance Abuse Hospitals",
+    "nationalIndustry": "Psychiatric and Substance Abuse Hospitals"
+  },
+  {
+    "code": "622310",
+    "label": "Health Care and Social Assistance > Hospitals > Specialty (except Psychiatric and Substance Abuse) Hospitals > Specialty (except Psychiatric and Substance Abuse) Hospitals > Specialty (except Psychiatric and Substance Abuse) Hospitals",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Hospitals",
+    "industry": "Specialty (except Psychiatric and Substance Abuse) Hospitals",
+    "naicsIndustry": "Specialty (except Psychiatric and Substance Abuse) Hospitals",
+    "nationalIndustry": "Specialty (except Psychiatric and Substance Abuse) Hospitals"
+  },
+  {
+    "code": "623110",
+    "label": "Health Care and Social Assistance > Nursing and Residential Care Facilities > Nursing Care Facilities (Skilled Nursing Facilities) > Nursing Care Facilities (Skilled Nursing Facilities) > Nursing Care Facilities (Skilled Nursing Facilities)",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Nursing and Residential Care Facilities",
+    "industry": "Nursing Care Facilities (Skilled Nursing Facilities)",
+    "naicsIndustry": "Nursing Care Facilities (Skilled Nursing Facilities)",
+    "nationalIndustry": "Nursing Care Facilities (Skilled Nursing Facilities)"
+  },
+  {
+    "code": "623220",
+    "label": "Health Care and Social Assistance > Nursing and Residential Care Facilities > Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities > Residential Mental Health and Substance Abuse Facilities > Residential Mental Health and Substance Abuse Facilities",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Nursing and Residential Care Facilities",
+    "industry": "Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities",
+    "naicsIndustry": "Residential Mental Health and Substance Abuse Facilities",
+    "nationalIndustry": "Residential Mental Health and Substance Abuse Facilities"
+  },
+  {
+    "code": "623312",
+    "label": "Health Care and Social Assistance > Nursing and Residential Care Facilities > Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly > Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly > Assisted Living Facilities for the Elderly",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Nursing and Residential Care Facilities",
+    "industry": "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly",
+    "naicsIndustry": "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly",
+    "nationalIndustry": "Assisted Living Facilities for the Elderly"
+  },
+  {
+    "code": "623990",
+    "label": "Health Care and Social Assistance > Nursing and Residential Care Facilities > Other Residential Care Facilities > Other Residential Care Facilities > Other Residential Care Facilities",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Nursing and Residential Care Facilities",
+    "industry": "Other Residential Care Facilities",
+    "naicsIndustry": "Other Residential Care Facilities",
+    "nationalIndustry": "Other Residential Care Facilities"
+  },
+  {
+    "code": "624190",
+    "label": "Health Care and Social Assistance > Social Assistance > Individual and Family Services > Other Individual and Family Services > Other Individual and Family Services",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Social Assistance",
+    "industry": "Individual and Family Services",
+    "naicsIndustry": "Other Individual and Family Services",
+    "nationalIndustry": "Other Individual and Family Services"
+  },
+  {
+    "code": "624230",
+    "label": "Health Care and Social Assistance > Social Assistance > Community Food and Housing, and Emergency and Other Relief Services > Emergency and Other Relief Services > Emergency and Other Relief Services",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Social Assistance",
+    "industry": "Community Food and Housing, and Emergency and Other Relief Services",
+    "naicsIndustry": "Emergency and Other Relief Services",
+    "nationalIndustry": "Emergency and Other Relief Services"
+  },
+  {
+    "code": "624310",
+    "label": "Health Care and Social Assistance > Social Assistance > Vocational Rehabilitation Services > Vocational Rehabilitation Services > Vocational Rehabilitation Services",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Social Assistance",
+    "industry": "Vocational Rehabilitation Services",
+    "naicsIndustry": "Vocational Rehabilitation Services",
+    "nationalIndustry": "Vocational Rehabilitation Services"
+  },
+  {
+    "code": "624410",
+    "label": "Health Care and Social Assistance > Social Assistance > Child Care Services  () > Child Care Services  () > Child Care Services()",
+    "sector": "Health Care and Social Assistance",
+    "subsector": "Social Assistance",
+    "industry": "Child Care Services  ()",
+    "naicsIndustry": "Child Care Services  ()",
+    "nationalIndustry": "Child Care Services()"
+  },
+  {
+    "code": "711190",
+    "label": "Arts, Entertainment, and Recreation > Performing Arts, Spectator Sports, and Related Industries > Performing Arts Companies > Other Performing Arts Companies > Other Performing Arts Companies",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Performing Arts, Spectator Sports, and Related Industries",
+    "industry": "Performing Arts Companies",
+    "naicsIndustry": "Other Performing Arts Companies",
+    "nationalIndustry": "Other Performing Arts Companies"
+  },
+  {
+    "code": "711219",
+    "label": "Arts, Entertainment, and Recreation > Performing Arts, Spectator Sports, and Related Industries > Spectator Sports > Spectator Sports > Other Spectator Sports",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Performing Arts, Spectator Sports, and Related Industries",
+    "industry": "Spectator Sports",
+    "naicsIndustry": "Spectator Sports",
+    "nationalIndustry": "Other Spectator Sports"
+  },
+  {
+    "code": "711320",
+    "label": "Arts, Entertainment, and Recreation > Performing Arts, Spectator Sports, and Related Industries > Promoters of Performing Arts, Sports, and Similar Events > Promoters of Performing Arts, Sports, and Similar Events without Facilities > Promoters of Performing Arts, Sports, and Similar Events without Facilities",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Performing Arts, Spectator Sports, and Related Industries",
+    "industry": "Promoters of Performing Arts, Sports, and Similar Events",
+    "naicsIndustry": "Promoters of Performing Arts, Sports, and Similar Events without Facilities",
+    "nationalIndustry": "Promoters of Performing Arts, Sports, and Similar Events without Facilities"
+  },
+  {
+    "code": "711410",
+    "label": "Arts, Entertainment, and Recreation > Performing Arts, Spectator Sports, and Related Industries > Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures > Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures > Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Performing Arts, Spectator Sports, and Related Industries",
+    "industry": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",
+    "naicsIndustry": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",
+    "nationalIndustry": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures"
+  },
+  {
+    "code": "711510",
+    "label": "Arts, Entertainment, and Recreation > Performing Arts, Spectator Sports, and Related Industries > Independent Artists, Writers, and Performers > Independent Artists, Writers, and Performers > Independent Artists, Writers, and Performers",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Performing Arts, Spectator Sports, and Related Industries",
+    "industry": "Independent Artists, Writers, and Performers",
+    "naicsIndustry": "Independent Artists, Writers, and Performers",
+    "nationalIndustry": "Independent Artists, Writers, and Performers"
+  },
+  {
+    "code": "712190",
+    "label": "Arts, Entertainment, and Recreation > Museums, Historical Sites, and Similar Institutions > Museums, Historical Sites, and Similar Institutions > Nature Parks and Other Similar Institutions > Nature Parks and Other Similar Institutions",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Museums, Historical Sites, and Similar Institutions",
+    "industry": "Museums, Historical Sites, and Similar Institutions",
+    "naicsIndustry": "Nature Parks and Other Similar Institutions",
+    "nationalIndustry": "Nature Parks and Other Similar Institutions"
+  },
+  {
+    "code": "713120",
+    "label": "Arts, Entertainment, and Recreation > Amusement, Gambling, and Recreation Industries > Amusement Parks and Arcades > Amusement Arcades > Amusement Arcades",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Amusement, Gambling, and Recreation Industries",
+    "industry": "Amusement Parks and Arcades",
+    "naicsIndustry": "Amusement Arcades",
+    "nationalIndustry": "Amusement Arcades"
+  },
+  {
+    "code": "713290",
+    "label": "Arts, Entertainment, and Recreation > Amusement, Gambling, and Recreation Industries > Gambling Industries > Other Gambling Industries > Other Gambling Industries",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Amusement, Gambling, and Recreation Industries",
+    "industry": "Gambling Industries",
+    "naicsIndustry": "Other Gambling Industries",
+    "nationalIndustry": "Other Gambling Industries"
+  },
+  {
+    "code": "713990",
+    "label": "Arts, Entertainment, and Recreation > Amusement, Gambling, and Recreation Industries > Other Amusement and Recreation Industries > All Other Amusement and Recreation Industries > All Other Amusement and Recreation Industries",
+    "sector": "Arts, Entertainment, and Recreation",
+    "subsector": "Amusement, Gambling, and Recreation Industries",
+    "industry": "Other Amusement and Recreation Industries",
+    "naicsIndustry": "All Other Amusement and Recreation Industries",
+    "nationalIndustry": "All Other Amusement and Recreation Industries"
+  },
+  {
+    "code": "721199",
+    "label": "Accommodation and Food Services > Accommodation > Traveler Accommodation > Other Traveler Accommodation > All Other Traveler Accommodation",
+    "sector": "Accommodation and Food Services",
+    "subsector": "Accommodation",
+    "industry": "Traveler Accommodation",
+    "naicsIndustry": "Other Traveler Accommodation",
+    "nationalIndustry": "All Other Traveler Accommodation"
+  },
+  {
+    "code": "721214",
+    "label": "Accommodation and Food Services > Accommodation > RV (Recreational Vehicle) Parks and Recreational Camps > RV (Recreational Vehicle) Parks and Recreational Camps > Recreational and Vacation Camps (except Campgrounds)",
+    "sector": "Accommodation and Food Services",
+    "subsector": "Accommodation",
+    "industry": "RV (Recreational Vehicle) Parks and Recreational Camps",
+    "naicsIndustry": "RV (Recreational Vehicle) Parks and Recreational Camps",
+    "nationalIndustry": "Recreational and Vacation Camps (except Campgrounds)"
+  },
+  {
+    "code": "721310",
+    "label": "Accommodation and Food Services > Accommodation > Rooming and Boarding Houses, Dormitories, and Workers' Camps > Rooming and Boarding Houses, Dormitories, and Workers' Camps > Rooming and Boarding Houses, Dormitories, and Workers' Camps",
+    "sector": "Accommodation and Food Services",
+    "subsector": "Accommodation",
+    "industry": "Rooming and Boarding Houses, Dormitories, and Workers' Camps",
+    "naicsIndustry": "Rooming and Boarding Houses, Dormitories, and Workers' Camps",
+    "nationalIndustry": "Rooming and Boarding Houses, Dormitories, and Workers' Camps"
+  },
+  {
+    "code": "722330",
+    "label": "Accommodation and Food Services > Food Services and Drinking Places > Special Food Services > Mobile Food Services > Mobile Food Services",
+    "sector": "Accommodation and Food Services",
+    "subsector": "Food Services and Drinking Places",
+    "industry": "Special Food Services",
+    "naicsIndustry": "Mobile Food Services",
+    "nationalIndustry": "Mobile Food Services"
+  },
+  {
+    "code": "722410",
+    "label": "Accommodation and Food Services > Food Services and Drinking Places > Drinking Places (Alcoholic Beverages) > Drinking Places (Alcoholic Beverages) > Drinking Places (Alcoholic Beverages)",
+    "sector": "Accommodation and Food Services",
+    "subsector": "Food Services and Drinking Places",
+    "industry": "Drinking Places (Alcoholic Beverages)",
+    "naicsIndustry": "Drinking Places (Alcoholic Beverages)",
+    "nationalIndustry": "Drinking Places (Alcoholic Beverages)"
+  },
+  {
+    "code": "722515",
+    "label": "Accommodation and Food Services > Food Services and Drinking Places > Restaurants and Other Eating Places > Restaurants and Other Eating Places > Snack and Nonalcoholic Beverage Bars",
+    "sector": "Accommodation and Food Services",
+    "subsector": "Food Services and Drinking Places",
+    "industry": "Restaurants and Other Eating Places",
+    "naicsIndustry": "Restaurants and Other Eating Places",
+    "nationalIndustry": "Snack and Nonalcoholic Beverage Bars"
+  }
+]

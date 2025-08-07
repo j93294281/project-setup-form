@@ -1,0 +1,1211 @@
+import React from 'react';
+import { MultiStageFormData, TechStack, BackendAPI, StateManagement, HeadlessCMS, SearchPlatforms, PackageManagement, BuildBundling, MobileDesktop } from '../../types/FormTypes';
+
+interface Props {
+  formData: MultiStageFormData;
+  updateFormData: <K extends keyof MultiStageFormData>(
+    section: K,
+    data: Partial<MultiStageFormData[K]>
+  ) => void;
+  nextPage: () => void;
+  previousPage: () => void;
+  skipPage: () => void;
+  goToPage: (pageNumber: number) => void;
+}
+
+// Helper to remove AI value if user selects a non-AI value
+function removeAIDecision(current: string[] = []) {
+  return current.filter(v => v !== 'Let the AI decide');
+}
+
+export default function TechStackCombinedPage({ formData, updateFormData, skipPage, goToPage }: Props) {
+  const techData = formData.techStack;
+  const backendData = formData.backendAPI;
+  const stateData = formData.stateManagement;
+  const cmsData = formData.headlessCMS;
+  const searchData = formData.searchPlatforms;
+  const packageData = formData.packageManagement;
+  const buildData = formData.buildBundling;
+  const mobileDesktopData = formData.mobileDesktop;
+
+  const handleTechInputChange = (field: keyof TechStack, value: string | string[]) => {
+    updateFormData('techStack', { [field]: value });
+  };
+
+  const handleTechCheckboxChange = (field: keyof TechStack, value: string, checked: boolean) => {
+    const currentValues = (techData[field] as string[]) || [];
+    if (checked) {
+      // Remove 'Let the AI decide' if user selects a non-AI option
+      const filteredValues = currentValues.filter(v => v !== 'Let the AI decide');
+      handleTechInputChange(field, [...filteredValues, value]);
+    } else {
+      handleTechInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  const handleBackendInputChange = (field: keyof BackendAPI, value: string | string[]) => {
+    updateFormData('backendAPI', { [field]: value });
+  };
+
+  const handleBackendCheckboxChange = (field: keyof BackendAPI, value: string, checked: boolean) => {
+    const currentValues = (backendData[field] as string[]) || [];
+    if (checked) {
+      // Remove 'Let the AI decide' if user selects a non-AI option
+      const filteredValues = currentValues.filter(v => v !== 'Let the AI decide');
+      handleBackendInputChange(field, [...filteredValues, value]);
+    } else {
+      handleBackendInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  const handleStateInputChange = (field: keyof StateManagement, value: string | string[]) => {
+    updateFormData('stateManagement', { [field]: value });
+  };
+
+  const handleStateCheckboxChange = (field: keyof StateManagement, value: string, checked: boolean) => {
+    const currentValues = (stateData[field] as string[]) || [];
+    if (checked) {
+      // Remove 'Let the AI decide' if user selects a non-AI option
+      const filteredValues = currentValues.filter(v => v !== 'Let the AI decide');
+      handleStateInputChange(field, [...filteredValues, value]);
+    } else {
+      handleStateInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  const handleCMSInputChange = (field: keyof HeadlessCMS, value: string | string[]) => {
+    updateFormData('headlessCMS', { [field]: value });
+  };
+
+  const handleSearchInputChange = (field: keyof SearchPlatforms, value: string | string[]) => {
+    updateFormData('searchPlatforms', { [field]: value });
+  };
+
+  const handleSearchCheckboxChange = (field: keyof SearchPlatforms, value: string, checked: boolean) => {
+    const currentValues = (searchData[field] as string[]) || [];
+    if (checked) {
+      // Remove 'Let the AI decide' if user selects a non-AI option
+      const filteredValues = currentValues.filter(v => v !== 'Let the AI decide');
+      handleSearchInputChange(field, [...filteredValues, value]);
+    } else {
+      handleSearchInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  const handlePackageInputChange = (field: keyof PackageManagement, value: string | string[]) => {
+    updateFormData('packageManagement', { [field]: value });
+  };
+
+  const handlePackageCheckboxChange = (field: keyof PackageManagement, value: string, checked: boolean) => {
+    const currentValues = (packageData[field] as string[]) || [];
+    if (checked) {
+      // Remove 'Let the AI decide' if user selects a non-AI option
+      const filteredValues = currentValues.filter(v => v !== 'Let the AI decide');
+      handlePackageInputChange(field, [...filteredValues, value]);
+    } else {
+      handlePackageInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  const handleBuildInputChange = (field: keyof BuildBundling, value: string | string[]) => {
+    updateFormData('buildBundling', { [field]: value });
+  };
+
+  const handleBuildCheckboxChange = (field: keyof BuildBundling, value: string, checked: boolean) => {
+    const currentValues = (buildData[field] as string[]) || [];
+    if (checked) {
+      // Remove 'Let the AI decide' if user selects a non-AI option
+      const filteredValues = currentValues.filter(v => v !== 'Let the AI decide');
+      handleBuildInputChange(field, [...filteredValues, value]);
+    } else {
+      handleBuildInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  const handleMobileDesktopInputChange = (field: keyof MobileDesktop, value: string | string[]) => {
+    updateFormData('mobileDesktop', { [field]: value });
+  };
+
+  const handleMobileDesktopCheckboxChange = (field: keyof MobileDesktop, value: string, checked: boolean) => {
+    const currentValues = (mobileDesktopData[field] as string[]) || [];
+    if (checked) {
+      // Remove 'Let the AI decide' if user selects a non-AI option
+      const filteredValues = currentValues.filter(v => v !== 'Let the AI decide');
+      handleMobileDesktopInputChange(field, [...filteredValues, value]);
+    } else {
+      handleMobileDesktopInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  // AI Decision handlers for each section
+  const handleAITechCheckboxChange = (field: keyof TechStack, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handleTechInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handleTechInputChange(field, []);
+    }
+  };
+
+  const handleAIBackendCheckboxChange = (field: keyof BackendAPI, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handleBackendInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handleBackendInputChange(field, []);
+    }
+  };
+
+  const handleAIStateCheckboxChange = (field: keyof StateManagement, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handleStateInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handleStateInputChange(field, []);
+    }
+  };
+
+  const handleAICMSCheckboxChange = (field: keyof HeadlessCMS, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handleCMSInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handleCMSInputChange(field, []);
+    }
+  };
+
+  const handleAISearchCheckboxChange = (field: keyof SearchPlatforms, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handleSearchInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handleSearchInputChange(field, []);
+    }
+  };
+
+  const handleAIPackageCheckboxChange = (field: keyof PackageManagement, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handlePackageInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handlePackageInputChange(field, []);
+    }
+  };
+
+  const handleAIBuildCheckboxChange = (field: keyof BuildBundling, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handleBuildInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handleBuildInputChange(field, []);
+    }
+  };
+
+  const handleAIMobileDesktopCheckboxChange = (field: keyof MobileDesktop, value: string, checked: boolean) => {
+    if (checked) {
+      // When "Let the AI decide" is checked, clear all other selections and only keep "Let the AI decide"
+      handleMobileDesktopInputChange(field, ['Let the AI decide']);
+    } else {
+      // When unchecked, clear the "Let the AI decide" option
+      handleMobileDesktopInputChange(field, []);
+    }
+  };
+
+  // Programming Languages
+  const programmingLanguages = [
+    'C#',
+    'Elixir',
+    'Go (Golang)',
+    'Java',
+    'JavaScript (JS)',
+    'Kotlin',
+    'PHP',
+    'Python',
+    'Ruby',
+    'Rust',
+    'TypeScript (TS)'
+  ];
+
+  // JavaScript Runtimes
+  const jsRuntimes = [
+    'Bun',
+    'Deno',
+    'Node.js'
+  ];
+
+  // Full-Stack & Meta-Frameworks
+  const fullStackFrameworks = [
+    'Astro',
+    'Next.js',
+    'Nuxt',
+    'Remix',
+    'SolidStart',
+    'SvelteKit'
+  ];
+
+  // Frontend Frameworks
+  const frontendFrameworks = [
+    'Angular',
+    'Preact',
+    'React',
+    'SolidJS',
+    'Svelte',
+    'Vue.js'
+  ];
+
+  // Backend Frameworks
+  const backendFrameworks = [
+    'ASP.NET Core',
+    'Django',
+    'Express.js',
+    'FastAPI',
+    'Fastify',
+    'Flask',
+    'Laravel',
+    'NestJS',
+    'Phoenix',
+    'Ruby on Rails',
+    'Spring Boot',
+    'Other Go (Gin, Fiber, Echo)'
+  ];
+
+  // API Styles
+  const apiStyles = [
+    'GraphQL',
+    'gRPC',
+    'REST',
+    'Server-Sent Events (SSE)',
+    'WebSockets / Webhooks'
+  ];
+
+  // State & Data Fetching Libraries
+  const stateLibraries = [
+    'Apollo Client',
+    'Axios / Fetch API',
+    'Context API (React)',
+    'MobX / Recoil / XState',
+    'Redux / RTK Query',
+    'TanStack Query (React Query) / SWR',
+    'Zustand / Jotai / Valtio'
+  ];
+
+  // Build & Compilation Tools
+  const buildTools = [
+    'Babel',
+    'esbuild',
+    'Parcel',
+    'Rollup',
+    'SWC',
+    'Turbopack',
+    'TypeScript Compiler',
+    'Vite',
+    'Webpack'
+  ];
+
+  // Package Managers
+  const packageManagers = [
+    'Cargo (Rust)',
+    'Composer (PHP)',
+    'Go Modules',
+    'Maven / Gradle (Java)',
+    'npm',
+    'NuGet (.NET)',
+    'pip (Python)',
+    'pnpm',
+    'RubyGems',
+    'Yarn'
+  ];
+
+  // Mobile & Desktop Frameworks
+  const mobileDesktopFrameworks = [
+    'Capacitor / Ionic',
+    'Electron',
+    'Flutter',
+    'Progressive Web App (PWA)',
+    'React Native',
+    'Tauri'
+  ];
+
+  // Headless CMS
+  const headlessCMS = [
+    'Contentful',
+    'Sanity.io',
+    'Storyblok',
+    'Strapi'
+  ];
+
+  // Search Platforms
+  const searchPlatforms = [
+    'Algolia',
+    'Meilisearch',
+    'Typesense'
+  ];
+
+  return (
+    <div className="space-y-8">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Web Stack</h2>
+        <p className="text-gray-600">Please choose your preferred languages and frameworks.</p>
+      </div>
+
+      {/* Blue info box with Skip Section button */}
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex flex-col space-y-3">
+        <span className="text-blue-700 text-sm">This section is optional. If it does not apply, you can continue to the next one.</span>
+        <button
+          onClick={skipPage}
+          className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors w-full"
+        >
+          Skip Section
+        </button>
+        <div className="h-2"></div>
+        <button
+          onClick={() => goToPage(16)}
+          className="px-4 py-2 bg-green-100 text-green-700 border border-green-300 rounded-md hover:bg-green-200 transition-colors w-full"
+        >
+          Skip to Review & Submit Page
+        </button>
+      </div>
+
+      {/* Languages & Runtimes */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Languages & Runtimes</h3>
+        <p className="text-gray-600 mb-4">This section covers the core programming languages and server-side JavaScript runtimes you use.</p>
+        
+        {/* Programming Languages */}
+        <div className="mb-6">
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Programming Languages</h4>
+          <p className="text-sm text-gray-600 mb-3">Choose the ones you are comfortable with</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.programmingLanguages || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAITechCheckboxChange('programmingLanguages', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleTechInputChange('programmingLanguages', [...programmingLanguages])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleTechInputChange('programmingLanguages', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {programmingLanguages.map((language) => (
+              <label key={language} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.programmingLanguages || []).includes(language)}
+                  onChange={(e) => handleTechCheckboxChange('programmingLanguages', language, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{language}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Default Language
+            </label>
+            <select
+              value={techData.defaultProgrammingLanguage || ''}
+              onChange={(e) => handleTechInputChange('defaultProgrammingLanguage', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Select your favorite programming language</option>
+              {programmingLanguages.map((language) => (
+                <option key={language} value={language}>{language}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {/* Visual Divider */}
+        <hr className="my-6 border-gray-200" />
+
+        {/* JavaScript Runtimes */}
+        <div>
+          <h4 className="text-md font-semibold text-blue-600 mb-3">JavaScript Runtimes</h4>
+          <p className="text-sm text-gray-600 mb-3">Choose the ones you are comfortable with</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.jsRuntimes || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAITechCheckboxChange('jsRuntimes', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleTechInputChange('jsRuntimes', [...jsRuntimes])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleTechInputChange('jsRuntimes', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {jsRuntimes.map((runtime) => (
+              <label key={runtime} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.jsRuntimes || []).includes(runtime)}
+                  onChange={(e) => handleTechCheckboxChange('jsRuntimes', runtime, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{runtime}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Runtime
+            </label>
+            <select
+              value={techData.defaultJSRuntime || ''}
+              onChange={(e) => handleTechInputChange('defaultJSRuntime', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred JavaScript runtime</option>
+              {jsRuntimes.map((runtime) => (
+                <option key={runtime} value={runtime}>{runtime}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Frameworks */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Frameworks</h3>
+        <p className="text-gray-600 mb-4">Select the frameworks you're experienced with, grouped by their primary use case.</p>
+        
+        {/* Full-Stack & Meta-Frameworks */}
+        <div className="mb-6">
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Full-Stack & Meta-Frameworks</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.fullStackFrameworks || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAITechCheckboxChange('fullStackFrameworks', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleTechInputChange('fullStackFrameworks', [...fullStackFrameworks])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleTechInputChange('fullStackFrameworks', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {fullStackFrameworks.map((framework) => (
+              <label key={framework} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.fullStackFrameworks || []).includes(framework)}
+                  onChange={(e) => handleTechCheckboxChange('fullStackFrameworks', framework, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{framework}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Full-Stack Framework
+            </label>
+            <select
+              value={techData.defaultFullStackFramework || ''}
+              onChange={(e) => handleTechInputChange('defaultFullStackFramework', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred full-stack framework</option>
+              {fullStackFrameworks.map((framework) => (
+                <option key={framework} value={framework}>{framework}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {/* Visual Divider */}
+        <hr className="my-6 border-gray-200" />
+
+        {/* Frontend Frameworks */}
+        <div className="mb-6">
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Frontend Frameworks</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.frontendFrameworks || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAITechCheckboxChange('frontendFrameworks', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleTechInputChange('frontendFrameworks', [...frontendFrameworks])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleTechInputChange('frontendFrameworks', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {frontendFrameworks.map((framework) => (
+              <label key={framework} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(techData.frontendFrameworks || []).includes(framework)}
+                  onChange={(e) => handleTechCheckboxChange('frontendFrameworks', framework, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{framework}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Frontend Framework
+            </label>
+            <select
+              value={techData.defaultFrontendFramework || ''}
+              onChange={(e) => handleTechInputChange('defaultFrontendFramework', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred frontend framework</option>
+              {frontendFrameworks.map((framework) => (
+                <option key={framework} value={framework}>{framework}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {/* Visual Divider */}
+        <hr className="my-6 border-gray-200" />
+
+        {/* Backend Frameworks */}
+        <div>
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Backend Frameworks</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(backendData.backendFrameworks || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAIBackendCheckboxChange('backendFrameworks', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleBackendInputChange('backendFrameworks', [...backendFrameworks])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleBackendInputChange('backendFrameworks', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {backendFrameworks.map((framework) => (
+              <label key={framework} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(backendData.backendFrameworks || []).includes(framework)}
+                  onChange={(e) => handleBackendCheckboxChange('backendFrameworks', framework, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{framework}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Backend Framework
+            </label>
+            <select
+              value={backendData.defaultBackendFramework || ''}
+              onChange={(e) => handleBackendInputChange('defaultBackendFramework', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred backend framework</option>
+              {backendFrameworks.map((framework) => (
+                <option key={framework} value={framework}>{framework}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* APIs & Data Management */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">APIs & Data Management</h3>
+        <p className="text-gray-600 mb-4">Specify your preferred methods for designing APIs and managing application data.</p>
+        
+        {/* API Styles */}
+        <div className="mb-6">
+          <h4 className="text-md font-semibold text-blue-600 mb-3">API Styles</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(backendData.apiStyles || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAIBackendCheckboxChange('apiStyles', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleBackendInputChange('apiStyles', [...apiStyles])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleBackendInputChange('apiStyles', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {apiStyles.map((style) => (
+              <label key={style} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(backendData.apiStyles || []).includes(style)}
+                  onChange={(e) => handleBackendCheckboxChange('apiStyles', style, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{style}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred API Style
+            </label>
+            <select
+              value={backendData.defaultAPIStyle || ''}
+              onChange={(e) => handleBackendInputChange('defaultAPIStyle', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred API style</option>
+              {apiStyles.map((style) => (
+                <option key={style} value={style}>{style}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {/* Visual Divider */}
+        <hr className="my-6 border-gray-200" />
+
+        {/* State & Data Fetching Libraries */}
+        <div>
+          <h4 className="text-md font-semibold text-blue-600 mb-3">State & Data Fetching Libraries</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(stateData.stateLibraries || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAIStateCheckboxChange('stateLibraries', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleStateInputChange('stateLibraries', [...stateLibraries])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleStateInputChange('stateLibraries', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {stateLibraries.map((library) => (
+              <label key={library} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(stateData.stateLibraries || []).includes(library)}
+                  onChange={(e) => handleStateCheckboxChange('stateLibraries', library, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{library}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Library
+            </label>
+            <select
+              value={stateData.defaultStateLibrary || ''}
+              onChange={(e) => handleStateInputChange('defaultStateLibrary', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred state library</option>
+              {stateLibraries.map((library) => (
+                <option key={library} value={library}>{library}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Tooling */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Tooling</h3>
+        <p className="text-gray-600 mb-4">Choose your go-to tools for managing packages, building, and compiling your code.</p>
+        
+        {/* Build & Compilation Tools */}
+        <div className="mb-6">
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Build & Compilation Tools</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(buildData.buildTools || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAIBuildCheckboxChange('buildTools', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleBuildInputChange('buildTools', [...buildTools])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleBuildInputChange('buildTools', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {buildTools.map((tool) => (
+              <label key={tool} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(buildData.buildTools || []).includes(tool)}
+                  onChange={(e) => handleBuildCheckboxChange('buildTools', tool, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{tool}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Tool
+            </label>
+            <select
+              value={buildData.defaultBuildTool || ''}
+              onChange={(e) => handleBuildInputChange('defaultBuildTool', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred build tool</option>
+              {buildTools.map((tool) => (
+                <option key={tool} value={tool}>{tool}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {/* Visual Divider */}
+        <hr className="my-6 border-gray-200" />
+
+        {/* Package Managers */}
+        <div>
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Package Managers</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(packageData.packageManagers || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAIPackageCheckboxChange('packageManagers', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handlePackageInputChange('packageManagers', [...packageManagers])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handlePackageInputChange('packageManagers', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {packageManagers.map((manager) => (
+              <label key={manager} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(packageData.packageManagers || []).includes(manager)}
+                  onChange={(e) => handlePackageCheckboxChange('packageManagers', manager, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{manager}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Package Manager
+            </label>
+            <select
+              value={packageData.defaultPackageManager || ''}
+              onChange={(e) => handlePackageInputChange('defaultPackageManager', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred package manager</option>
+              {packageManagers.map((manager) => (
+                <option key={manager} value={manager}>{manager}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Cross-Platform Development */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Cross-Platform Development</h3>
+        <p className="text-gray-600 mb-4">Select any frameworks you use for building mobile or desktop applications.</p>
+        
+        {/* Mobile & Desktop Frameworks */}
+        <div>
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Mobile & Desktop Frameworks</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(mobileDesktopData.mobileDesktopFrameworks || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAIMobileDesktopCheckboxChange('mobileDesktopFrameworks', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleMobileDesktopInputChange('mobileDesktopFrameworks', [...mobileDesktopFrameworks])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleMobileDesktopInputChange('mobileDesktopFrameworks', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {mobileDesktopFrameworks.map((framework) => (
+              <label key={framework} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(mobileDesktopData.mobileDesktopFrameworks || []).includes(framework)}
+                  onChange={(e) => handleMobileDesktopCheckboxChange('mobileDesktopFrameworks', framework, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{framework}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Framework
+            </label>
+            <select
+              value={mobileDesktopData.defaultMobileDesktopFramework || ''}
+              onChange={(e) => handleMobileDesktopInputChange('defaultMobileDesktopFramework', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred mobile/desktop framework</option>
+              {mobileDesktopFrameworks.map((framework) => (
+                <option key={framework} value={framework}>{framework}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Platforms & Services */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Platforms & Services</h3>
+        <p className="text-gray-600 mb-4">Let us know which managed platforms or services you have experience with.</p>
+        
+        {/* Headless CMS */}
+        <div className="mb-6">
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Headless CMS</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(cmsData.headlessCMS || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAICMSCheckboxChange('headlessCMS', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleCMSInputChange('headlessCMS', [...headlessCMS])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleCMSInputChange('headlessCMS', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {headlessCMS.map((cms) => (
+              <label key={cms} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(cmsData.headlessCMS || []).includes(cms)}
+                  onChange={(e) => handleCMSInputChange('headlessCMS', e.target.checked ? [...(cmsData.headlessCMS || []), cms] : (cmsData.headlessCMS || []).filter(item => item !== cms))}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{cms}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred CMS
+            </label>
+            <select
+              value={cmsData.defaultCMS || ''}
+              onChange={(e) => handleCMSInputChange('defaultCMS', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred headless CMS</option>
+              {headlessCMS.map((cms) => (
+                <option key={cms} value={cms}>{cms}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {/* Visual Divider */}
+        <hr className="my-6 border-gray-200" />
+
+        {/* Search Platforms */}
+        <div>
+          <h4 className="text-md font-semibold text-blue-600 mb-3">Search Platforms</h4>
+          <p className="text-sm text-gray-600 mb-3">Select all that apply</p>
+          
+          <div className="grid grid-cols-1 gap-3 mb-4">
+            {/* AI Decision Checkbox with separation */}
+            <div className="border-b border-gray-200 pb-4 mb-4">
+              <label className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(searchData.searchPlatforms || []).includes('Let the AI decide')}
+                  onChange={(e) => handleAISearchCheckboxChange('searchPlatforms', 'Let the AI decide', e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-purple-600 font-medium">Let the AI decide</span>
+              </label>
+            </div>
+            
+            {/* Select All / Deselect All buttons */}
+            <div className="flex justify-between mb-4">
+              <button
+                onClick={() => handleSearchInputChange('searchPlatforms', [...searchPlatforms])}
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => handleSearchInputChange('searchPlatforms', [])}
+                className="px-4 py-2 bg-gray-100 text-gray-700 border border-gray-300 rounded-md hover:bg-gray-200 transition-colors text-sm"
+              >
+                Deselect All
+              </button>
+            </div>
+            
+            {searchPlatforms.map((platform) => (
+              <label key={platform} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={(searchData.searchPlatforms || []).includes(platform)}
+                  onChange={(e) => handleSearchCheckboxChange('searchPlatforms', platform, e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-gray-700 text-sm">{platform}</span>
+              </label>
+            ))}
+          </div>
+          
+          <div className="mt-4">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Preferred Search Platform
+            </label>
+            <select
+              value={searchData.defaultSearchPlatform || ''}
+              onChange={(e) => handleSearchInputChange('defaultSearchPlatform', e.target.value)}
+              className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+            >
+              <option value="">Choose your preferred search platform</option>
+              {searchPlatforms.map((platform) => (
+                <option key={platform} value={platform}>{platform}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+} 

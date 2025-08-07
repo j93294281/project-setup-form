@@ -1,0 +1,928 @@
+import React from 'react';
+import { MultiStageFormData, StylingDesign, ColorsFonts } from '../../types/FormTypes';
+
+interface Props {
+  formData: MultiStageFormData;
+  updateFormData: <K extends keyof MultiStageFormData>(
+    section: K,
+    data: Partial<MultiStageFormData[K]>
+  ) => void;
+  nextPage: () => void;
+  previousPage: () => void;
+  skipPage: () => void;
+}
+
+export default function StylingDesignPage({ formData, updateFormData, skipPage }: Props) {
+  const data = formData.stylingDesign;
+  const colorsData = formData.colorsFonts || {};
+
+  const handleInputChange = (field: keyof StylingDesign, value: string | string[]) => {
+    updateFormData('stylingDesign', { [field]: value });
+  };
+
+  const handleCheckboxChange = (field: keyof StylingDesign, value: string, checked: boolean) => {
+    const currentValues = (data[field] as string[]) || [];
+    if (checked) {
+      handleInputChange(field, [...currentValues, value]);
+    } else {
+      handleInputChange(field, currentValues.filter(v => v !== value));
+    }
+  };
+
+  const handleColorsInputChange = (field: keyof ColorsFonts, value: string | boolean) => {
+    updateFormData('colorsFonts', { [field]: value });
+  };
+
+  const handleCustomColorChange = (colorType: 'primaryBackground' | 'secondaryBackground' | 'accent' | 'text' | 'heading', value: string) => {
+    const currentCustomColors = colorsData.customColors || {};
+    updateFormData('colorsFonts', {
+      customColors: {
+        ...currentCustomColors,
+        [colorType]: value
+      }
+    });
+  };
+
+  const getColorValue = (colorType: 'primaryBackground' | 'secondaryBackground' | 'accent' | 'text' | 'heading') => {
+    const customColors = colorsData.customColors || {};
+    if (customColors[colorType]) {
+      return customColors[colorType];
+    }
+    
+    // Default colors if no custom colors or theme selected
+    const defaultColors = {
+      primaryBackground: '#FFFFFF',
+      secondaryBackground: '#F8F9FA',
+      accent: '#0D6EFD',
+      text: '#6C757D',
+      heading: '#212529'
+    };
+    
+    return defaultColors[colorType];
+  };
+
+  const cssFrameworks = [
+    'Bootstrap',
+    'Bulma',
+    'DaisyUI',
+    'Foundation',
+    'Open Props',
+    'Tailwind CSS'
+  ];
+
+
+
+  const styledUILibraries = [
+    'Ant Design',
+    'Chakra UI',
+    'Fluent UI',
+    'Mantine',
+    'Material-UI (MUI)',
+    'NextUI',
+    'Vuetify'
+  ];
+
+  const headlessUILibraries = [
+    'Headless UI',
+    'Radix UI'
+  ];
+
+  const recipeUILibraries = [
+    'Aceternity UI',
+    'Catalyst',
+    'Draft UI',
+    'Keep React',
+    'shadcn/ui',
+    'shadcn-svelte',
+    'shadcn-vue'
+  ];
+
+  const designTools = [
+    'Adobe XD',
+    'Figma',
+    'Sketch'
+  ];
+
+  return (
+    <div className="space-y-8">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Styling & Design</h2>
+        <p className="text-gray-600">Choose your preferred UI/UX and design preferences</p>
+      </div>
+
+      {/* Yellow info box with Save & Skip button */}
+      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 flex flex-col md:flex-row md:items-center md:justify-between">
+        <span className="text-yellow-700 text-sm mb-2 md:mb-0">If this section does not apply,.. skip it.</span>
+        <button
+          onClick={skipPage}
+          className="px-4 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition-colors w-full md:w-auto"
+        >
+          Save & Skip
+        </button>
+      </div>
+
+      {/* Design Approach Selection */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Add Some Screenshots For Color and Design Inspiration</h3>
+        <p className="text-gray-600 mb-6">Either upload your screenshots or choose your preferred colors and styles below.</p>
+        
+        {/* Radio Button Selection */}
+        <div className="mb-6">
+          <div className="space-y-3">
+            <label className="flex items-center space-x-3 cursor-pointer">
+              <input
+                type="radio"
+                name="designApproach"
+                value="screenshots"
+                checked={data.designApproach === 'screenshots'}
+                onChange={(e) => handleInputChange('designApproach', e.target.value)}
+                className="text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-gray-700 font-medium">Upload Screenshots for Design Inspiration</span>
+            </label>
+            <label className="flex items-center space-x-3 cursor-pointer">
+              <input
+                type="radio"
+                name="designApproach"
+                value="manual"
+                checked={data.designApproach === 'manual'}
+                onChange={(e) => handleInputChange('designApproach', e.target.value)}
+                className="text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-gray-700 font-medium">Manually Choose Colors and Styles</span>
+            </label>
+          </div>
+        </div>
+
+        {/* Screenshot Upload Section */}
+        {data.designApproach === 'screenshots' && (
+          <div className="space-y-4">
+            <p className="text-gray-600 text-sm">Upload screenshots of your preferred design inspiration. We'll analyze these to create a matching color palette and design system.</p>
+            
+            {/* Home Page Screenshot */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Home Page (Banner/Index Page)
+              </label>
+              <input
+                type="file"
+                accept="image/*"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    updateFormData('stylingDesign', { homePageScreenshot: file });
+                  }
+                }}
+                className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+              />
+            </div>
+
+            {/* Form Page Screenshot */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Form Page
+              </label>
+              <input
+                type="file"
+                accept="image/*"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    updateFormData('stylingDesign', { formPageScreenshot: file });
+                  }
+                }}
+                className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+              />
+            </div>
+
+            {/* Sign-up Page Screenshot */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Sign-up Page
+              </label>
+              <input
+                type="file"
+                accept="image/*"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    updateFormData('stylingDesign', { signupPageScreenshot: file });
+                  }
+                }}
+                className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+              />
+            </div>
+
+            {/* Pricing Page Screenshot */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Pricing Page
+              </label>
+              <input
+                type="file"
+                accept="image/*"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) {
+                    updateFormData('stylingDesign', { pricingPageScreenshot: file });
+                  }
+                }}
+                className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+              />
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Colors & Fonts */}
+       {(data.designApproach === 'manual' || !data.designApproach) && (
+         <div className="bg-white p-6 rounded-lg border">
+           <h3 className="text-lg font-semibold mb-4">Colors & Fonts</h3>
+           <p className="text-gray-600 mb-4">Choose your preferred color palette and typography theme</p>
+
+         {/* AI Decide Option */}
+         <div className="mb-6">
+           <div className="flex items-center space-x-3">
+             <input
+               type="checkbox"
+               id="aiDecide"
+               checked={colorsData.aiDecide || false}
+               onChange={(e) => handleColorsInputChange('aiDecide', e.target.checked)}
+               className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+             />
+             <label htmlFor="aiDecide" className="text-lg font-medium text-gray-900">
+               Let the AI decide these for me
+             </label>
+           </div>
+           <p className="text-gray-600 mt-2 ml-6">
+             Our AI will analyze your project requirements and select the most suitable color palette and typography theme.
+           </p>
+         </div>
+
+         {/* Custom Color Inputs */}
+         {!colorsData.aiDecide && (
+           <div className="bg-white p-6 rounded-lg border mb-6">
+             <h4 className="text-md font-medium text-gray-800 mb-3">Customize Colors</h4>
+             <p className="text-gray-600 mb-4">
+               Customize your color palette. Use the color picker or type in hex values.
+             </p>
+             
+             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+               {/* Primary Background */}
+               <div>
+                 <label className="block text-sm font-medium text-gray-700 mb-2">
+                   Primary Background
+                 </label>
+                 <div className="flex space-x-2">
+                   <input
+                     type="color"
+                     value={getColorValue('primaryBackground')}
+                     onChange={(e) => handleCustomColorChange('primaryBackground', e.target.value)}
+                     className="w-12 h-10 border border-gray-300 rounded cursor-pointer"
+                   />
+                   <input
+                     type="text"
+                     value={getColorValue('primaryBackground')}
+                     onChange={(e) => handleCustomColorChange('primaryBackground', e.target.value)}
+                     placeholder="#FFFFFF"
+                     className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                   />
+                 </div>
+               </div>
+
+               {/* Secondary Background */}
+               <div>
+                 <label className="block text-sm font-medium text-gray-700 mb-2">
+                   Secondary Background
+                 </label>
+                 <div className="flex space-x-2">
+                   <input
+                     type="color"
+                     value={getColorValue('secondaryBackground')}
+                     onChange={(e) => handleCustomColorChange('secondaryBackground', e.target.value)}
+                     className="w-12 h-10 border border-gray-300 rounded cursor-pointer"
+                   />
+                   <input
+                     type="text"
+                     value={getColorValue('secondaryBackground')}
+                     onChange={(e) => handleCustomColorChange('secondaryBackground', e.target.value)}
+                     placeholder="#F8F9FA"
+                     className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                   />
+                 </div>
+               </div>
+
+               {/* Accent Color */}
+               <div>
+                 <label className="block text-sm font-medium text-gray-700 mb-2">
+                   Accent Color
+                 </label>
+                 <div className="flex space-x-2">
+                   <input
+                     type="color"
+                     value={getColorValue('accent')}
+                     onChange={(e) => handleCustomColorChange('accent', e.target.value)}
+                     className="w-12 h-10 border border-gray-300 rounded cursor-pointer"
+                   />
+                   <input
+                     type="text"
+                     value={getColorValue('accent')}
+                     onChange={(e) => handleCustomColorChange('accent', e.target.value)}
+                     placeholder="#0D6EFD"
+                     className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                   />
+                 </div>
+               </div>
+
+               {/* Text Color */}
+               <div>
+                 <label className="block text-sm font-medium text-gray-700 mb-2">
+                   Text Color
+                 </label>
+                 <div className="flex space-x-2">
+                   <input
+                     type="color"
+                     value={getColorValue('text')}
+                     onChange={(e) => handleCustomColorChange('text', e.target.value)}
+                     className="w-12 h-10 border border-gray-300 rounded cursor-pointer"
+                   />
+                   <input
+                     type="text"
+                     value={getColorValue('text')}
+                     onChange={(e) => handleCustomColorChange('text', e.target.value)}
+                     placeholder="#6C757D"
+                     className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                   />
+                 </div>
+               </div>
+
+               {/* Heading Color */}
+               <div className="md:col-span-2">
+                 <label className="block text-sm font-medium text-gray-700 mb-2">
+                   Heading Color
+                 </label>
+                 <div className="flex space-x-2">
+                   <input
+                     type="color"
+                     value={getColorValue('heading')}
+                     onChange={(e) => handleCustomColorChange('heading', e.target.value)}
+                     className="w-12 h-10 border border-gray-300 rounded cursor-pointer"
+                   />
+                   <input
+                     type="text"
+                     value={getColorValue('heading')}
+                     onChange={(e) => handleCustomColorChange('heading', e.target.value)}
+                     placeholder="#212529"
+                     className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                   />
+                 </div>
+               </div>
+             </div>
+           </div>
+         )}
+       </div>
+
+       {/* Customize Fonts */}
+       <div className="bg-white p-6 rounded-lg border">
+         <h4 className="text-md font-medium text-gray-800 mb-3">Customize Fonts</h4>
+         <p className="text-gray-600 mb-4">
+           Select your preferred font family for the website. These are ranked by popularity and usage across the web.
+         </p>
+               
+               <div className="space-y-3">
+                 {/* Arial */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="Arial, sans-serif"
+                     checked={colorsData.fontFamily === 'Arial, sans-serif'}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: 'Arial, sans-serif' }}>Arial</span>
+                   <span className="text-gray-500 text-sm">(Most popular sans-serif font)</span>
+                 </label>
+
+                 {/* Helvetica */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="Helvetica, Arial, sans-serif"
+                     checked={colorsData.fontFamily === 'Helvetica, Arial, sans-serif'}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Helvetica</span>
+                   <span className="text-gray-500 text-sm">(Clean, professional sans-serif)</span>
+                 </label>
+
+                 {/* Roboto */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Roboto', sans-serif"
+                     checked={colorsData.fontFamily === "'Roboto', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Roboto', sans-serif" }}>Roboto</span>
+                   <span className="text-gray-500 text-sm">(Google&apos;s modern sans-serif)</span>
+                 </label>
+
+                 {/* Open Sans */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Open Sans', sans-serif"
+                     checked={colorsData.fontFamily === "'Open Sans', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Open Sans', sans-serif" }}>Open Sans</span>
+                   <span className="text-gray-500 text-sm">(Highly readable web font)</span>
+                 </label>
+
+                 {/* Lato */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Lato', sans-serif"
+                     checked={colorsData.fontFamily === "'Lato', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Lato', sans-serif" }}>Lato</span>
+                   <span className="text-gray-500 text-sm">(Friendly, modern sans-serif)</span>
+                 </label>
+
+                 {/* Source Sans Pro */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Source Sans Pro', sans-serif"
+                     checked={colorsData.fontFamily === "'Source Sans Pro', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Source Sans Pro</span>
+                   <span className="text-gray-500 text-sm">(Adobe&apos;s clean sans-serif)</span>
+                 </label>
+
+                 {/* Inter */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Inter', sans-serif"
+                     checked={colorsData.fontFamily === "'Inter', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Inter', sans-serif" }}>Inter</span>
+                   <span className="text-gray-500 text-sm">(Modern UI font)</span>
+                 </label>
+
+                 {/* Poppins */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Poppins', sans-serif"
+                     checked={colorsData.fontFamily === "'Poppins', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Poppins', sans-serif" }}>Poppins</span>
+                   <span className="text-gray-500 text-sm">(Geometric sans-serif)</span>
+                 </label>
+
+                 {/* Montserrat */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Montserrat', sans-serif"
+                     checked={colorsData.fontFamily === "'Montserrat', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Montserrat', sans-serif" }}>Montserrat</span>
+                   <span className="text-gray-500 text-sm">(Elegant sans-serif)</span>
+                 </label>
+
+                 {/* Nunito */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Nunito', sans-serif"
+                     checked={colorsData.fontFamily === "'Nunito', sans-serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Nunito', sans-serif" }}>Nunito</span>
+                   <span className="text-gray-500 text-sm">(Rounded, friendly sans-serif)</span>
+                 </label>
+
+                 {/* Times New Roman */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Times New Roman', serif"
+                     checked={colorsData.fontFamily === "'Times New Roman', serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Times New Roman', serif" }}>Times New Roman</span>
+                   <span className="text-gray-500 text-sm">(Classic serif font)</span>
+                 </label>
+
+                 {/* Georgia */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="Georgia, serif"
+                     checked={colorsData.fontFamily === 'Georgia, serif'}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: 'Georgia, serif' }}>Georgia</span>
+                   <span className="text-gray-500 text-sm">(Web-optimized serif)</span>
+                 </label>
+
+                 {/* Merriweather */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Merriweather', serif"
+                     checked={colorsData.fontFamily === "'Merriweather', serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Merriweather', serif" }}>Merriweather</span>
+                   <span className="text-gray-500 text-sm">(Readable serif for screens)</span>
+                 </label>
+
+                 {/* Playfair Display */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Playfair Display', serif"
+                     checked={colorsData.fontFamily === "'Playfair Display', serif"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Playfair Display', serif" }}>Playfair Display</span>
+                   <span className="text-gray-500 text-sm">(Elegant display serif)</span>
+                 </label>
+
+                 {/* Courier New */}
+                 <label className="flex items-center space-x-3 cursor-pointer">
+                   <input
+                     type="radio"
+                     name="fontFamily"
+                     value="'Courier New', monospace"
+                     checked={colorsData.fontFamily === "'Courier New', monospace"}
+                     onChange={(e) => handleColorsInputChange('fontFamily', e.target.value)}
+                     className="text-blue-600 focus:ring-blue-500"
+                   />
+                   <span className="text-gray-700 font-medium" style={{ fontFamily: "'Courier New', monospace" }}>Courier New</span>
+                   <span className="text-gray-500 text-sm">(Monospace font)</span>
+                 </label>
+               </div>
+             </div>
+           </>
+         )}
+       </div>
+       )}
+
+      {/* CSS Frameworks */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">CSS Frameworks</h3>
+        <p className="text-gray-600 mb-4">Select all CSS frameworks you&apos;re comfortable with:</p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.cssFrameworks || []).includes('Let the AI decide these for me')}
+              onChange={(e) => handleCheckboxChange('cssFrameworks', 'Let the AI decide these for me', e.target.checked)}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">Let the AI decide these for me</span>
+          </label>
+          
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.cssFrameworks || []).length === cssFrameworks.length}
+              onChange={(e) => {
+                if (e.target.checked) {
+                  updateFormData('stylingDesign', { cssFrameworks: [...cssFrameworks] });
+                } else {
+                  updateFormData('stylingDesign', { cssFrameworks: [] });
+                }
+              }}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">All are OK</span>
+          </label>
+          
+          {cssFrameworks.map((framework) => (
+            <label key={framework} className="flex items-center space-x-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={(data.cssFrameworks || []).includes(framework)}
+                onChange={(e) => handleCheckboxChange('cssFrameworks', framework, e.target.checked)}
+                className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-gray-700 text-sm">{framework}</span>
+            </label>
+          ))}
+        </div>
+
+        <div className="mt-6">
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Default CSS Framework
+          </label>
+          <select
+            value={data.defaultCSSFramework || ''}
+            onChange={(e) => handleInputChange('defaultCSSFramework', e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+          >
+            <option value="">Select default CSS framework</option>
+            {cssFrameworks.map((framework) => (
+              <option key={framework} value={framework}>{framework}</option>
+            ))}
+            <option value="NO PREFERENCE - all are ok">NO PREFERENCE - all are ok</option>
+          </select>
+        </div>
+      </div>
+
+
+
+      {/* Styled UI Libraries (All-in-One) */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Styled UI Libraries (All-in-One)</h3>
+        <p className="text-gray-600 mb-4">Choose these for a complete, ready-to-use design system you install as a dependency. Fastest way to a consistent UI.</p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.styledUILibraries || []).includes('Let the AI decide these for me')}
+              onChange={(e) => handleCheckboxChange('styledUILibraries', 'Let the AI decide these for me', e.target.checked)}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">Let the AI decide these for me</span>
+          </label>
+          
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.styledUILibraries || []).length === styledUILibraries.length}
+              onChange={(e) => {
+                if (e.target.checked) {
+                  updateFormData('stylingDesign', { styledUILibraries: [...styledUILibraries] });
+                } else {
+                  updateFormData('stylingDesign', { styledUILibraries: [] });
+                }
+              }}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">All are OK</span>
+          </label>
+          
+          {styledUILibraries.map((library) => (
+            <label key={library} className="flex items-center space-x-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={(data.styledUILibraries || []).includes(library)}
+                onChange={(e) => handleCheckboxChange('styledUILibraries', library, e.target.checked)}
+                className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-gray-700 text-sm">{library}</span>
+            </label>
+          ))}
+        </div>
+
+        <div className="mt-6">
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Default Styled UI Library
+          </label>
+          <select
+            value={data.defaultStyledUILibrary || ''}
+            onChange={(e) => handleInputChange('defaultStyledUILibrary', e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+          >
+            <option value="">Select default styled UI library</option>
+            {styledUILibraries.map((library) => (
+              <option key={library} value={library}>{library}</option>
+            ))}
+            <option value="NO PREFERENCE - all are ok">NO PREFERENCE - all are ok</option>
+          </select>
+        </div>
+      </div>
+
+      {/* Headless UI Libraries (Bring-Your-Own-Styles) */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Headless UI Libraries (Bring-Your-Own-Styles)</h3>
+        <p className="text-gray-600 mb-4">Choose these if you need accessible, pre-built logic and behavior but want complete control over the styling. You will write all the CSS yourself (typically with Tailwind).</p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.headlessUILibraries || []).includes('Let the AI decide these for me')}
+              onChange={(e) => handleCheckboxChange('headlessUILibraries', 'Let the AI decide these for me', e.target.checked)}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">Let the AI decide these for me</span>
+          </label>
+          
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.headlessUILibraries || []).length === headlessUILibraries.length}
+              onChange={(e) => {
+                if (e.target.checked) {
+                  updateFormData('stylingDesign', { headlessUILibraries: [...headlessUILibraries] });
+                } else {
+                  updateFormData('stylingDesign', { headlessUILibraries: [] });
+                }
+              }}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">All are OK</span>
+          </label>
+          
+          {headlessUILibraries.map((library) => (
+            <label key={library} className="flex items-center space-x-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={(data.headlessUILibraries || []).includes(library)}
+                onChange={(e) => handleCheckboxChange('headlessUILibraries', library, e.target.checked)}
+                className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-gray-700 text-sm">{library}</span>
+            </label>
+          ))}
+        </div>
+
+        <div className="mt-6">
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Default Headless UI Library
+          </label>
+          <select
+            value={data.defaultHeadlessUILibrary || ''}
+            onChange={(e) => handleInputChange('defaultHeadlessUILibrary', e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+          >
+            <option value="">Select default headless UI library</option>
+            {headlessUILibraries.map((library) => (
+              <option key={library} value={library}>{library}</option>
+            ))}
+            <option value="NO PREFERENCE - all are ok">NO PREFERENCE - all are ok</option>
+          </select>
+        </div>
+      </div>
+
+      {/* Recipe UI Libraries (Copy & Paste Code) */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Recipe UI Libraries (Copy & Paste Code)</h3>
+        <p className="text-gray-600 mb-4">Choose these to copy component source code directly into your project via a CLI. This gives you full ownership and avoids adding a new dependency. Most are built with Tailwind CSS.</p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.recipeUILibraries || []).includes('Let the AI decide these for me')}
+              onChange={(e) => handleCheckboxChange('recipeUILibraries', 'Let the AI decide these for me', e.target.checked)}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">Let the AI decide these for me</span>
+          </label>
+          
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.recipeUILibraries || []).length === recipeUILibraries.length}
+              onChange={(e) => {
+                if (e.target.checked) {
+                  updateFormData('stylingDesign', { recipeUILibraries: [...recipeUILibraries] });
+                } else {
+                  updateFormData('stylingDesign', { recipeUILibraries: [] });
+                }
+              }}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">All are OK</span>
+          </label>
+          
+          {recipeUILibraries.map((library) => (
+            <label key={library} className="flex items-center space-x-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={(data.recipeUILibraries || []).includes(library)}
+                onChange={(e) => handleCheckboxChange('recipeUILibraries', library, e.target.checked)}
+                className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-gray-700 text-sm">{library}</span>
+            </label>
+          ))}
+        </div>
+
+        <div className="mt-6">
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Default Recipe UI Library
+          </label>
+          <select
+            value={data.defaultRecipeUILibrary || ''}
+            onChange={(e) => handleInputChange('defaultRecipeUILibrary', e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+          >
+            <option value="">Select default recipe UI library</option>
+            {recipeUILibraries.map((library) => (
+              <option key={library} value={library}>{library}</option>
+            ))}
+            <option value="NO PREFERENCE - all are ok">NO PREFERENCE - all are ok</option>
+          </select>
+        </div>
+      </div>
+
+      {/* Design & Prototyping Tools */}
+      <div className="bg-white p-6 rounded-lg border">
+        <h3 className="text-lg font-semibold mb-4">Design & Prototyping Tools</h3>
+        <p className="text-gray-600 mb-4">Select all design tools you&apos;re comfortable with:</p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.designTools || []).includes('Let the AI decide these for me')}
+              onChange={(e) => handleCheckboxChange('designTools', 'Let the AI decide these for me', e.target.checked)}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">Let the AI decide these for me</span>
+          </label>
+          
+          <label className="flex items-center space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={(data.designTools || []).length === designTools.length}
+              onChange={(e) => {
+                if (e.target.checked) {
+                  updateFormData('stylingDesign', { designTools: [...designTools] });
+                } else {
+                  updateFormData('stylingDesign', { designTools: [] });
+                }
+              }}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-gray-700 font-medium">All are OK</span>
+          </label>
+          
+          {designTools.map((tool) => (
+            <label key={tool} className="flex items-center space-x-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={(data.designTools || []).includes(tool)}
+                onChange={(e) => handleCheckboxChange('designTools', tool, e.target.checked)}
+                className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-gray-700 text-sm">{tool}</span>
+            </label>
+          ))}
+        </div>
+
+        <div className="mt-6">
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Default Design Tool
+          </label>
+          <select
+            value={data.defaultDesignTool || ''}
+            onChange={(e) => handleInputChange('defaultDesignTool', e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm"
+          >
+            <option value="">Select default tool</option>
+            {designTools.map((tool) => (
+              <option key={tool} value={tool}>{tool}</option>
+            ))}
+            <option value="NO PREFERENCE - all are ok">NO PREFERENCE - all are ok</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  );
+} 

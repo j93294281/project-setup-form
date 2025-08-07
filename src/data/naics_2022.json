@@ -1,0 +1,4586 @@
+{
+  "Agriculture, Forestry, Fishing and Hunting (T)": {
+    "name": "Agriculture, Forestry, Fishing and Hunting (T)",
+    "subsectors": {
+      "Crop Production (T)": {
+        "name": "Crop Production (T)",
+        "industries": {
+          "Oilseed and Grain Farming (T)": {
+            "name": "Oilseed and Grain Farming (T)",
+            "naicsIndustries": {
+              "Other Grain Farming (T)": {
+                "name": "Other Grain Farming (T)",
+                "nationalIndustries": {
+                  "111199": {
+                    "name": "All Other Grain Farming"
+                  }
+                }
+              }
+            }
+          },
+          "Vegetable and Melon Farming (T)": {
+            "name": "Vegetable and Melon Farming (T)",
+            "naicsIndustries": {
+              "Vegetable and Melon Farming (T)": {
+                "name": "Vegetable and Melon Farming (T)",
+                "nationalIndustries": {
+                  "111219": {
+                    "name": "Other Vegetable (except Potato) and Melon Farming"
+                  }
+                }
+              }
+            }
+          },
+          "Fruit and Tree Nut Farming (T)": {
+            "name": "Fruit and Tree Nut Farming (T)",
+            "naicsIndustries": {
+              "Noncitrus Fruit and Tree Nut Farming (T)": {
+                "name": "Noncitrus Fruit and Tree Nut Farming (T)",
+                "nationalIndustries": {
+                  "111339": {
+                    "name": "Other Noncitrus Fruit Farming"
+                  }
+                }
+              }
+            }
+          },
+          "Greenhouse, Nursery, and Floriculture Production (T)": {
+            "name": "Greenhouse, Nursery, and Floriculture Production (T)",
+            "naicsIndustries": {
+              "Nursery and Floriculture Production (T)": {
+                "name": "Nursery and Floriculture Production (T)",
+                "nationalIndustries": {
+                  "111422": {
+                    "name": "Floriculture Production"
+                  }
+                }
+              }
+            }
+          },
+          "Other Crop Farming (T)": {
+            "name": "Other Crop Farming (T)",
+            "naicsIndustries": {
+              "All Other Crop Farming (T)": {
+                "name": "All Other Crop Farming (T)",
+                "nationalIndustries": {
+                  "111998": {
+                    "name": "All Other Miscellaneous Crop Farming"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Animal Production and Aquaculture (T)": {
+        "name": "Animal Production and Aquaculture (T)",
+        "industries": {
+          "Cattle Ranching and Farming (T)": {
+            "name": "Cattle Ranching and Farming (T)",
+            "naicsIndustries": {
+              "Dairy Cattle and Milk Production (T)": {
+                "name": "Dairy Cattle and Milk Production (T)",
+                "nationalIndustries": {
+                  "112120": {
+                    "name": "Dairy Cattle and Milk Production"
+                  }
+                }
+              }
+            }
+          },
+          "Hog and Pig Farming (T)": {
+            "name": "Hog and Pig Farming (T)",
+            "naicsIndustries": {
+              "Hog and Pig Farming (T)": {
+                "name": "Hog and Pig Farming (T)",
+                "nationalIndustries": {
+                  "112210": {
+                    "name": "Hog and Pig Farming"
+                  }
+                }
+              }
+            }
+          },
+          "Poultry and Egg Production (T)": {
+            "name": "Poultry and Egg Production (T)",
+            "naicsIndustries": {
+              "Other Poultry Production (T)": {
+                "name": "Other Poultry Production (T)",
+                "nationalIndustries": {
+                  "112390": {
+                    "name": "Other Poultry Production"
+                  }
+                }
+              }
+            }
+          },
+          "Sheep and Goat Farming (T)": {
+            "name": "Sheep and Goat Farming (T)",
+            "naicsIndustries": {
+              "Goat Farming (T)": {
+                "name": "Goat Farming (T)",
+                "nationalIndustries": {
+                  "112420": {
+                    "name": "Goat Farming"
+                  }
+                }
+              }
+            }
+          },
+          "Aquaculture (T)": {
+            "name": "Aquaculture (T)",
+            "naicsIndustries": {
+              "Aquaculture (T)": {
+                "name": "Aquaculture (T)",
+                "nationalIndustries": {
+                  "112519": {
+                    "name": "Other Aquaculture"
+                  }
+                }
+              }
+            }
+          },
+          "Other Animal Production (T)": {
+            "name": "Other Animal Production (T)",
+            "naicsIndustries": {
+              "All Other Animal Production (T)": {
+                "name": "All Other Animal Production (T)",
+                "nationalIndustries": {
+                  "112990": {
+                    "name": "All Other Animal Production"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Forestry and Logging (T)": {
+        "name": "Forestry and Logging (T)",
+        "industries": {
+          "Timber Tract Operations (T)": {
+            "name": "Timber Tract Operations (T)",
+            "naicsIndustries": {
+              "Timber Tract Operations (T)": {
+                "name": "Timber Tract Operations (T)",
+                "nationalIndustries": {
+                  "113110": {
+                    "name": "Timber Tract Operations"
+                  }
+                }
+              }
+            }
+          },
+          "Forest Nurseries and Gathering of Forest Products (T)": {
+            "name": "Forest Nurseries and Gathering of Forest Products (T)",
+            "naicsIndustries": {
+              "Forest Nurseries and Gathering of Forest Products (T)": {
+                "name": "Forest Nurseries and Gathering of Forest Products (T)",
+                "nationalIndustries": {
+                  "113210": {
+                    "name": "Forest Nurseries and Gathering of Forest Products"
+                  }
+                }
+              }
+            }
+          },
+          "Logging (T)": {
+            "name": "Logging (T)",
+            "naicsIndustries": {
+              "Logging (T)": {
+                "name": "Logging (T)",
+                "nationalIndustries": {
+                  "113310": {
+                    "name": "Logging"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Fishing, Hunting and Trapping (T)": {
+        "name": "Fishing, Hunting and Trapping (T)",
+        "industries": {
+          "Fishing (T)": {
+            "name": "Fishing (T)",
+            "naicsIndustries": {
+              "Fishing (T)": {
+                "name": "Fishing (T)",
+                "nationalIndustries": {
+                  "114119": {
+                    "name": "Other Marine Fishing"
+                  }
+                }
+              }
+            }
+          },
+          "Hunting and Trapping (T)": {
+            "name": "Hunting and Trapping (T)",
+            "naicsIndustries": {
+              "Hunting and Trapping (T)": {
+                "name": "Hunting and Trapping (T)",
+                "nationalIndustries": {
+                  "114210": {
+                    "name": "Hunting and Trapping"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Support Activities for Agriculture and Forestry (T)": {
+        "name": "Support Activities for Agriculture and Forestry (T)",
+        "industries": {
+          "Support Activities for Crop Production (T)": {
+            "name": "Support Activities for Crop Production (T)",
+            "naicsIndustries": {
+              "Support Activities for Crop Production (T)": {
+                "name": "Support Activities for Crop Production (T)",
+                "nationalIndustries": {
+                  "115116": {
+                    "name": "Farm Management Services"
+                  }
+                }
+              }
+            }
+          },
+          "Support Activities for Animal Production (T)": {
+            "name": "Support Activities for Animal Production (T)",
+            "naicsIndustries": {
+              "Support Activities for Animal Production (T)": {
+                "name": "Support Activities for Animal Production (T)",
+                "nationalIndustries": {
+                  "115210": {
+                    "name": "Support Activities for Animal Production"
+                  }
+                }
+              }
+            }
+          },
+          "Support Activities for Forestry (T)": {
+            "name": "Support Activities for Forestry (T)",
+            "naicsIndustries": {
+              "Support Activities for Forestry (T)": {
+                "name": "Support Activities for Forestry (T)",
+                "nationalIndustries": {
+                  "115310": {
+                    "name": "Support Activities for Forestry"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Other Services (except Public Administration) (T)": {
+    "name": "Other Services (except Public Administration) (T)",
+    "subsectors": {
+      "Personal and Laundry Services (T)": {
+        "name": "Personal and Laundry Services (T)",
+        "industries": {
+          "Other Personal Services": {
+            "name": "Other Personal Services",
+            "naicsIndustries": {
+              "Pet Care (except Veterinary) Services": {
+                "name": "Pet Care (except Veterinary) Services",
+                "nationalIndustries": {
+                  "812910": {
+                    "name": "Pet Care (except Veterinary) Services"
+                  }
+                }
+              }
+            }
+          },
+          "Personal Care Services": {
+            "name": "Personal Care Services",
+            "naicsIndustries": {
+              "Other Personal Care Services": {
+                "name": "Other Personal Care Services",
+                "nationalIndustries": {
+                  "812199": {
+                    "name": "Other Personal Care Services"
+                  }
+                }
+              }
+            }
+          },
+          "Death Care Services": {
+            "name": "Death Care Services",
+            "naicsIndustries": {
+              "Cemeteries and Crematories": {
+                "name": "Cemeteries and Crematories",
+                "nationalIndustries": {
+                  "812220": {
+                    "name": "Cemeteries and Crematories"
+                  }
+                }
+              }
+            }
+          },
+          "Drycleaning and Laundry Services": {
+            "name": "Drycleaning and Laundry Services",
+            "naicsIndustries": {
+              "Linen and Uniform Supply": {
+                "name": "Linen and Uniform Supply",
+                "nationalIndustries": {
+                  "812332": {
+                    "name": "Industrial Launderers"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Religious, Grantmaking, Civic, Professional, and Similar Organizations (T)": {
+        "name": "Religious, Grantmaking, Civic, Professional, and Similar Organizations (T)",
+        "industries": {
+          "Grantmaking and Giving Services": {
+            "name": "Grantmaking and Giving Services",
+            "naicsIndustries": {
+              "Grantmaking and Giving Services": {
+                "name": "Grantmaking and Giving Services",
+                "nationalIndustries": {
+                  "813219": {
+                    "name": "Other Grantmaking and Giving Services"
+                  }
+                }
+              }
+            }
+          },
+          "Religious Organizations": {
+            "name": "Religious Organizations",
+            "naicsIndustries": {
+              "Religious Organizations": {
+                "name": "Religious Organizations",
+                "nationalIndustries": {
+                  "813110": {
+                    "name": "Religious Organizations"
+                  }
+                }
+              }
+            }
+          },
+          "Social Advocacy Organizations": {
+            "name": "Social Advocacy Organizations",
+            "naicsIndustries": {
+              "Social Advocacy Organizations": {
+                "name": "Social Advocacy Organizations",
+                "nationalIndustries": {
+                  "813319": {
+                    "name": "Other Social Advocacy Organizations"
+                  }
+                }
+              }
+            }
+          },
+          "Civic and Social Organizations": {
+            "name": "Civic and Social Organizations",
+            "naicsIndustries": {
+              "Civic and Social Organizations": {
+                "name": "Civic and Social Organizations",
+                "nationalIndustries": {
+                  "813410": {
+                    "name": "Civic and Social Organizations"
+                  }
+                }
+              }
+            }
+          },
+          "Business, Professional, Labor, Political, and Similar Organizations": {
+            "name": "Business, Professional, Labor, Political, and Similar Organizations",
+            "naicsIndustries": {
+              "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)": {
+                "name": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+                "nationalIndustries": {
+                  "813990": {
+                    "name": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Repair and Maintenance (T)": {
+        "name": "Repair and Maintenance (T)",
+        "industries": {
+          "Automotive Repair and Maintenance (T)": {
+            "name": "Automotive Repair and Maintenance (T)",
+            "naicsIndustries": {
+              "Other Automotive Repair and Maintenance (T)": {
+                "name": "Other Automotive Repair and Maintenance (T)",
+                "nationalIndustries": {
+                  "811198": {
+                    "name": "All Other Automotive Repair and Maintenance"
+                  }
+                }
+              }
+            }
+          },
+          "Electronic and Precision Equipment Repair and Maintenance (T)": {
+            "name": "Electronic and Precision Equipment Repair and Maintenance (T)",
+            "naicsIndustries": {
+              "Electronic and Precision Equipment Repair and Maintenance (T)": {
+                "name": "Electronic and Precision Equipment Repair and Maintenance (T)",
+                "nationalIndustries": {
+                  "811210": {
+                    "name": "Electronic and Precision Equipment Repair and Maintenance(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance (T)": {
+            "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance (T)",
+            "naicsIndustries": {
+              "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance (T)": {
+                "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance (T)",
+                "nationalIndustries": {
+                  "811310": {
+                    "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
+                  }
+                }
+              }
+            }
+          },
+          "Personal and Household Goods Repair and Maintenance (T)": {
+            "name": "Personal and Household Goods Repair and Maintenance (T)",
+            "naicsIndustries": {
+              "Other Personal and Household Goods Repair and Maintenance (T)": {
+                "name": "Other Personal and Household Goods Repair and Maintenance (T)",
+                "nationalIndustries": {
+                  "811490": {
+                    "name": "Other Personal and Household Goods Repair and Maintenance"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Private Households (T)": {
+        "name": "Private Households (T)",
+        "industries": {
+          "Private Households (T)": {
+            "name": "Private Households (T)",
+            "naicsIndustries": {
+              "Private Households (T)": {
+                "name": "Private Households (T)",
+                "nationalIndustries": {
+                  "814110": {
+                    "name": "Private Households"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Mining, Quarrying, and Oil and Gas Extraction (T)": {
+    "name": "Mining, Quarrying, and Oil and Gas Extraction (T)",
+    "subsectors": {
+      "Oil and Gas Extraction (T)": {
+        "name": "Oil and Gas Extraction (T)",
+        "industries": {
+          "Oil and Gas Extraction (T)": {
+            "name": "Oil and Gas Extraction (T)",
+            "naicsIndustries": {
+              "Natural Gas Extraction": {
+                "name": "Natural Gas Extraction",
+                "nationalIndustries": {
+                  "211130": {
+                    "name": "Natural Gas Extraction"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mining (except Oil and Gas) (T)": {
+        "name": "Mining (except Oil and Gas) (T)",
+        "industries": {
+          "Coal Mining (T)": {
+            "name": "Coal Mining (T)",
+            "naicsIndustries": {
+              "Coal Mining (T)": {
+                "name": "Coal Mining (T)",
+                "nationalIndustries": {
+                  "212115": {
+                    "name": "Underground Coal Mining(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Metal Ore Mining (T)": {
+            "name": "Metal Ore Mining (T)",
+            "naicsIndustries": {
+              "Other Metal Ore Mining (T)": {
+                "name": "Other Metal Ore Mining (T)",
+                "nationalIndustries": {
+                  "212290": {
+                    "name": "Other Metal Ore Mining(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Nonmetallic Mineral Mining and Quarrying (T)": {
+            "name": "Nonmetallic Mineral Mining and Quarrying (T)",
+            "naicsIndustries": {
+              "Other Nonmetallic Mineral Mining and Quarrying (T)": {
+                "name": "Other Nonmetallic Mineral Mining and Quarrying (T)",
+                "nationalIndustries": {
+                  "212390": {
+                    "name": "Other Nonmetallic Mineral Mining and Quarrying(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Support Activities for Mining (T)": {
+        "name": "Support Activities for Mining (T)",
+        "industries": {
+          "Support Activities for Mining (T)": {
+            "name": "Support Activities for Mining (T)",
+            "naicsIndustries": {
+              "Support Activities for Mining (T)": {
+                "name": "Support Activities for Mining (T)",
+                "nationalIndustries": {
+                  "213115": {
+                    "name": "Support Activities for Nonmetallic Minerals (except Fuels) Mining"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Public Administration (T)": {
+    "name": "Public Administration (T)",
+    "subsectors": {
+      "National Security and International Affairs": {
+        "name": "National Security and International Affairs",
+        "industries": {
+          "National Security and International Affairs": {
+            "name": "National Security and International Affairs",
+            "naicsIndustries": {
+              "International Affairs": {
+                "name": "International Affairs",
+                "nationalIndustries": {
+                  "928120": {
+                    "name": "International Affairs"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Executive, Legislative, and Other General Government Support": {
+        "name": "Executive, Legislative, and Other General Government Support",
+        "industries": {
+          "Executive, Legislative, and Other General Government Support": {
+            "name": "Executive, Legislative, and Other General Government Support",
+            "naicsIndustries": {
+              "Other General Government Support": {
+                "name": "Other General Government Support",
+                "nationalIndustries": {
+                  "921190": {
+                    "name": "Other General Government Support"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Justice, Public Order, and Safety Activities": {
+        "name": "Justice, Public Order, and Safety Activities",
+        "industries": {
+          "Justice, Public Order, and Safety Activities": {
+            "name": "Justice, Public Order, and Safety Activities",
+            "naicsIndustries": {
+              "Other Justice, Public Order, and Safety Activities": {
+                "name": "Other Justice, Public Order, and Safety Activities",
+                "nationalIndustries": {
+                  "922190": {
+                    "name": "Other Justice, Public Order, and Safety Activities"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Administration of Human Resource Programs": {
+        "name": "Administration of Human Resource Programs",
+        "industries": {
+          "Administration of Human Resource Programs": {
+            "name": "Administration of Human Resource Programs",
+            "naicsIndustries": {
+              "Administration of Veterans' Affairs": {
+                "name": "Administration of Veterans' Affairs",
+                "nationalIndustries": {
+                  "923140": {
+                    "name": "Administration of Veterans' Affairs"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Administration of Environmental Quality Programs": {
+        "name": "Administration of Environmental Quality Programs",
+        "industries": {
+          "Administration of Environmental Quality Programs": {
+            "name": "Administration of Environmental Quality Programs",
+            "naicsIndustries": {
+              "Administration of Conservation Programs": {
+                "name": "Administration of Conservation Programs",
+                "nationalIndustries": {
+                  "924120": {
+                    "name": "Administration of Conservation Programs"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Administration of Housing Programs, Urban Planning, and Community Development": {
+        "name": "Administration of Housing Programs, Urban Planning, and Community Development",
+        "industries": {
+          "Administration of Housing Programs, Urban Planning, and Community Development": {
+            "name": "Administration of Housing Programs, Urban Planning, and Community Development",
+            "naicsIndustries": {
+              "Administration of Urban Planning and Community and Rural Development": {
+                "name": "Administration of Urban Planning and Community and Rural Development",
+                "nationalIndustries": {
+                  "925120": {
+                    "name": "Administration of Urban Planning and Community and Rural Development"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Administration of Economic Programs": {
+        "name": "Administration of Economic Programs",
+        "industries": {
+          "Administration of Economic Programs": {
+            "name": "Administration of Economic Programs",
+            "naicsIndustries": {
+              "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors": {
+                "name": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",
+                "nationalIndustries": {
+                  "926150": {
+                    "name": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Space Research and Technology": {
+        "name": "Space Research and Technology",
+        "industries": {
+          "Space Research and Technology": {
+            "name": "Space Research and Technology",
+            "naicsIndustries": {
+              "Space Research and Technology": {
+                "name": "Space Research and Technology",
+                "nationalIndustries": {
+                  "927110": {
+                    "name": "Space Research and Technology"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Utilities (T)": {
+    "name": "Utilities (T)",
+    "subsectors": {
+      "Utilities (T)": {
+        "name": "Utilities (T)",
+        "industries": {
+          "Electric Power Generation, Transmission and Distribution (T)": {
+            "name": "Electric Power Generation, Transmission and Distribution (T)",
+            "naicsIndustries": {
+              "Electric Power Transmission, Control, and Distribution (T)": {
+                "name": "Electric Power Transmission, Control, and Distribution (T)",
+                "nationalIndustries": {
+                  "221122": {
+                    "name": "Electric Power Distribution"
+                  }
+                }
+              }
+            }
+          },
+          "Natural Gas Distribution (T)": {
+            "name": "Natural Gas Distribution (T)",
+            "naicsIndustries": {
+              "Natural Gas Distribution (T)": {
+                "name": "Natural Gas Distribution (T)",
+                "nationalIndustries": {
+                  "221210": {
+                    "name": "Natural Gas Distribution"
+                  }
+                }
+              }
+            }
+          },
+          "Water, Sewage and Other Systems (T)": {
+            "name": "Water, Sewage and Other Systems (T)",
+            "naicsIndustries": {
+              "Steam and Air-Conditioning Supply": {
+                "name": "Steam and Air-Conditioning Supply",
+                "nationalIndustries": {
+                  "221330": {
+                    "name": "Steam and Air-Conditioning Supply"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Construction (T)": {
+    "name": "Construction (T)",
+    "subsectors": {
+      "Construction of Buildings (T)": {
+        "name": "Construction of Buildings (T)",
+        "industries": {
+          "Residential Building Construction (T)": {
+            "name": "Residential Building Construction (T)",
+            "naicsIndustries": {
+              "Residential Building Construction (T)": {
+                "name": "Residential Building Construction (T)",
+                "nationalIndustries": {
+                  "236118": {
+                    "name": "Residential Remodelers"
+                  }
+                }
+              }
+            }
+          },
+          "Nonresidential Building Construction (T)": {
+            "name": "Nonresidential Building Construction (T)",
+            "naicsIndustries": {
+              "Commercial and Institutional Building Construction (T)": {
+                "name": "Commercial and Institutional Building Construction (T)",
+                "nationalIndustries": {
+                  "236220": {
+                    "name": "Commercial and Institutional Building Construction"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Heavy and Civil Engineering Construction (T)": {
+        "name": "Heavy and Civil Engineering Construction (T)",
+        "industries": {
+          "Utility System Construction (T)": {
+            "name": "Utility System Construction (T)",
+            "naicsIndustries": {
+              "Power and Communication Line and Related Structures Construction (T)": {
+                "name": "Power and Communication Line and Related Structures Construction (T)",
+                "nationalIndustries": {
+                  "237130": {
+                    "name": "Power and Communication Line and Related Structures Construction"
+                  }
+                }
+              }
+            }
+          },
+          "Land Subdivision (T)": {
+            "name": "Land Subdivision (T)",
+            "naicsIndustries": {
+              "Land Subdivision (T)": {
+                "name": "Land Subdivision (T)",
+                "nationalIndustries": {
+                  "237210": {
+                    "name": "Land Subdivision"
+                  }
+                }
+              }
+            }
+          },
+          "Highway, Street, and Bridge Construction (T)": {
+            "name": "Highway, Street, and Bridge Construction (T)",
+            "naicsIndustries": {
+              "Highway, Street, and Bridge Construction (T)": {
+                "name": "Highway, Street, and Bridge Construction (T)",
+                "nationalIndustries": {
+                  "237310": {
+                    "name": "Highway, Street, and Bridge Construction"
+                  }
+                }
+              }
+            }
+          },
+          "Other Heavy and Civil Engineering Construction (T)": {
+            "name": "Other Heavy and Civil Engineering Construction (T)",
+            "naicsIndustries": {
+              "Other Heavy and Civil Engineering Construction (T)": {
+                "name": "Other Heavy and Civil Engineering Construction (T)",
+                "nationalIndustries": {
+                  "237990": {
+                    "name": "Other Heavy and Civil Engineering Construction"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Specialty Trade Contractors (T)": {
+        "name": "Specialty Trade Contractors (T)",
+        "industries": {
+          "Foundation, Structure, and Building Exterior Contractors (T)": {
+            "name": "Foundation, Structure, and Building Exterior Contractors (T)",
+            "naicsIndustries": {
+              "Other Foundation, Structure, and Building Exterior Contractors": {
+                "name": "Other Foundation, Structure, and Building Exterior Contractors",
+                "nationalIndustries": {
+                  "238190": {
+                    "name": "Other Foundation, Structure, and Building Exterior Contractors"
+                  }
+                }
+              }
+            }
+          },
+          "Building Equipment Contractors (T)": {
+            "name": "Building Equipment Contractors (T)",
+            "naicsIndustries": {
+              "Other Building Equipment Contractors (T)": {
+                "name": "Other Building Equipment Contractors (T)",
+                "nationalIndustries": {
+                  "238290": {
+                    "name": "Other Building Equipment Contractors"
+                  }
+                }
+              }
+            }
+          },
+          "Building Finishing Contractors (T)": {
+            "name": "Building Finishing Contractors (T)",
+            "naicsIndustries": {
+              "Other Building Finishing Contractors (T)": {
+                "name": "Other Building Finishing Contractors (T)",
+                "nationalIndustries": {
+                  "238390": {
+                    "name": "Other Building Finishing Contractors"
+                  }
+                }
+              }
+            }
+          },
+          "Other Specialty Trade Contractors (T)": {
+            "name": "Other Specialty Trade Contractors (T)",
+            "naicsIndustries": {
+              "All Other Specialty Trade Contractors (T)": {
+                "name": "All Other Specialty Trade Contractors (T)",
+                "nationalIndustries": {
+                  "238990": {
+                    "name": "All Other Specialty Trade Contractors"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Manufacturing (T)": {
+    "name": "Manufacturing (T)",
+    "subsectors": {
+      "Food Manufacturing (T)": {
+        "name": "Food Manufacturing (T)",
+        "industries": {
+          "Animal Food Manufacturing (T)": {
+            "name": "Animal Food Manufacturing (T)",
+            "naicsIndustries": {
+              "Animal Food Manufacturing (T)": {
+                "name": "Animal Food Manufacturing (T)",
+                "nationalIndustries": {
+                  "311119": {
+                    "name": "Other Animal Food Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Grain and Oilseed Milling (T)": {
+            "name": "Grain and Oilseed Milling (T)",
+            "naicsIndustries": {
+              "Breakfast Cereal Manufacturing (T)": {
+                "name": "Breakfast Cereal Manufacturing (T)",
+                "nationalIndustries": {
+                  "311230": {
+                    "name": "Breakfast Cereal Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Sugar and Confectionery Product Manufacturing (T)": {
+            "name": "Sugar and Confectionery Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Chocolate and Confectionery Manufacturing (T)": {
+                "name": "Chocolate and Confectionery Manufacturing (T)",
+                "nationalIndustries": {
+                  "311352": {
+                    "name": "Confectionery Manufacturing from Purchased Chocolate"
+                  }
+                }
+              }
+            }
+          },
+          "Fruit and Vegetable Preserving and Specialty Food Manufacturing (T)": {
+            "name": "Fruit and Vegetable Preserving and Specialty Food Manufacturing (T)",
+            "naicsIndustries": {
+              "Fruit and Vegetable Canning, Pickling, and Drying (T)": {
+                "name": "Fruit and Vegetable Canning, Pickling, and Drying (T)",
+                "nationalIndustries": {
+                  "311423": {
+                    "name": "Dried and Dehydrated Food Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Dairy Product Manufacturing (T)": {
+            "name": "Dairy Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Ice Cream and Frozen Dessert Manufacturing (T)": {
+                "name": "Ice Cream and Frozen Dessert Manufacturing (T)",
+                "nationalIndustries": {
+                  "311520": {
+                    "name": "Ice Cream and Frozen Dessert Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Animal Slaughtering and Processing (T)": {
+            "name": "Animal Slaughtering and Processing (T)",
+            "naicsIndustries": {
+              "Animal Slaughtering and Processing (T)": {
+                "name": "Animal Slaughtering and Processing (T)",
+                "nationalIndustries": {
+                  "311615": {
+                    "name": "Poultry Processing"
+                  }
+                }
+              }
+            }
+          },
+          "Seafood Product Preparation and Packaging (T)": {
+            "name": "Seafood Product Preparation and Packaging (T)",
+            "naicsIndustries": {
+              "Seafood Product Preparation and Packaging (T)": {
+                "name": "Seafood Product Preparation and Packaging (T)",
+                "nationalIndustries": {
+                  "311710": {
+                    "name": "Seafood Product Preparation and Packaging"
+                  }
+                }
+              }
+            }
+          },
+          "Bakeries and Tortilla Manufacturing (T)": {
+            "name": "Bakeries and Tortilla Manufacturing (T)",
+            "naicsIndustries": {
+              "Tortilla Manufacturing (T)": {
+                "name": "Tortilla Manufacturing (T)",
+                "nationalIndustries": {
+                  "311830": {
+                    "name": "Tortilla Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other Food Manufacturing (T)": {
+            "name": "Other Food Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other Food Manufacturing (T)": {
+                "name": "All Other Food Manufacturing (T)",
+                "nationalIndustries": {
+                  "311999": {
+                    "name": "All Other Miscellaneous Food Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Beverage and Tobacco Product Manufacturing (T)": {
+        "name": "Beverage and Tobacco Product Manufacturing (T)",
+        "industries": {
+          "Beverage Manufacturing (T)": {
+            "name": "Beverage Manufacturing (T)",
+            "naicsIndustries": {
+              "Distilleries (T)": {
+                "name": "Distilleries (T)",
+                "nationalIndustries": {
+                  "312140": {
+                    "name": "Distilleries"
+                  }
+                }
+              }
+            }
+          },
+          "Tobacco Manufacturing (T)": {
+            "name": "Tobacco Manufacturing (T)",
+            "naicsIndustries": {
+              "Tobacco Manufacturing": {
+                "name": "Tobacco Manufacturing",
+                "nationalIndustries": {
+                  "312230": {
+                    "name": "Tobacco Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Textile Mills (T)": {
+        "name": "Textile Mills (T)",
+        "industries": {
+          "Fiber, Yarn, and Thread Mills (T)": {
+            "name": "Fiber, Yarn, and Thread Mills (T)",
+            "naicsIndustries": {
+              "Fiber, Yarn, and Thread Mills (T)": {
+                "name": "Fiber, Yarn, and Thread Mills (T)",
+                "nationalIndustries": {
+                  "313110": {
+                    "name": "Fiber, Yarn, and Thread Mills"
+                  }
+                }
+              }
+            }
+          },
+          "Fabric Mills (T)": {
+            "name": "Fabric Mills (T)",
+            "naicsIndustries": {
+              "Knit Fabric Mills (T)": {
+                "name": "Knit Fabric Mills (T)",
+                "nationalIndustries": {
+                  "313240": {
+                    "name": "Knit Fabric Mills"
+                  }
+                }
+              }
+            }
+          },
+          "Textile and Fabric Finishing and Fabric Coating Mills (T)": {
+            "name": "Textile and Fabric Finishing and Fabric Coating Mills (T)",
+            "naicsIndustries": {
+              "Fabric Coating Mills (T)": {
+                "name": "Fabric Coating Mills (T)",
+                "nationalIndustries": {
+                  "313320": {
+                    "name": "Fabric Coating Mills"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Textile Product Mills (T)": {
+        "name": "Textile Product Mills (T)",
+        "industries": {
+          "Textile Furnishings Mills (T)": {
+            "name": "Textile Furnishings Mills (T)",
+            "naicsIndustries": {
+              "Curtain and Linen Mills (T)": {
+                "name": "Curtain and Linen Mills (T)",
+                "nationalIndustries": {
+                  "314120": {
+                    "name": "Curtain and Linen Mills"
+                  }
+                }
+              }
+            }
+          },
+          "Other Textile Product Mills (T)": {
+            "name": "Other Textile Product Mills (T)",
+            "naicsIndustries": {
+              "All Other Textile Product Mills (T)": {
+                "name": "All Other Textile Product Mills (T)",
+                "nationalIndustries": {
+                  "314999": {
+                    "name": "All Other Miscellaneous Textile Product Mills"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Apparel Manufacturing (T)": {
+        "name": "Apparel Manufacturing (T)",
+        "industries": {
+          "Apparel Knitting Mills (T)": {
+            "name": "Apparel Knitting Mills (T)",
+            "naicsIndustries": {
+              "Apparel Knitting Mills (T) (**)": {
+                "name": "Apparel Knitting Mills (T) (**)",
+                "nationalIndustries": {
+                  "315120": {
+                    "name": "Apparel Knitting Mills(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Cut and Sew Apparel Manufacturing (T)": {
+            "name": "Cut and Sew Apparel Manufacturing (T)",
+            "naicsIndustries": {
+              "Cut and Sew Apparel Manufacturing (except Contractors) (**)": {
+                "name": "Cut and Sew Apparel Manufacturing (except Contractors) (**)",
+                "nationalIndustries": {
+                  "315250": {
+                    "name": "Cut and Sew Apparel Manufacturing (except Contractors)(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Apparel Accessories and Other Apparel Manufacturing (T)": {
+            "name": "Apparel Accessories and Other Apparel Manufacturing (T)",
+            "naicsIndustries": {
+              "Apparel Accessories and Other Apparel Manufacturing (T)": {
+                "name": "Apparel Accessories and Other Apparel Manufacturing (T)",
+                "nationalIndustries": {
+                  "315990": {
+                    "name": "Apparel Accessories and Other Apparel Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Leather and Allied Product Manufacturing (T)": {
+        "name": "Leather and Allied Product Manufacturing (T)",
+        "industries": {
+          "Leather and Hide Tanning and Finishing (T)": {
+            "name": "Leather and Hide Tanning and Finishing (T)",
+            "naicsIndustries": {
+              "Leather and Hide Tanning and Finishing (T)": {
+                "name": "Leather and Hide Tanning and Finishing (T)",
+                "nationalIndustries": {
+                  "316110": {
+                    "name": "Leather and Hide Tanning and Finishing"
+                  }
+                }
+              }
+            }
+          },
+          "Footwear Manufacturing (T)": {
+            "name": "Footwear Manufacturing (T)",
+            "naicsIndustries": {
+              "Footwear Manufacturing (T)": {
+                "name": "Footwear Manufacturing (T)",
+                "nationalIndustries": {
+                  "316210": {
+                    "name": "Footwear Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other Leather and Allied Product Manufacturing (T)": {
+            "name": "Other Leather and Allied Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Leather and Allied Product Manufacturing (T)": {
+                "name": "Other Leather and Allied Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "316990": {
+                    "name": "Other Leather and Allied Product Manufacturing(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Wood Product Manufacturing (T)": {
+        "name": "Wood Product Manufacturing (T)",
+        "industries": {
+          "Sawmills and Wood Preservation (T)": {
+            "name": "Sawmills and Wood Preservation (T)",
+            "naicsIndustries": {
+              "Sawmills and Wood Preservation (T)": {
+                "name": "Sawmills and Wood Preservation (T)",
+                "nationalIndustries": {
+                  "321114": {
+                    "name": "Wood Preservation"
+                  }
+                }
+              }
+            }
+          },
+          "Veneer, Plywood, and Engineered Wood Product Manufacturing (T)": {
+            "name": "Veneer, Plywood, and Engineered Wood Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Veneer, Plywood, and Engineered Wood Product Manufacturing (T)": {
+                "name": "Veneer, Plywood, and Engineered Wood Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "321219": {
+                    "name": "Reconstituted Wood Product Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other Wood Product Manufacturing (T)": {
+            "name": "Other Wood Product Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other Wood Product Manufacturing (T)": {
+                "name": "All Other Wood Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "321999": {
+                    "name": "All Other Miscellaneous Wood Product Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Paper Manufacturing (T)": {
+        "name": "Paper Manufacturing (T)",
+        "industries": {
+          "Pulp, Paper, and Paperboard Mills (T)": {
+            "name": "Pulp, Paper, and Paperboard Mills (T)",
+            "naicsIndustries": {
+              "Paperboard Mills (T)": {
+                "name": "Paperboard Mills (T)",
+                "nationalIndustries": {
+                  "322130": {
+                    "name": "Paperboard Mills"
+                  }
+                }
+              }
+            }
+          },
+          "Converted Paper Product Manufacturing (T)": {
+            "name": "Converted Paper Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Converted Paper Product Manufacturing (T)": {
+                "name": "Other Converted Paper Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "322299": {
+                    "name": "All Other Converted Paper Product Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Printing and Related Support Activities (T)": {
+        "name": "Printing and Related Support Activities (T)",
+        "industries": {
+          "Printing and Related Support Activities (T)": {
+            "name": "Printing and Related Support Activities (T)",
+            "naicsIndustries": {
+              "Support Activities for Printing (T)": {
+                "name": "Support Activities for Printing (T)",
+                "nationalIndustries": {
+                  "323120": {
+                    "name": "Support Activities for Printing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Petroleum and Coal Products Manufacturing (T)": {
+        "name": "Petroleum and Coal Products Manufacturing (T)",
+        "industries": {
+          "Petroleum and Coal Products Manufacturing (T)": {
+            "name": "Petroleum and Coal Products Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Petroleum and Coal Products Manufacturing (T)": {
+                "name": "Other Petroleum and Coal Products Manufacturing (T)",
+                "nationalIndustries": {
+                  "324199": {
+                    "name": "All Other Petroleum and Coal Products Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Chemical Manufacturing (T)": {
+        "name": "Chemical Manufacturing (T)",
+        "industries": {
+          "Basic Chemical Manufacturing (T)": {
+            "name": "Basic Chemical Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Basic Organic Chemical Manufacturing (T)": {
+                "name": "Other Basic Organic Chemical Manufacturing (T)",
+                "nationalIndustries": {
+                  "325199": {
+                    "name": "All Other Basic Organic Chemical Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Resin, Synthetic Rubber, and Artificial and Synthetic Fibers and Filaments Manufacturing (T)": {
+            "name": "Resin, Synthetic Rubber, and Artificial and Synthetic Fibers and Filaments Manufacturing (T)",
+            "naicsIndustries": {
+              "Artificial and Synthetic Fibers and Filaments Manufacturing (T)": {
+                "name": "Artificial and Synthetic Fibers and Filaments Manufacturing (T)",
+                "nationalIndustries": {
+                  "325220": {
+                    "name": "Artificial and Synthetic Fibers and Filaments Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing (T)": {
+            "name": "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing (T)",
+            "naicsIndustries": {
+              "Pesticide and Other Agricultural Chemical Manufacturing (T)": {
+                "name": "Pesticide and Other Agricultural Chemical Manufacturing (T)",
+                "nationalIndustries": {
+                  "325320": {
+                    "name": "Pesticide and Other Agricultural Chemical Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Pharmaceutical and Medicine Manufacturing (T)": {
+            "name": "Pharmaceutical and Medicine Manufacturing (T)",
+            "naicsIndustries": {
+              "Pharmaceutical and Medicine Manufacturing (T)": {
+                "name": "Pharmaceutical and Medicine Manufacturing (T)",
+                "nationalIndustries": {
+                  "325414": {
+                    "name": "Biological Product (except Diagnostic) Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Paint, Coating, and Adhesive Manufacturing (T)": {
+            "name": "Paint, Coating, and Adhesive Manufacturing (T)",
+            "naicsIndustries": {
+              "Adhesive Manufacturing (T)": {
+                "name": "Adhesive Manufacturing (T)",
+                "nationalIndustries": {
+                  "325520": {
+                    "name": "Adhesive Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Soap, Cleaning Compound, and Toilet Preparation Manufacturing (T)": {
+            "name": "Soap, Cleaning Compound, and Toilet Preparation Manufacturing (T)",
+            "naicsIndustries": {
+              "Toilet Preparation Manufacturing (T)": {
+                "name": "Toilet Preparation Manufacturing (T)",
+                "nationalIndustries": {
+                  "325620": {
+                    "name": "Toilet Preparation Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other Chemical Product and Preparation Manufacturing (T)": {
+            "name": "Other Chemical Product and Preparation Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other Chemical Product and Preparation Manufacturing (T)": {
+                "name": "All Other Chemical Product and Preparation Manufacturing (T)",
+                "nationalIndustries": {
+                  "325998": {
+                    "name": "All Other Miscellaneous Chemical Product and Preparation Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Plastics and Rubber Products Manufacturing (T)": {
+        "name": "Plastics and Rubber Products Manufacturing (T)",
+        "industries": {
+          "Plastics Product Manufacturing (T)": {
+            "name": "Plastics Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Plastics Product Manufacturing (T)": {
+                "name": "Other Plastics Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "326199": {
+                    "name": "All Other Plastics Product Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Rubber Product Manufacturing (T)": {
+            "name": "Rubber Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Rubber Product Manufacturing (T)": {
+                "name": "Other Rubber Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "326299": {
+                    "name": "All Other Rubber Product Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Nonmetallic Mineral Product Manufacturing (T)": {
+        "name": "Nonmetallic Mineral Product Manufacturing (T)",
+        "industries": {
+          "Clay Product and Refractory Manufacturing (T)": {
+            "name": "Clay Product and Refractory Manufacturing (T)",
+            "naicsIndustries": {
+              "Clay Building Material and Refractories Manufacturing (T)": {
+                "name": "Clay Building Material and Refractories Manufacturing (T)",
+                "nationalIndustries": {
+                  "327120": {
+                    "name": "Clay Building Material and Refractories Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Glass and Glass Product Manufacturing (T)": {
+            "name": "Glass and Glass Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Glass and Glass Product Manufacturing (T)": {
+                "name": "Glass and Glass Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "327215": {
+                    "name": "Glass Product Manufacturing Made of Purchased Glass"
+                  }
+                }
+              }
+            }
+          },
+          "Cement and Concrete Product Manufacturing (T)": {
+            "name": "Cement and Concrete Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Concrete Product Manufacturing (T)": {
+                "name": "Other Concrete Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "327390": {
+                    "name": "Other Concrete Product Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Lime and Gypsum Product Manufacturing (T)": {
+            "name": "Lime and Gypsum Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Gypsum Product Manufacturing (T)": {
+                "name": "Gypsum Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "327420": {
+                    "name": "Gypsum Product Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other Nonmetallic Mineral Product Manufacturing (T)": {
+            "name": "Other Nonmetallic Mineral Product Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other Nonmetallic Mineral Product Manufacturing (T)": {
+                "name": "All Other Nonmetallic Mineral Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "327999": {
+                    "name": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Primary Metal Manufacturing (T)": {
+        "name": "Primary Metal Manufacturing (T)",
+        "industries": {
+          "Iron and Steel Mills and Ferroalloy Manufacturing (T)": {
+            "name": "Iron and Steel Mills and Ferroalloy Manufacturing (T)",
+            "naicsIndustries": {
+              "Iron and Steel Mills and Ferroalloy Manufacturing (T)": {
+                "name": "Iron and Steel Mills and Ferroalloy Manufacturing (T)",
+                "nationalIndustries": {
+                  "331110": {
+                    "name": "Iron and Steel Mills and Ferroalloy Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Steel Product Manufacturing from Purchased Steel (T)": {
+            "name": "Steel Product Manufacturing from Purchased Steel (T)",
+            "naicsIndustries": {
+              "Rolling and Drawing of Purchased Steel (T)": {
+                "name": "Rolling and Drawing of Purchased Steel (T)",
+                "nationalIndustries": {
+                  "331222": {
+                    "name": "Steel Wire Drawing"
+                  }
+                }
+              }
+            }
+          },
+          "Alumina and Aluminum Production and Processing (T)": {
+            "name": "Alumina and Aluminum Production and Processing (T)",
+            "naicsIndustries": {
+              "Alumina and Aluminum Production and Processing (T)": {
+                "name": "Alumina and Aluminum Production and Processing (T)",
+                "nationalIndustries": {
+                  "331318": {
+                    "name": "Other Aluminum Rolling, Drawing, and Extruding"
+                  }
+                }
+              }
+            }
+          },
+          "Nonferrous Metal (except Aluminum) Production and Processing (T)": {
+            "name": "Nonferrous Metal (except Aluminum) Production and Processing (T)",
+            "naicsIndustries": {
+              "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, Extruding, and Alloying (T)": {
+                "name": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, Extruding, and Alloying (T)",
+                "nationalIndustries": {
+                  "331492": {
+                    "name": "Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"
+                  }
+                }
+              }
+            }
+          },
+          "Foundries (T)": {
+            "name": "Foundries (T)",
+            "naicsIndustries": {
+              "Nonferrous Metal Foundries (T)": {
+                "name": "Nonferrous Metal Foundries (T)",
+                "nationalIndustries": {
+                  "331529": {
+                    "name": "Other Nonferrous Metal Foundries (except Die-Casting)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Fabricated Metal Product Manufacturing (T)": {
+        "name": "Fabricated Metal Product Manufacturing (T)",
+        "industries": {
+          "Forging and Stamping (T)": {
+            "name": "Forging and Stamping (T)",
+            "naicsIndustries": {
+              "Forging and Stamping (T)": {
+                "name": "Forging and Stamping (T)",
+                "nationalIndustries": {
+                  "332119": {
+                    "name": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)"
+                  }
+                }
+              }
+            }
+          },
+          "Cutlery and Handtool Manufacturing (T)": {
+            "name": "Cutlery and Handtool Manufacturing (T)",
+            "naicsIndustries": {
+              "Cutlery and Handtool Manufacturing (T)": {
+                "name": "Cutlery and Handtool Manufacturing (T)",
+                "nationalIndustries": {
+                  "332216": {
+                    "name": "Saw Blade and Handtool Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Architectural and Structural Metals Manufacturing (T)": {
+            "name": "Architectural and Structural Metals Manufacturing (T)",
+            "naicsIndustries": {
+              "Ornamental and Architectural Metal Products Manufacturing (T)": {
+                "name": "Ornamental and Architectural Metal Products Manufacturing (T)",
+                "nationalIndustries": {
+                  "332323": {
+                    "name": "Ornamental and Architectural Metal Work Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Boiler, Tank, and Shipping Container Manufacturing (T)": {
+            "name": "Boiler, Tank, and Shipping Container Manufacturing (T)",
+            "naicsIndustries": {
+              "Metal Can, Box, and Other Metal Container (Light Gauge) Manufacturing (T)": {
+                "name": "Metal Can, Box, and Other Metal Container (Light Gauge) Manufacturing (T)",
+                "nationalIndustries": {
+                  "332439": {
+                    "name": "Other Metal Container Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Hardware Manufacturing (T)": {
+            "name": "Hardware Manufacturing (T)",
+            "naicsIndustries": {
+              "Hardware Manufacturing (T)": {
+                "name": "Hardware Manufacturing (T)",
+                "nationalIndustries": {
+                  "332510": {
+                    "name": "Hardware Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Spring and Wire Product Manufacturing (T)": {
+            "name": "Spring and Wire Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Spring and Wire Product Manufacturing (T)": {
+                "name": "Spring and Wire Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "332618": {
+                    "name": "Other Fabricated Wire Product Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing (T)": {
+            "name": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing (T)",
+            "naicsIndustries": {
+              "Turned Product and Screw, Nut, and Bolt Manufacturing (T)": {
+                "name": "Turned Product and Screw, Nut, and Bolt Manufacturing (T)",
+                "nationalIndustries": {
+                  "332722": {
+                    "name": "Bolt, Nut, Screw, Rivet, and Washer Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Coating, Engraving, Heat Treating, and Allied Activities (T)": {
+            "name": "Coating, Engraving, Heat Treating, and Allied Activities (T)",
+            "naicsIndustries": {
+              "Coating, Engraving, Heat Treating, and Allied Activities (T)": {
+                "name": "Coating, Engraving, Heat Treating, and Allied Activities (T)",
+                "nationalIndustries": {
+                  "332813": {
+                    "name": "Electroplating, Plating, Polishing, Anodizing, and Coloring"
+                  }
+                }
+              }
+            }
+          },
+          "Other Fabricated Metal Product Manufacturing (T)": {
+            "name": "Other Fabricated Metal Product Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other Fabricated Metal Product Manufacturing (T)": {
+                "name": "All Other Fabricated Metal Product Manufacturing (T)",
+                "nationalIndustries": {
+                  "332999": {
+                    "name": "All Other Miscellaneous Fabricated Metal Product Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Machinery Manufacturing (T)": {
+        "name": "Machinery Manufacturing (T)",
+        "industries": {
+          "Agriculture, Construction, and Mining Machinery Manufacturing (T)": {
+            "name": "Agriculture, Construction, and Mining Machinery Manufacturing (T)",
+            "naicsIndustries": {
+              "Mining and Oil and Gas Field Machinery Manufacturing (T)": {
+                "name": "Mining and Oil and Gas Field Machinery Manufacturing (T)",
+                "nationalIndustries": {
+                  "333132": {
+                    "name": "Oil and Gas Field Machinery and Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Industrial Machinery Manufacturing (T)": {
+            "name": "Industrial Machinery Manufacturing (T)",
+            "naicsIndustries": {
+              "Industrial Machinery Manufacturing (T)": {
+                "name": "Industrial Machinery Manufacturing (T)",
+                "nationalIndustries": {
+                  "333248": {
+                    "name": "All Other Industrial Machinery Manufacturing(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Commercial and Service Industry Machinery Manufacturing (T)": {
+            "name": "Commercial and Service Industry Machinery Manufacturing (T)",
+            "naicsIndustries": {
+              "Commercial and Service Industry Machinery Manufacturing (T)": {
+                "name": "Commercial and Service Industry Machinery Manufacturing (T)",
+                "nationalIndustries": {
+                  "333310": {
+                    "name": "Commercial and Service Industry Machinery Manufacturing(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing (T)": {
+            "name": "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing (T)": {
+                "name": "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing (T)",
+                "nationalIndustries": {
+                  "333415": {
+                    "name": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Metalworking Machinery Manufacturing (T)": {
+            "name": "Metalworking Machinery Manufacturing (T)",
+            "naicsIndustries": {
+              "Metalworking Machinery Manufacturing (T)": {
+                "name": "Metalworking Machinery Manufacturing (T)",
+                "nationalIndustries": {
+                  "333519": {
+                    "name": "Rolling Mill and Other Metalworking Machinery Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Engine, Turbine, and Power Transmission Equipment Manufacturing (T)": {
+            "name": "Engine, Turbine, and Power Transmission Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Engine, Turbine, and Power Transmission Equipment Manufacturing (T)": {
+                "name": "Engine, Turbine, and Power Transmission Equipment Manufacturing (T)",
+                "nationalIndustries": {
+                  "333618": {
+                    "name": "Other Engine Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other General Purpose Machinery Manufacturing (T)": {
+            "name": "Other General Purpose Machinery Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other General Purpose Machinery Manufacturing (T)": {
+                "name": "All Other General Purpose Machinery Manufacturing (T)",
+                "nationalIndustries": {
+                  "333998": {
+                    "name": "All Other Miscellaneous General Purpose Machinery Manufacturing(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Computer and Electronic Product Manufacturing (T)": {
+        "name": "Computer and Electronic Product Manufacturing (T)",
+        "industries": {
+          "Computer and Peripheral Equipment Manufacturing (T)": {
+            "name": "Computer and Peripheral Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Computer and Peripheral Equipment Manufacturing (T)": {
+                "name": "Computer and Peripheral Equipment Manufacturing (T)",
+                "nationalIndustries": {
+                  "334118": {
+                    "name": "Computer Terminal and Other Computer Peripheral Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Communications Equipment Manufacturing (T)": {
+            "name": "Communications Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Communications Equipment Manufacturing (T)": {
+                "name": "Other Communications Equipment Manufacturing (T)",
+                "nationalIndustries": {
+                  "334290": {
+                    "name": "Other Communications Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Audio and Video Equipment Manufacturing (T)": {
+            "name": "Audio and Video Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Audio and Video Equipment Manufacturing (T)": {
+                "name": "Audio and Video Equipment Manufacturing (T)",
+                "nationalIndustries": {
+                  "334310": {
+                    "name": "Audio and Video Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Semiconductor and Other Electronic Component Manufacturing (T)": {
+            "name": "Semiconductor and Other Electronic Component Manufacturing (T)",
+            "naicsIndustries": {
+              "Semiconductor and Other Electronic Component Manufacturing (T)": {
+                "name": "Semiconductor and Other Electronic Component Manufacturing (T)",
+                "nationalIndustries": {
+                  "334419": {
+                    "name": "Other Electronic Component Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing (T)": {
+            "name": "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing (T)",
+            "naicsIndustries": {
+              "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing (T)": {
+                "name": "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing (T)",
+                "nationalIndustries": {
+                  "334519": {
+                    "name": "Other Measuring and Controlling Device Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Manufacturing and Reproducing Magnetic and Optical Media (T)": {
+            "name": "Manufacturing and Reproducing Magnetic and Optical Media (T)",
+            "naicsIndustries": {
+              "Manufacturing and Reproducing Magnetic and Optical Media (T)": {
+                "name": "Manufacturing and Reproducing Magnetic and Optical Media (T)",
+                "nationalIndustries": {
+                  "334610": {
+                    "name": "Manufacturing and Reproducing Magnetic and Optical Media(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Electrical Equipment, Appliance, and Component Manufacturing (T)": {
+        "name": "Electrical Equipment, Appliance, and Component Manufacturing (T)",
+        "industries": {
+          "Electric Lighting Equipment Manufacturing (T)": {
+            "name": "Electric Lighting Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Electric Lighting Equipment Manufacturing (T) (**)": {
+                "name": "Electric Lighting Equipment Manufacturing (T) (**)",
+                "nationalIndustries": {
+                  "335139": {
+                    "name": "Electric Lamp Bulb and Other Lighting Equipment Manufacturing(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Household Appliance Manufacturing (T)": {
+            "name": "Household Appliance Manufacturing (T)",
+            "naicsIndustries": {
+              "Major Household Appliance Manufacturing (T)": {
+                "name": "Major Household Appliance Manufacturing (T)",
+                "nationalIndustries": {
+                  "335220": {
+                    "name": "Major Household Appliance Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Electrical Equipment Manufacturing (T)": {
+            "name": "Electrical Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Electrical Equipment Manufacturing (T)": {
+                "name": "Electrical Equipment Manufacturing (T)",
+                "nationalIndustries": {
+                  "335314": {
+                    "name": "Relay and Industrial Control Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other Electrical Equipment and Component Manufacturing (T)": {
+            "name": "Other Electrical Equipment and Component Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other Electrical Equipment and Component Manufacturing (T)": {
+                "name": "All Other Electrical Equipment and Component Manufacturing (T)",
+                "nationalIndustries": {
+                  "335999": {
+                    "name": "All Other Miscellaneous Electrical Equipment and Component Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Transportation Equipment Manufacturing (T)": {
+        "name": "Transportation Equipment Manufacturing (T)",
+        "industries": {
+          "Motor Vehicle Manufacturing (T)": {
+            "name": "Motor Vehicle Manufacturing (T)",
+            "naicsIndustries": {
+              "Heavy Duty Truck Manufacturing (T)": {
+                "name": "Heavy Duty Truck Manufacturing (T)",
+                "nationalIndustries": {
+                  "336120": {
+                    "name": "Heavy Duty Truck Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Motor Vehicle Body and Trailer Manufacturing (T)": {
+            "name": "Motor Vehicle Body and Trailer Manufacturing (T)",
+            "naicsIndustries": {
+              "Motor Vehicle Body and Trailer Manufacturing (T)": {
+                "name": "Motor Vehicle Body and Trailer Manufacturing (T)",
+                "nationalIndustries": {
+                  "336214": {
+                    "name": "Travel Trailer and Camper Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Motor Vehicle Parts Manufacturing (T)": {
+            "name": "Motor Vehicle Parts Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Motor Vehicle Parts Manufacturing (T)": {
+                "name": "Other Motor Vehicle Parts Manufacturing (T)",
+                "nationalIndustries": {
+                  "336390": {
+                    "name": "Other Motor Vehicle Parts Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Aerospace Product and Parts Manufacturing (T)": {
+            "name": "Aerospace Product and Parts Manufacturing (T)",
+            "naicsIndustries": {
+              "Aerospace Product and Parts Manufacturing (T)": {
+                "name": "Aerospace Product and Parts Manufacturing (T)",
+                "nationalIndustries": {
+                  "336419": {
+                    "name": "Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Railroad Rolling Stock Manufacturing (T)": {
+            "name": "Railroad Rolling Stock Manufacturing (T)",
+            "naicsIndustries": {
+              "Railroad Rolling Stock Manufacturing (T)": {
+                "name": "Railroad Rolling Stock Manufacturing (T)",
+                "nationalIndustries": {
+                  "336510": {
+                    "name": "Railroad Rolling Stock Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Ship and Boat Building (T)": {
+            "name": "Ship and Boat Building (T)",
+            "naicsIndustries": {
+              "Ship and Boat Building (T)": {
+                "name": "Ship and Boat Building (T)",
+                "nationalIndustries": {
+                  "336612": {
+                    "name": "Boat Building"
+                  }
+                }
+              }
+            }
+          },
+          "Other Transportation Equipment Manufacturing (T)": {
+            "name": "Other Transportation Equipment Manufacturing (T)",
+            "naicsIndustries": {
+              "Other Transportation Equipment Manufacturing (T)": {
+                "name": "Other Transportation Equipment Manufacturing (T)",
+                "nationalIndustries": {
+                  "336999": {
+                    "name": "All Other Transportation Equipment Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Furniture and Related Product Manufacturing (T)": {
+        "name": "Furniture and Related Product Manufacturing (T)",
+        "industries": {
+          "Household and Institutional Furniture and Kitchen Cabinet Manufacturing (T)": {
+            "name": "Household and Institutional Furniture and Kitchen Cabinet Manufacturing (T)",
+            "naicsIndustries": {
+              "Household and Institutional Furniture Manufacturing (T)": {
+                "name": "Household and Institutional Furniture Manufacturing (T)",
+                "nationalIndustries": {
+                  "337127": {
+                    "name": "Institutional Furniture Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Office Furniture (including Fixtures) Manufacturing (T)": {
+            "name": "Office Furniture (including Fixtures) Manufacturing (T)",
+            "naicsIndustries": {
+              "Office Furniture (including Fixtures) Manufacturing (T)": {
+                "name": "Office Furniture (including Fixtures) Manufacturing (T)",
+                "nationalIndustries": {
+                  "337215": {
+                    "name": "Showcase, Partition, Shelving, and Locker Manufacturing"
+                  }
+                }
+              }
+            }
+          },
+          "Other Furniture Related Product Manufacturing (T)": {
+            "name": "Other Furniture Related Product Manufacturing (T)",
+            "naicsIndustries": {
+              "Blind and Shade Manufacturing (T)": {
+                "name": "Blind and Shade Manufacturing (T)",
+                "nationalIndustries": {
+                  "337920": {
+                    "name": "Blind and Shade Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Miscellaneous Manufacturing (T)": {
+        "name": "Miscellaneous Manufacturing (T)",
+        "industries": {
+          "Medical Equipment and Supplies Manufacturing (T)": {
+            "name": "Medical Equipment and Supplies Manufacturing (T)",
+            "naicsIndustries": {
+              "Medical Equipment and Supplies Manufacturing (T)": {
+                "name": "Medical Equipment and Supplies Manufacturing (T)",
+                "nationalIndustries": {
+                  "339116": {
+                    "name": "Dental Laboratories"
+                  }
+                }
+              }
+            }
+          },
+          "Other Miscellaneous Manufacturing (T)": {
+            "name": "Other Miscellaneous Manufacturing (T)",
+            "naicsIndustries": {
+              "All Other Miscellaneous Manufacturing (T)": {
+                "name": "All Other Miscellaneous Manufacturing (T)",
+                "nationalIndustries": {
+                  "339999": {
+                    "name": "All Other Miscellaneous Manufacturing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Wholesale Trade (T)": {
+    "name": "Wholesale Trade (T)",
+    "subsectors": {
+      "Merchant Wholesalers, Durable Goods": {
+        "name": "Merchant Wholesalers, Durable Goods",
+        "industries": {
+          "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers": {
+            "name": "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers",
+            "naicsIndustries": {
+              "Motor Vehicle Parts (Used) Merchant Wholesalers": {
+                "name": "Motor Vehicle Parts (Used) Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423140": {
+                    "name": "Motor Vehicle Parts (Used) Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Furniture and Home Furnishing Merchant Wholesalers": {
+            "name": "Furniture and Home Furnishing Merchant Wholesalers",
+            "naicsIndustries": {
+              "Home Furnishing Merchant Wholesalers": {
+                "name": "Home Furnishing Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423220": {
+                    "name": "Home Furnishing Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Lumber and Other Construction Materials Merchant Wholesalers": {
+            "name": "Lumber and Other Construction Materials Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Construction Material Merchant Wholesalers": {
+                "name": "Other Construction Material Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423390": {
+                    "name": "Other Construction Material Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Professional and Commercial Equipment and Supplies Merchant Wholesalers": {
+            "name": "Professional and Commercial Equipment and Supplies Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Professional Equipment and Supplies Merchant Wholesalers": {
+                "name": "Other Professional Equipment and Supplies Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423490": {
+                    "name": "Other Professional Equipment and Supplies Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Metal and Mineral (except Petroleum) Merchant Wholesalers": {
+            "name": "Metal and Mineral (except Petroleum) Merchant Wholesalers",
+            "naicsIndustries": {
+              "Coal and Other Mineral and Ore Merchant Wholesalers": {
+                "name": "Coal and Other Mineral and Ore Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423520": {
+                    "name": "Coal and Other Mineral and Ore Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Household Appliances and Electrical and Electronic Goods Merchant Wholesalers": {
+            "name": "Household Appliances and Electrical and Electronic Goods Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Electronic Parts and Equipment Merchant Wholesalers": {
+                "name": "Other Electronic Parts and Equipment Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423690": {
+                    "name": "Other Electronic Parts and Equipment Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers": {
+            "name": "Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",
+            "naicsIndustries": {
+              "Refrigeration Equipment and Supplies Merchant Wholesalers": {
+                "name": "Refrigeration Equipment and Supplies Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423740": {
+                    "name": "Refrigeration Equipment and Supplies Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Machinery, Equipment, and Supplies Merchant Wholesalers": {
+            "name": "Machinery, Equipment, and Supplies Merchant Wholesalers",
+            "naicsIndustries": {
+              "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers": {
+                "name": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423860": {
+                    "name": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Miscellaneous Durable Goods Merchant Wholesalers": {
+            "name": "Miscellaneous Durable Goods Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Miscellaneous Durable Goods Merchant Wholesalers": {
+                "name": "Other Miscellaneous Durable Goods Merchant Wholesalers",
+                "nationalIndustries": {
+                  "423990": {
+                    "name": "Other Miscellaneous Durable Goods Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Merchant Wholesalers, Nondurable Goods": {
+        "name": "Merchant Wholesalers, Nondurable Goods",
+        "industries": {
+          "Paper and Paper Product Merchant Wholesalers": {
+            "name": "Paper and Paper Product Merchant Wholesalers",
+            "naicsIndustries": {
+              "Industrial and Personal Service Paper Merchant Wholesalers": {
+                "name": "Industrial and Personal Service Paper Merchant Wholesalers",
+                "nationalIndustries": {
+                  "424130": {
+                    "name": "Industrial and Personal Service Paper Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Drugs and Druggists' Sundries Merchant Wholesalers": {
+            "name": "Drugs and Druggists' Sundries Merchant Wholesalers",
+            "naicsIndustries": {
+              "Drugs and Druggists' Sundries Merchant Wholesalers": {
+                "name": "Drugs and Druggists' Sundries Merchant Wholesalers",
+                "nationalIndustries": {
+                  "424210": {
+                    "name": "Drugs and Druggists' Sundries Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Apparel, Piece Goods, and Notions Merchant Wholesalers": {
+            "name": "Apparel, Piece Goods, and Notions Merchant Wholesalers",
+            "naicsIndustries": {
+              "Clothing and Clothing Accessories Merchant Wholesalers (**)": {
+                "name": "Clothing and Clothing Accessories Merchant Wholesalers (**)",
+                "nationalIndustries": {
+                  "424350": {
+                    "name": "Clothing and Clothing Accessories Merchant Wholesalers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Grocery and Related Product Merchant Wholesalers": {
+            "name": "Grocery and Related Product Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Grocery and Related Products Merchant Wholesalers": {
+                "name": "Other Grocery and Related Products Merchant Wholesalers",
+                "nationalIndustries": {
+                  "424490": {
+                    "name": "Other Grocery and Related Products Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Farm Product Raw Material Merchant Wholesalers": {
+            "name": "Farm Product Raw Material Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Farm Product Raw Material Merchant Wholesalers": {
+                "name": "Other Farm Product Raw Material Merchant Wholesalers",
+                "nationalIndustries": {
+                  "424590": {
+                    "name": "Other Farm Product Raw Material Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Chemical and Allied Products Merchant Wholesalers": {
+            "name": "Chemical and Allied Products Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Chemical and Allied Products Merchant Wholesalers": {
+                "name": "Other Chemical and Allied Products Merchant Wholesalers",
+                "nationalIndustries": {
+                  "424690": {
+                    "name": "Other Chemical and Allied Products Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Petroleum and Petroleum Products Merchant Wholesalers": {
+            "name": "Petroleum and Petroleum Products Merchant Wholesalers",
+            "naicsIndustries": {
+              "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)": {
+                "name": "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)",
+                "nationalIndustries": {
+                  "424720": {
+                    "name": "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)"
+                  }
+                }
+              }
+            }
+          },
+          "Beer, Wine, and Distilled Alcoholic Beverage Merchant Wholesalers": {
+            "name": "Beer, Wine, and Distilled Alcoholic Beverage Merchant Wholesalers",
+            "naicsIndustries": {
+              "Wine and Distilled Alcoholic Beverage Merchant Wholesalers": {
+                "name": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+                "nationalIndustries": {
+                  "424820": {
+                    "name": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          },
+          "Miscellaneous Nondurable Goods Merchant Wholesalers": {
+            "name": "Miscellaneous Nondurable Goods Merchant Wholesalers",
+            "naicsIndustries": {
+              "Other Miscellaneous Nondurable Goods Merchant Wholesalers": {
+                "name": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+                "nationalIndustries": {
+                  "424990": {
+                    "name": "Other Miscellaneous Nondurable Goods Merchant Wholesalers"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Wholesale Trade Agents and Brokers (*)": {
+        "name": "Wholesale Trade Agents and Brokers (*)",
+        "industries": {
+          "Wholesale Trade Agents and Brokers (*)": {
+            "name": "Wholesale Trade Agents and Brokers (*)",
+            "naicsIndustries": {
+              "Wholesale Trade Agents and Brokers (***)": {
+                "name": "Wholesale Trade Agents and Brokers (***)",
+                "nationalIndustries": {
+                  "425120": {
+                    "name": "Wholesale Trade Agents and Brokers(***)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Retail Trade (T)": {
+    "name": "Retail Trade (T)",
+    "subsectors": {
+      "Motor Vehicle and Parts Dealers (****)": {
+        "name": "Motor Vehicle and Parts Dealers (****)",
+        "industries": {
+          "Automobile Dealers": {
+            "name": "Automobile Dealers",
+            "naicsIndustries": {
+              "Used Car Dealers": {
+                "name": "Used Car Dealers",
+                "nationalIndustries": {
+                  "441120": {
+                    "name": "Used Car Dealers"
+                  }
+                }
+              }
+            }
+          },
+          "Other Motor Vehicle Dealers": {
+            "name": "Other Motor Vehicle Dealers",
+            "naicsIndustries": {
+              "Motorcycle, Boat, and Other Motor Vehicle Dealers": {
+                "name": "Motorcycle, Boat, and Other Motor Vehicle Dealers",
+                "nationalIndustries": {
+                  "441227": {
+                    "name": "Motorcycle, ATV, and All Other Motor Vehicle Dealers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Automotive Parts, Accessories, and Tire Retailers (***)": {
+            "name": "Automotive Parts, Accessories, and Tire Retailers (***)",
+            "naicsIndustries": {
+              "Tire Dealers (**)": {
+                "name": "Tire Dealers (**)",
+                "nationalIndustries": {
+                  "441340": {
+                    "name": "Tire Dealers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Building Material and Garden Equipment and Supplies Dealers (****)": {
+        "name": "Building Material and Garden Equipment and Supplies Dealers (****)",
+        "industries": {
+          "Building Material and Supplies Dealers": {
+            "name": "Building Material and Supplies Dealers",
+            "naicsIndustries": {
+              "Other Building Material Dealers (**)": {
+                "name": "Other Building Material Dealers (**)",
+                "nationalIndustries": {
+                  "444180": {
+                    "name": "Other Building Material Dealers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Lawn and Garden Equipment and Supplies Retailers (***)": {
+            "name": "Lawn and Garden Equipment and Supplies Retailers (***)",
+            "naicsIndustries": {
+              "Nursery, Garden Center, and Farm Supply Retailers (**)": {
+                "name": "Nursery, Garden Center, and Farm Supply Retailers (**)",
+                "nationalIndustries": {
+                  "444240": {
+                    "name": "Nursery, Garden Center, and Farm Supply Retailers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Food and Beverage Retailers (****)": {
+        "name": "Food and Beverage Retailers (****)",
+        "industries": {
+          "Grocery and Convenience Retailers (****)": {
+            "name": "Grocery and Convenience Retailers (****)",
+            "naicsIndustries": {
+              "Convenience Retailers and Vending Machine Operators (**)": {
+                "name": "Convenience Retailers and Vending Machine Operators (**)",
+                "nationalIndustries": {
+                  "445132": {
+                    "name": "Vending Machine Operators(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Specialty Food Retailers (****)": {
+            "name": "Specialty Food Retailers (****)",
+            "naicsIndustries": {
+              "Other Specialty Food Retailers (*)": {
+                "name": "Other Specialty Food Retailers (*)",
+                "nationalIndustries": {
+                  "445298": {
+                    "name": "All Other Specialty Food Retailers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Beer, Wine, and Liquor Retailers (***)": {
+            "name": "Beer, Wine, and Liquor Retailers (***)",
+            "naicsIndustries": {
+              "Beer, Wine, and Liquor Retailers (**)": {
+                "name": "Beer, Wine, and Liquor Retailers (**)",
+                "nationalIndustries": {
+                  "445320": {
+                    "name": "Beer, Wine, and Liquor Retailers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Furniture, Home Furnishings, Electronics, and Appliance Retailers (**)": {
+        "name": "Furniture, Home Furnishings, Electronics, and Appliance Retailers (**)",
+        "industries": {
+          "Furniture and Home Furnishings Retailers (**)": {
+            "name": "Furniture and Home Furnishings Retailers (**)",
+            "naicsIndustries": {
+              "Home Furnishings Retailers (**)": {
+                "name": "Home Furnishings Retailers (**)",
+                "nationalIndustries": {
+                  "449129": {
+                    "name": "All Other Home Furnishings Retailers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Electronics and Appliance Retailers (**)": {
+            "name": "Electronics and Appliance Retailers (**)",
+            "naicsIndustries": {
+              "Electronics and Appliance Retailers (**)": {
+                "name": "Electronics and Appliance Retailers (**)",
+                "nationalIndustries": {
+                  "449210": {
+                    "name": "Electronics and Appliance Retailers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "General Merchandise Retailers (**)": {
+        "name": "General Merchandise Retailers (**)",
+        "industries": {
+          "Department Stores (**)": {
+            "name": "Department Stores (**)",
+            "naicsIndustries": {
+              "Department Stores (**)": {
+                "name": "Department Stores (**)",
+                "nationalIndustries": {
+                  "455110": {
+                    "name": "Department Stores(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers (**)": {
+            "name": "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers (**)",
+            "naicsIndustries": {
+              "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers (**)": {
+                "name": "Warehouse Clubs, Supercenters, and Other General Merchandise Retailers (**)",
+                "nationalIndustries": {
+                  "455219": {
+                    "name": "All Other General Merchandise Retailers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Health and Personal Care Retailers (**)": {
+        "name": "Health and Personal Care Retailers (**)",
+        "industries": {
+          "Health and Personal Care Retailers (**)": {
+            "name": "Health and Personal Care Retailers (**)",
+            "naicsIndustries": {
+              "Other Health and Personal Care Retailers (**)": {
+                "name": "Other Health and Personal Care Retailers (**)",
+                "nationalIndustries": {
+                  "456199": {
+                    "name": "All Other Health and Personal Care Retailers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Gasoline Stations and Fuel Dealers (**)": {
+        "name": "Gasoline Stations and Fuel Dealers (**)",
+        "industries": {
+          "Gasoline Stations (**)": {
+            "name": "Gasoline Stations (**)",
+            "naicsIndustries": {
+              "Other Gasoline Stations (**)": {
+                "name": "Other Gasoline Stations (**)",
+                "nationalIndustries": {
+                  "457120": {
+                    "name": "Other Gasoline Stations(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Fuel Dealers (**)": {
+            "name": "Fuel Dealers (**)",
+            "naicsIndustries": {
+              "Fuel Dealers (**)": {
+                "name": "Fuel Dealers (**)",
+                "nationalIndustries": {
+                  "457210": {
+                    "name": "Fuel Dealers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Clothing, Clothing Accessories, Shoe, and Jewelry Retailers (**)": {
+        "name": "Clothing, Clothing Accessories, Shoe, and Jewelry Retailers (**)",
+        "industries": {
+          "Clothing and Clothing Accessories Retailers (**)": {
+            "name": "Clothing and Clothing Accessories Retailers (**)",
+            "naicsIndustries": {
+              "Clothing and Clothing Accessories Retailers (**)": {
+                "name": "Clothing and Clothing Accessories Retailers (**)",
+                "nationalIndustries": {
+                  "458110": {
+                    "name": "Clothing and Clothing Accessories Retailers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Shoe Retailers (**)": {
+            "name": "Shoe Retailers (**)",
+            "naicsIndustries": {
+              "Shoe Retailers (**)": {
+                "name": "Shoe Retailers (**)",
+                "nationalIndustries": {
+                  "458210": {
+                    "name": "Shoe Retailers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Jewelry, Luggage, and Leather Goods Retailers (**)": {
+            "name": "Jewelry, Luggage, and Leather Goods Retailers (**)",
+            "naicsIndustries": {
+              "Luggage and Leather Goods Retailers (**)": {
+                "name": "Luggage and Leather Goods Retailers (**)",
+                "nationalIndustries": {
+                  "458320": {
+                    "name": "Luggage and Leather Goods Retailers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers (**)": {
+        "name": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers (**)",
+        "industries": {
+          "Sporting Goods, Hobby, and Musical Instrument Retailers (**)": {
+            "name": "Sporting Goods, Hobby, and Musical Instrument Retailers (**)",
+            "naicsIndustries": {
+              "Musical Instrument and Supplies Retailers (**)": {
+                "name": "Musical Instrument and Supplies Retailers (**)",
+                "nationalIndustries": {
+                  "459140": {
+                    "name": "Musical Instrument and Supplies Retailers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Book Retailers and News Dealers (**)": {
+            "name": "Book Retailers and News Dealers (**)",
+            "naicsIndustries": {
+              "Book Retailers and News Dealers (**)": {
+                "name": "Book Retailers and News Dealers (**)",
+                "nationalIndustries": {
+                  "459210": {
+                    "name": "Book Retailers and News Dealers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Florists (**)": {
+            "name": "Florists (**)",
+            "naicsIndustries": {
+              "Florists (**)": {
+                "name": "Florists (**)",
+                "nationalIndustries": {
+                  "459310": {
+                    "name": "Florists(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Office Supplies, Stationery, and Gift Retailers (**)": {
+            "name": "Office Supplies, Stationery, and Gift Retailers (**)",
+            "naicsIndustries": {
+              "Gift, Novelty, and Souvenir Retailers (**)": {
+                "name": "Gift, Novelty, and Souvenir Retailers (**)",
+                "nationalIndustries": {
+                  "459420": {
+                    "name": "Gift, Novelty, and Souvenir Retailers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Used Merchandise Retailers (**)": {
+            "name": "Used Merchandise Retailers (**)",
+            "naicsIndustries": {
+              "Used Merchandise Retailers (**)": {
+                "name": "Used Merchandise Retailers (**)",
+                "nationalIndustries": {
+                  "459510": {
+                    "name": "Used Merchandise Retailers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Other Miscellaneous Retailers (**)": {
+            "name": "Other Miscellaneous Retailers (**)",
+            "naicsIndustries": {
+              "All Other Miscellaneous Retailers (**)": {
+                "name": "All Other Miscellaneous Retailers (**)",
+                "nationalIndustries": {
+                  "459999": {
+                    "name": "All Other Miscellaneous Retailers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Transportation and Warehousing (T)": {
+    "name": "Transportation and Warehousing (T)",
+    "subsectors": {
+      "Air Transportation (T)": {
+        "name": "Air Transportation (T)",
+        "industries": {
+          "Scheduled Air Transportation (T)": {
+            "name": "Scheduled Air Transportation (T)",
+            "naicsIndustries": {
+              "Scheduled Air Transportation (T)": {
+                "name": "Scheduled Air Transportation (T)",
+                "nationalIndustries": {
+                  "481112": {
+                    "name": "Scheduled Freight Air Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Nonscheduled Air Transportation (T)": {
+            "name": "Nonscheduled Air Transportation (T)",
+            "naicsIndustries": {
+              "Nonscheduled Air Transportation (T)": {
+                "name": "Nonscheduled Air Transportation (T)",
+                "nationalIndustries": {
+                  "481219": {
+                    "name": "Other Nonscheduled Air Transportation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Rail Transportation (T)": {
+        "name": "Rail Transportation (T)",
+        "industries": {
+          "Rail Transportation (T)": {
+            "name": "Rail Transportation (T)",
+            "naicsIndustries": {
+              "Rail Transportation (T)": {
+                "name": "Rail Transportation (T)",
+                "nationalIndustries": {
+                  "482112": {
+                    "name": "Short Line Railroads"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Water Transportation (T)": {
+        "name": "Water Transportation (T)",
+        "industries": {
+          "Deep Sea, Coastal, and Great Lakes Water Transportation (T)": {
+            "name": "Deep Sea, Coastal, and Great Lakes Water Transportation (T)",
+            "naicsIndustries": {
+              "Deep Sea, Coastal, and Great Lakes Water Transportation (T)": {
+                "name": "Deep Sea, Coastal, and Great Lakes Water Transportation (T)",
+                "nationalIndustries": {
+                  "483114": {
+                    "name": "Coastal and Great Lakes Passenger Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Inland Water Transportation (T)": {
+            "name": "Inland Water Transportation (T)",
+            "naicsIndustries": {
+              "Inland Water Transportation (T)": {
+                "name": "Inland Water Transportation (T)",
+                "nationalIndustries": {
+                  "483212": {
+                    "name": "Inland Water Passenger Transportation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Truck Transportation (T)": {
+        "name": "Truck Transportation (T)",
+        "industries": {
+          "General Freight Trucking (T)": {
+            "name": "General Freight Trucking (T)",
+            "naicsIndustries": {
+              "General Freight Trucking, Long-Distance (T)": {
+                "name": "General Freight Trucking, Long-Distance (T)",
+                "nationalIndustries": {
+                  "484122": {
+                    "name": "General Freight Trucking, Long-Distance, Less Than Truckload"
+                  }
+                }
+              }
+            }
+          },
+          "Specialized Freight Trucking (T)": {
+            "name": "Specialized Freight Trucking (T)",
+            "naicsIndustries": {
+              "Specialized Freight (except Used Goods) Trucking, Long-Distance (T)": {
+                "name": "Specialized Freight (except Used Goods) Trucking, Long-Distance (T)",
+                "nationalIndustries": {
+                  "484230": {
+                    "name": "Specialized Freight (except Used Goods) Trucking, Long-Distance"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Transit and Ground Passenger Transportation (T)": {
+        "name": "Transit and Ground Passenger Transportation (T)",
+        "industries": {
+          "Urban Transit Systems (T)": {
+            "name": "Urban Transit Systems (T)",
+            "naicsIndustries": {
+              "Urban Transit Systems (T)": {
+                "name": "Urban Transit Systems (T)",
+                "nationalIndustries": {
+                  "485119": {
+                    "name": "Other Urban Transit Systems"
+                  }
+                }
+              }
+            }
+          },
+          "Interurban and Rural Bus Transportation (T)": {
+            "name": "Interurban and Rural Bus Transportation (T)",
+            "naicsIndustries": {
+              "Interurban and Rural Bus Transportation (T)": {
+                "name": "Interurban and Rural Bus Transportation (T)",
+                "nationalIndustries": {
+                  "485210": {
+                    "name": "Interurban and Rural Bus Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Taxi and Limousine Service (T)": {
+            "name": "Taxi and Limousine Service (T)",
+            "naicsIndustries": {
+              "Limousine Service (T)": {
+                "name": "Limousine Service (T)",
+                "nationalIndustries": {
+                  "485320": {
+                    "name": "Limousine Service"
+                  }
+                }
+              }
+            }
+          },
+          "School and Employee Bus Transportation (T)": {
+            "name": "School and Employee Bus Transportation (T)",
+            "naicsIndustries": {
+              "School and Employee Bus Transportation (T)": {
+                "name": "School and Employee Bus Transportation (T)",
+                "nationalIndustries": {
+                  "485410": {
+                    "name": "School and Employee Bus Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Charter Bus Industry (T)": {
+            "name": "Charter Bus Industry (T)",
+            "naicsIndustries": {
+              "Charter Bus Industry (T)": {
+                "name": "Charter Bus Industry (T)",
+                "nationalIndustries": {
+                  "485510": {
+                    "name": "Charter Bus Industry"
+                  }
+                }
+              }
+            }
+          },
+          "Other Transit and Ground Passenger Transportation (T)": {
+            "name": "Other Transit and Ground Passenger Transportation (T)",
+            "naicsIndustries": {
+              "Other Transit and Ground Passenger Transportation (T)": {
+                "name": "Other Transit and Ground Passenger Transportation (T)",
+                "nationalIndustries": {
+                  "485999": {
+                    "name": "All Other Transit and Ground Passenger Transportation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pipeline Transportation (T)": {
+        "name": "Pipeline Transportation (T)",
+        "industries": {
+          "Pipeline Transportation of Crude Oil (T)": {
+            "name": "Pipeline Transportation of Crude Oil (T)",
+            "naicsIndustries": {
+              "Pipeline Transportation of Crude Oil (T)": {
+                "name": "Pipeline Transportation of Crude Oil (T)",
+                "nationalIndustries": {
+                  "486110": {
+                    "name": "Pipeline Transportation of Crude Oil"
+                  }
+                }
+              }
+            }
+          },
+          "Pipeline Transportation of Natural Gas (T)": {
+            "name": "Pipeline Transportation of Natural Gas (T)",
+            "naicsIndustries": {
+              "Pipeline Transportation of Natural Gas (T)": {
+                "name": "Pipeline Transportation of Natural Gas (T)",
+                "nationalIndustries": {
+                  "486210": {
+                    "name": "Pipeline Transportation of Natural Gas"
+                  }
+                }
+              }
+            }
+          },
+          "Other Pipeline Transportation (T)": {
+            "name": "Other Pipeline Transportation (T)",
+            "naicsIndustries": {
+              "All Other Pipeline Transportation (T)": {
+                "name": "All Other Pipeline Transportation (T)",
+                "nationalIndustries": {
+                  "486990": {
+                    "name": "All Other Pipeline Transportation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Scenic and Sightseeing Transportation (T)": {
+        "name": "Scenic and Sightseeing Transportation (T)",
+        "industries": {
+          "Scenic and Sightseeing Transportation, Land (T)": {
+            "name": "Scenic and Sightseeing Transportation, Land (T)",
+            "naicsIndustries": {
+              "Scenic and Sightseeing Transportation, Land (T)": {
+                "name": "Scenic and Sightseeing Transportation, Land (T)",
+                "nationalIndustries": {
+                  "487110": {
+                    "name": "Scenic and Sightseeing Transportation, Land"
+                  }
+                }
+              }
+            }
+          },
+          "Scenic and Sightseeing Transportation, Water (T)": {
+            "name": "Scenic and Sightseeing Transportation, Water (T)",
+            "naicsIndustries": {
+              "Scenic and Sightseeing Transportation, Water (T)": {
+                "name": "Scenic and Sightseeing Transportation, Water (T)",
+                "nationalIndustries": {
+                  "487210": {
+                    "name": "Scenic and Sightseeing Transportation, Water"
+                  }
+                }
+              }
+            }
+          },
+          "Scenic and Sightseeing Transportation, Other (T)": {
+            "name": "Scenic and Sightseeing Transportation, Other (T)",
+            "naicsIndustries": {
+              "Scenic and Sightseeing Transportation, Other (T)": {
+                "name": "Scenic and Sightseeing Transportation, Other (T)",
+                "nationalIndustries": {
+                  "487990": {
+                    "name": "Scenic and Sightseeing Transportation, Other"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Support Activities for Transportation (T)": {
+        "name": "Support Activities for Transportation (T)",
+        "industries": {
+          "Support Activities for Air Transportation (T)": {
+            "name": "Support Activities for Air Transportation (T)",
+            "naicsIndustries": {
+              "Other Support Activities for Air Transportation (T)": {
+                "name": "Other Support Activities for Air Transportation (T)",
+                "nationalIndustries": {
+                  "488190": {
+                    "name": "Other Support Activities for Air Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Support Activities for Rail Transportation (T)": {
+            "name": "Support Activities for Rail Transportation (T)",
+            "naicsIndustries": {
+              "Support Activities for Rail Transportation (T)": {
+                "name": "Support Activities for Rail Transportation (T)",
+                "nationalIndustries": {
+                  "488210": {
+                    "name": "Support Activities for Rail Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Support Activities for Water Transportation (T)": {
+            "name": "Support Activities for Water Transportation (T)",
+            "naicsIndustries": {
+              "Other Support Activities for Water Transportation (T)": {
+                "name": "Other Support Activities for Water Transportation (T)",
+                "nationalIndustries": {
+                  "488390": {
+                    "name": "Other Support Activities for Water Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Support Activities for Road Transportation (T)": {
+            "name": "Support Activities for Road Transportation (T)",
+            "naicsIndustries": {
+              "Other Support Activities for Road Transportation (T)": {
+                "name": "Other Support Activities for Road Transportation (T)",
+                "nationalIndustries": {
+                  "488490": {
+                    "name": "Other Support Activities for Road Transportation"
+                  }
+                }
+              }
+            }
+          },
+          "Freight Transportation Arrangement (T)": {
+            "name": "Freight Transportation Arrangement (T)",
+            "naicsIndustries": {
+              "Freight Transportation Arrangement (T)": {
+                "name": "Freight Transportation Arrangement (T)",
+                "nationalIndustries": {
+                  "488510": {
+                    "name": "Freight Transportation Arrangement"
+                  }
+                }
+              }
+            }
+          },
+          "Other Support Activities for Transportation (T)": {
+            "name": "Other Support Activities for Transportation (T)",
+            "naicsIndustries": {
+              "Other Support Activities for Transportation (T)": {
+                "name": "Other Support Activities for Transportation (T)",
+                "nationalIndustries": {
+                  "488999": {
+                    "name": "All Other Support Activities for Transportation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Postal Service (T)": {
+        "name": "Postal Service (T)",
+        "industries": {
+          "Postal Service (T)": {
+            "name": "Postal Service (T)",
+            "naicsIndustries": {
+              "Postal Service (T)": {
+                "name": "Postal Service (T)",
+                "nationalIndustries": {
+                  "491110": {
+                    "name": "Postal Service"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Couriers and Messengers (T)": {
+        "name": "Couriers and Messengers (T)",
+        "industries": {
+          "Couriers and Express Delivery Services (T)": {
+            "name": "Couriers and Express Delivery Services (T)",
+            "naicsIndustries": {
+              "Couriers and Express Delivery Services (T)": {
+                "name": "Couriers and Express Delivery Services (T)",
+                "nationalIndustries": {
+                  "492110": {
+                    "name": "Couriers and Express Delivery Services"
+                  }
+                }
+              }
+            }
+          },
+          "Local Messengers and Local Delivery (T)": {
+            "name": "Local Messengers and Local Delivery (T)",
+            "naicsIndustries": {
+              "Local Messengers and Local Delivery (T)": {
+                "name": "Local Messengers and Local Delivery (T)",
+                "nationalIndustries": {
+                  "492210": {
+                    "name": "Local Messengers and Local Delivery"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Warehousing and Storage (T)": {
+        "name": "Warehousing and Storage (T)",
+        "industries": {
+          "Warehousing and Storage (T)": {
+            "name": "Warehousing and Storage (T)",
+            "naicsIndustries": {
+              "Other Warehousing and Storage (T)": {
+                "name": "Other Warehousing and Storage (T)",
+                "nationalIndustries": {
+                  "493190": {
+                    "name": "Other Warehousing and Storage"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Information (T)": {
+    "name": "Information (T)",
+    "subsectors": {
+      "Motion Picture and Sound Recording Industries (T)": {
+        "name": "Motion Picture and Sound Recording Industries (T)",
+        "industries": {
+          "Motion Picture and Video Industries (T)": {
+            "name": "Motion Picture and Video Industries (T)",
+            "naicsIndustries": {
+              "Postproduction Services and Other Motion Picture and Video Industries (T)": {
+                "name": "Postproduction Services and Other Motion Picture and Video Industries (T)",
+                "nationalIndustries": {
+                  "512199": {
+                    "name": "Other Motion Picture and Video Industries"
+                  }
+                }
+              }
+            }
+          },
+          "Sound Recording Industries (T)": {
+            "name": "Sound Recording Industries (T)",
+            "naicsIndustries": {
+              "Other Sound Recording Industries (T)": {
+                "name": "Other Sound Recording Industries (T)",
+                "nationalIndustries": {
+                  "512290": {
+                    "name": "Other Sound Recording Industries"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Publishing Industries (T) (**)": {
+        "name": "Publishing Industries (T) (**)",
+        "industries": {
+          "Newspaper, Periodical, Book, and Directory Publishers (T) (**)": {
+            "name": "Newspaper, Periodical, Book, and Directory Publishers (T) (**)",
+            "naicsIndustries": {
+              "Other Publishers (T) (**)": {
+                "name": "Other Publishers (T) (**)",
+                "nationalIndustries": {
+                  "513199": {
+                    "name": "All Other Publishers(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Software Publishers (T) (**)": {
+            "name": "Software Publishers (T) (**)",
+            "naicsIndustries": {
+              "Software Publishers (T) (**)": {
+                "name": "Software Publishers (T) (**)",
+                "nationalIndustries": {
+                  "513210": {
+                    "name": "Software Publishers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Broadcasting and Content Providers (T) (**)": {
+        "name": "Broadcasting and Content Providers (T) (**)",
+        "industries": {
+          "Radio and Television Broadcasting Stations (T) (**)": {
+            "name": "Radio and Television Broadcasting Stations (T) (**)",
+            "naicsIndustries": {
+              "Television Broadcasting Stations (T) (**)": {
+                "name": "Television Broadcasting Stations (T) (**)",
+                "nationalIndustries": {
+                  "516120": {
+                    "name": "Television Broadcasting Stations(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (T) (**)": {
+            "name": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (T) (**)",
+            "naicsIndustries": {
+              "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (T) (**)": {
+                "name": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers (T) (**)",
+                "nationalIndustries": {
+                  "516210": {
+                    "name": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Telecommunications (T)": {
+        "name": "Telecommunications (T)",
+        "industries": {
+          "Wired and Wireless Telecommunications (except Satellite) (**)": {
+            "name": "Wired and Wireless Telecommunications (except Satellite) (**)",
+            "naicsIndustries": {
+              "Telecommunications Resellers and Agents for Wireless Telecommunication Services (**)": {
+                "name": "Telecommunications Resellers and Agents for Wireless Telecommunication Services (**)",
+                "nationalIndustries": {
+                  "517122": {
+                    "name": "Agents for Wireless Telecommunications Services(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Satellite Telecommunications (T)": {
+            "name": "Satellite Telecommunications (T)",
+            "naicsIndustries": {
+              "Satellite Telecommunications (T)": {
+                "name": "Satellite Telecommunications (T)",
+                "nationalIndustries": {
+                  "517410": {
+                    "name": "Satellite Telecommunications"
+                  }
+                }
+              }
+            }
+          },
+          "All Other Telecommunications (**)": {
+            "name": "All Other Telecommunications (**)",
+            "naicsIndustries": {
+              "All Other Telecommunications (**)": {
+                "name": "All Other Telecommunications (**)",
+                "nationalIndustries": {
+                  "517810": {
+                    "name": "All Other Telecommunications(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (T) (*)": {
+        "name": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (T) (*)",
+        "industries": {
+          "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (T) (*)": {
+            "name": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (T) (*)",
+            "naicsIndustries": {
+              "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (T) (*)": {
+                "name": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (T) (*)",
+                "nationalIndustries": {
+                  "518210": {
+                    "name": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services(*)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Web Search Portals, Libraries, Archives, and Other Information Services (T) (***)": {
+        "name": "Web Search Portals, Libraries, Archives, and Other Information Services (T) (***)",
+        "industries": {
+          "Web Search Portals, Libraries, Archives, and Other Information Services (T) (**)": {
+            "name": "Web Search Portals, Libraries, Archives, and Other Information Services (T) (**)",
+            "naicsIndustries": {
+              "Web Search Portals and All Other Information Services (T) (**)": {
+                "name": "Web Search Portals and All Other Information Services (T) (**)",
+                "nationalIndustries": {
+                  "519290": {
+                    "name": "Web Search Portals and All Other Information Services(**)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Finance and Insurance (T)": {
+    "name": "Finance and Insurance (T)",
+    "subsectors": {
+      "Monetary Authorities-Central Bank (T)": {
+        "name": "Monetary Authorities-Central Bank (T)",
+        "industries": {
+          "Monetary Authorities-Central Bank (T)": {
+            "name": "Monetary Authorities-Central Bank (T)",
+            "naicsIndustries": {
+              "Monetary Authorities-Central Bank (T)": {
+                "name": "Monetary Authorities-Central Bank (T)",
+                "nationalIndustries": {
+                  "521110": {
+                    "name": "Monetary Authorities-Central Bank"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Credit Intermediation and Related Activities (T)": {
+        "name": "Credit Intermediation and Related Activities (T)",
+        "industries": {
+          "Depository Credit Intermediation": {
+            "name": "Depository Credit Intermediation",
+            "naicsIndustries": {
+              "Savings Institutions and Other Depository Credit Intermediation (**)": {
+                "name": "Savings Institutions and Other Depository Credit Intermediation (**)",
+                "nationalIndustries": {
+                  "522180": {
+                    "name": "Savings Institutions and Other Depository Credit Intermediation(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Nondepository Credit Intermediation": {
+            "name": "Nondepository Credit Intermediation",
+            "naicsIndustries": {
+              "Other Nondepository Credit Intermediation": {
+                "name": "Other Nondepository Credit Intermediation",
+                "nationalIndustries": {
+                  "522299": {
+                    "name": "International, Secondary Market, and All Other Nondepository Credit Intermediation(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Activities Related to Credit Intermediation": {
+            "name": "Activities Related to Credit Intermediation",
+            "naicsIndustries": {
+              "Other Activities Related to Credit Intermediation": {
+                "name": "Other Activities Related to Credit Intermediation",
+                "nationalIndustries": {
+                  "522390": {
+                    "name": "Other Activities Related to Credit Intermediation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Securities, Commodity Contracts, and Other Financial Investments and Related Activities (T)": {
+        "name": "Securities, Commodity Contracts, and Other Financial Investments and Related Activities (T)",
+        "industries": {
+          "Securities and Commodity Contracts Intermediation and Brokerage (T)": {
+            "name": "Securities and Commodity Contracts Intermediation and Brokerage (T)",
+            "naicsIndustries": {
+              "Commodity Contracts Intermediation (**)": {
+                "name": "Commodity Contracts Intermediation (**)",
+                "nationalIndustries": {
+                  "523160": {
+                    "name": "Commodity Contracts Intermediation(**)"
+                  }
+                }
+              }
+            }
+          },
+          "Securities and Commodity Exchanges (T)": {
+            "name": "Securities and Commodity Exchanges (T)",
+            "naicsIndustries": {
+              "Securities and Commodity Exchanges (T)": {
+                "name": "Securities and Commodity Exchanges (T)",
+                "nationalIndustries": {
+                  "523210": {
+                    "name": "Securities and Commodity Exchanges"
+                  }
+                }
+              }
+            }
+          },
+          "Other Financial Investment Activities (T)": {
+            "name": "Other Financial Investment Activities (T)",
+            "naicsIndustries": {
+              "All Other Financial Investment Activities": {
+                "name": "All Other Financial Investment Activities",
+                "nationalIndustries": {
+                  "523999": {
+                    "name": "Miscellaneous Financial Investment Activities"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Insurance Carriers and Related Activities (T)": {
+        "name": "Insurance Carriers and Related Activities (T)",
+        "industries": {
+          "Insurance Carriers (T)": {
+            "name": "Insurance Carriers (T)",
+            "naicsIndustries": {
+              "Reinsurance Carriers": {
+                "name": "Reinsurance Carriers",
+                "nationalIndustries": {
+                  "524130": {
+                    "name": "Reinsurance Carriers"
+                  }
+                }
+              }
+            }
+          },
+          "Agencies, Brokerages, and Other Insurance Related Activities (T)": {
+            "name": "Agencies, Brokerages, and Other Insurance Related Activities (T)",
+            "naicsIndustries": {
+              "Other Insurance Related Activities": {
+                "name": "Other Insurance Related Activities",
+                "nationalIndustries": {
+                  "524298": {
+                    "name": "All Other Insurance Related Activities"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Funds, Trusts, and Other Financial Vehicles": {
+        "name": "Funds, Trusts, and Other Financial Vehicles",
+        "industries": {
+          "Insurance and Employee Benefit Funds": {
+            "name": "Insurance and Employee Benefit Funds",
+            "naicsIndustries": {
+              "Other Insurance Funds": {
+                "name": "Other Insurance Funds",
+                "nationalIndustries": {
+                  "525190": {
+                    "name": "Other Insurance Funds"
+                  }
+                }
+              }
+            }
+          },
+          "Other Investment Pools and Funds": {
+            "name": "Other Investment Pools and Funds",
+            "naicsIndustries": {
+              "Other Financial Vehicles": {
+                "name": "Other Financial Vehicles",
+                "nationalIndustries": {
+                  "525990": {
+                    "name": "Other Financial Vehicles"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Real Estate and Rental and Leasing (T)": {
+    "name": "Real Estate and Rental and Leasing (T)",
+    "subsectors": {
+      "Real Estate (T)": {
+        "name": "Real Estate (T)",
+        "industries": {
+          "Lessors of Real Estate (T)": {
+            "name": "Lessors of Real Estate (T)",
+            "naicsIndustries": {
+              "Lessors of Other Real Estate Property": {
+                "name": "Lessors of Other Real Estate Property",
+                "nationalIndustries": {
+                  "531190": {
+                    "name": "Lessors of Other Real Estate Property"
+                  }
+                }
+              }
+            }
+          },
+          "Offices of Real Estate Agents and Brokers (T)": {
+            "name": "Offices of Real Estate Agents and Brokers (T)",
+            "naicsIndustries": {
+              "Offices of Real Estate Agents and Brokers (T)": {
+                "name": "Offices of Real Estate Agents and Brokers (T)",
+                "nationalIndustries": {
+                  "531210": {
+                    "name": "Offices of Real Estate Agents and Brokers"
+                  }
+                }
+              }
+            }
+          },
+          "Activities Related to Real Estate (T)": {
+            "name": "Activities Related to Real Estate (T)",
+            "naicsIndustries": {
+              "Other Activities Related to Real Estate": {
+                "name": "Other Activities Related to Real Estate",
+                "nationalIndustries": {
+                  "531390": {
+                    "name": "Other Activities Related to Real Estate"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Rental and Leasing Services (T)": {
+        "name": "Rental and Leasing Services (T)",
+        "industries": {
+          "Automotive Equipment Rental and Leasing (T)": {
+            "name": "Automotive Equipment Rental and Leasing (T)",
+            "naicsIndustries": {
+              "Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing (T)": {
+                "name": "Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing (T)",
+                "nationalIndustries": {
+                  "532120": {
+                    "name": "Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing"
+                  }
+                }
+              }
+            }
+          },
+          "Consumer Goods Rental (T)": {
+            "name": "Consumer Goods Rental (T)",
+            "naicsIndustries": {
+              "Other Consumer Goods Rental (T)": {
+                "name": "Other Consumer Goods Rental (T)",
+                "nationalIndustries": {
+                  "532289": {
+                    "name": "All Other Consumer Goods Rental"
+                  }
+                }
+              }
+            }
+          },
+          "General Rental Centers (T)": {
+            "name": "General Rental Centers (T)",
+            "naicsIndustries": {
+              "General Rental Centers (T)": {
+                "name": "General Rental Centers (T)",
+                "nationalIndustries": {
+                  "532310": {
+                    "name": "General Rental Centers"
+                  }
+                }
+              }
+            }
+          },
+          "Commercial and Industrial Machinery and Equipment Rental and Leasing (T)": {
+            "name": "Commercial and Industrial Machinery and Equipment Rental and Leasing (T)",
+            "naicsIndustries": {
+              "Other Commercial and Industrial Machinery and Equipment Rental and Leasing (T)": {
+                "name": "Other Commercial and Industrial Machinery and Equipment Rental and Leasing (T)",
+                "nationalIndustries": {
+                  "532490": {
+                    "name": "Other Commercial and Industrial Machinery and Equipment Rental and Leasing"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) (T)": {
+        "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) (T)",
+        "industries": {
+          "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) (T)": {
+            "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) (T)",
+            "naicsIndustries": {
+              "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) (T)": {
+                "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) (T)",
+                "nationalIndustries": {
+                  "533110": {
+                    "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Professional, Scientific, and Technical Services (T)": {
+    "name": "Professional, Scientific, and Technical Services (T)",
+    "subsectors": {
+      "Professional, Scientific, and Technical Services (T)": {
+        "name": "Professional, Scientific, and Technical Services (T)",
+        "industries": {
+          "Legal Services (T)": {
+            "name": "Legal Services (T)",
+            "naicsIndustries": {
+              "Other Legal Services (T)": {
+                "name": "Other Legal Services (T)",
+                "nationalIndustries": {
+                  "541199": {
+                    "name": "All Other Legal Services"
+                  }
+                }
+              }
+            }
+          },
+          "Accounting, Tax Preparation, Bookkeeping, and Payroll Services (T)": {
+            "name": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services (T)",
+            "naicsIndustries": {
+              "Accounting, Tax Preparation, Bookkeeping, and Payroll Services (T)": {
+                "name": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services (T)",
+                "nationalIndustries": {
+                  "541219": {
+                    "name": "Other Accounting Services"
+                  }
+                }
+              }
+            }
+          },
+          "Architectural, Engineering, and Related Services (T)": {
+            "name": "Architectural, Engineering, and Related Services (T)",
+            "naicsIndustries": {
+              "Testing Laboratories and Services (T) (*)": {
+                "name": "Testing Laboratories and Services (T) (*)",
+                "nationalIndustries": {
+                  "541380": {
+                    "name": "Testing Laboratories and Services(*)"
+                  }
+                }
+              }
+            }
+          },
+          "Specialized Design Services (T)": {
+            "name": "Specialized Design Services (T)",
+            "naicsIndustries": {
+              "Other Specialized Design Services (T)": {
+                "name": "Other Specialized Design Services (T)",
+                "nationalIndustries": {
+                  "541490": {
+                    "name": "Other Specialized Design Services"
+                  }
+                }
+              }
+            }
+          },
+          "Computer Systems Design and Related Services (T)": {
+            "name": "Computer Systems Design and Related Services (T)",
+            "naicsIndustries": {
+              "Computer Systems Design and Related Services (T)": {
+                "name": "Computer Systems Design and Related Services (T)",
+                "nationalIndustries": {
+                  "541519": {
+                    "name": "Other Computer Related Services"
+                  }
+                }
+              }
+            }
+          },
+          "Management, Scientific, and Technical Consulting Services (T)": {
+            "name": "Management, Scientific, and Technical Consulting Services (T)",
+            "naicsIndustries": {
+              "Other Scientific and Technical Consulting Services (T)": {
+                "name": "Other Scientific and Technical Consulting Services (T)",
+                "nationalIndustries": {
+                  "541690": {
+                    "name": "Other Scientific and Technical Consulting Services"
+                  }
+                }
+              }
+            }
+          },
+          "Scientific Research and Development Services (T)": {
+            "name": "Scientific Research and Development Services (T)",
+            "naicsIndustries": {
+              "Research and Development in the Social Sciences and Humanities (T)": {
+                "name": "Research and Development in the Social Sciences and Humanities (T)",
+                "nationalIndustries": {
+                  "541720": {
+                    "name": "Research and Development in the Social Sciences and Humanities"
+                  }
+                }
+              }
+            }
+          },
+          "Advertising, Public Relations, and Related Services (T)": {
+            "name": "Advertising, Public Relations, and Related Services (T)",
+            "naicsIndustries": {
+              "Other Services Related to Advertising (T)": {
+                "name": "Other Services Related to Advertising (T)",
+                "nationalIndustries": {
+                  "541890": {
+                    "name": "Other Services Related to Advertising"
+                  }
+                }
+              }
+            }
+          },
+          "Other Professional, Scientific, and Technical Services (T)": {
+            "name": "Other Professional, Scientific, and Technical Services (T)",
+            "naicsIndustries": {
+              "All Other Professional, Scientific, and Technical Services (T)": {
+                "name": "All Other Professional, Scientific, and Technical Services (T)",
+                "nationalIndustries": {
+                  "541990": {
+                    "name": "All Other Professional, Scientific, and Technical Services"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Management of Companies and Enterprises (T)": {
+    "name": "Management of Companies and Enterprises (T)",
+    "subsectors": {
+      "Management of Companies and Enterprises (T)": {
+        "name": "Management of Companies and Enterprises (T)",
+        "industries": {
+          "Management of Companies and Enterprises (T)": {
+            "name": "Management of Companies and Enterprises (T)",
+            "naicsIndustries": {
+              "Management of Companies and Enterprises (T)": {
+                "name": "Management of Companies and Enterprises (T)",
+                "nationalIndustries": {
+                  "551114": {
+                    "name": "Corporate, Subsidiary, and Regional Managing Offices"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Administrative and Support and Waste Management and Remediation Services (T)": {
+    "name": "Administrative and Support and Waste Management and Remediation Services (T)",
+    "subsectors": {
+      "Administrative and Support Services (T)": {
+        "name": "Administrative and Support Services (T)",
+        "industries": {
+          "Office Administrative Services (T)": {
+            "name": "Office Administrative Services (T)",
+            "naicsIndustries": {
+              "Office Administrative Services (T)": {
+                "name": "Office Administrative Services (T)",
+                "nationalIndustries": {
+                  "561110": {
+                    "name": "Office Administrative Services"
+                  }
+                }
+              }
+            }
+          },
+          "Facilities Support Services (T)": {
+            "name": "Facilities Support Services (T)",
+            "naicsIndustries": {
+              "Facilities Support Services (T)": {
+                "name": "Facilities Support Services (T)",
+                "nationalIndustries": {
+                  "561210": {
+                    "name": "Facilities Support Services"
+                  }
+                }
+              }
+            }
+          },
+          "Employment Services (T)": {
+            "name": "Employment Services (T)",
+            "naicsIndustries": {
+              "Professional Employer Organizations (T)": {
+                "name": "Professional Employer Organizations (T)",
+                "nationalIndustries": {
+                  "561330": {
+                    "name": "Professional Employer Organizations"
+                  }
+                }
+              }
+            }
+          },
+          "Business Support Services (T)": {
+            "name": "Business Support Services (T)",
+            "naicsIndustries": {
+              "Other Business Support Services (T)": {
+                "name": "Other Business Support Services (T)",
+                "nationalIndustries": {
+                  "561499": {
+                    "name": "All Other Business Support Services"
+                  }
+                }
+              }
+            }
+          },
+          "Travel Arrangement and Reservation Services (T)": {
+            "name": "Travel Arrangement and Reservation Services (T)",
+            "naicsIndustries": {
+              "Other Travel Arrangement and Reservation Services (T)": {
+                "name": "Other Travel Arrangement and Reservation Services (T)",
+                "nationalIndustries": {
+                  "561599": {
+                    "name": "All Other Travel Arrangement and Reservation Services"
+                  }
+                }
+              }
+            }
+          },
+          "Investigation and Security Services (T)": {
+            "name": "Investigation and Security Services (T)",
+            "naicsIndustries": {
+              "Security Systems Services (T)": {
+                "name": "Security Systems Services (T)",
+                "nationalIndustries": {
+                  "561622": {
+                    "name": "Locksmiths"
+                  }
+                }
+              }
+            }
+          },
+          "Services to Buildings and Dwellings (T)": {
+            "name": "Services to Buildings and Dwellings (T)",
+            "naicsIndustries": {
+              "Other Services to Buildings and Dwellings (T)": {
+                "name": "Other Services to Buildings and Dwellings (T)",
+                "nationalIndustries": {
+                  "561790": {
+                    "name": "Other Services to Buildings and Dwellings"
+                  }
+                }
+              }
+            }
+          },
+          "Other Support Services (T)": {
+            "name": "Other Support Services (T)",
+            "naicsIndustries": {
+              "All Other Support Services (T)": {
+                "name": "All Other Support Services (T)",
+                "nationalIndustries": {
+                  "561990": {
+                    "name": "All Other Support Services"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Waste Management and Remediation Services (T)": {
+        "name": "Waste Management and Remediation Services (T)",
+        "industries": {
+          "Waste Collection": {
+            "name": "Waste Collection",
+            "naicsIndustries": {
+              "Waste Collection": {
+                "name": "Waste Collection",
+                "nationalIndustries": {
+                  "562119": {
+                    "name": "Other Waste Collection"
+                  }
+                }
+              }
+            }
+          },
+          "Waste Treatment and Disposal": {
+            "name": "Waste Treatment and Disposal",
+            "naicsIndustries": {
+              "Waste Treatment and Disposal": {
+                "name": "Waste Treatment and Disposal",
+                "nationalIndustries": {
+                  "562219": {
+                    "name": "Other Nonhazardous Waste Treatment and Disposal"
+                  }
+                }
+              }
+            }
+          },
+          "Remediation and Other Waste Management Services": {
+            "name": "Remediation and Other Waste Management Services",
+            "naicsIndustries": {
+              "All Other Waste Management Services": {
+                "name": "All Other Waste Management Services",
+                "nationalIndustries": {
+                  "562998": {
+                    "name": "All Other Miscellaneous Waste Management Services"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Educational Services (T)": {
+    "name": "Educational Services (T)",
+    "subsectors": {
+      "Educational Services (T)": {
+        "name": "Educational Services (T)",
+        "industries": {
+          "Elementary and Secondary Schools (T)": {
+            "name": "Elementary and Secondary Schools (T)",
+            "naicsIndustries": {
+              "Elementary and Secondary Schools": {
+                "name": "Elementary and Secondary Schools",
+                "nationalIndustries": {
+                  "611110": {
+                    "name": "Elementary and Secondary Schools"
+                  }
+                }
+              }
+            }
+          },
+          "Junior Colleges (T)": {
+            "name": "Junior Colleges (T)",
+            "naicsIndustries": {
+              "Junior Colleges (T)": {
+                "name": "Junior Colleges (T)",
+                "nationalIndustries": {
+                  "611210": {
+                    "name": "Junior Colleges"
+                  }
+                }
+              }
+            }
+          },
+          "Colleges, Universities, and Professional Schools (T)": {
+            "name": "Colleges, Universities, and Professional Schools (T)",
+            "naicsIndustries": {
+              "Colleges, Universities, and Professional Schools (T)": {
+                "name": "Colleges, Universities, and Professional Schools (T)",
+                "nationalIndustries": {
+                  "611310": {
+                    "name": "Colleges, Universities, and Professional Schools"
+                  }
+                }
+              }
+            }
+          },
+          "Business Schools and Computer and Management Training (T)": {
+            "name": "Business Schools and Computer and Management Training (T)",
+            "naicsIndustries": {
+              "Professional and Management Development Training (T)": {
+                "name": "Professional and Management Development Training (T)",
+                "nationalIndustries": {
+                  "611430": {
+                    "name": "Professional and Management Development Training"
+                  }
+                }
+              }
+            }
+          },
+          "Technical and Trade Schools (T)": {
+            "name": "Technical and Trade Schools (T)",
+            "naicsIndustries": {
+              "Technical and Trade Schools (T)": {
+                "name": "Technical and Trade Schools (T)",
+                "nationalIndustries": {
+                  "611519": {
+                    "name": "Other Technical and Trade Schools"
+                  }
+                }
+              }
+            }
+          },
+          "Other Schools and Instruction (T)": {
+            "name": "Other Schools and Instruction (T)",
+            "naicsIndustries": {
+              "All Other Schools and Instruction (T)": {
+                "name": "All Other Schools and Instruction (T)",
+                "nationalIndustries": {
+                  "611699": {
+                    "name": "All Other Miscellaneous Schools and Instruction"
+                  }
+                }
+              }
+            }
+          },
+          "Educational Support Services (T)": {
+            "name": "Educational Support Services (T)",
+            "naicsIndustries": {
+              "Educational Support Services (T)": {
+                "name": "Educational Support Services (T)",
+                "nationalIndustries": {
+                  "611710": {
+                    "name": "Educational Support Services"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Health Care and Social Assistance (T)": {
+    "name": "Health Care and Social Assistance (T)",
+    "subsectors": {
+      "Ambulatory Health Care Services (T)": {
+        "name": "Ambulatory Health Care Services (T)",
+        "industries": {
+          "Offices of Physicians (T)": {
+            "name": "Offices of Physicians (T)",
+            "naicsIndustries": {
+              "Offices of Physicians (T)": {
+                "name": "Offices of Physicians (T)",
+                "nationalIndustries": {
+                  "621112": {
+                    "name": "Offices of Physicians, Mental Health Specialists"
+                  }
+                }
+              }
+            }
+          },
+          "Offices of Dentists (T)": {
+            "name": "Offices of Dentists (T)",
+            "naicsIndustries": {
+              "Offices of Dentists (T)": {
+                "name": "Offices of Dentists (T)",
+                "nationalIndustries": {
+                  "621210": {
+                    "name": "Offices of Dentists"
+                  }
+                }
+              }
+            }
+          },
+          "Offices of Other Health Practitioners (T)": {
+            "name": "Offices of Other Health Practitioners (T)",
+            "naicsIndustries": {
+              "Offices of All Other Health Practitioners (T)": {
+                "name": "Offices of All Other Health Practitioners (T)",
+                "nationalIndustries": {
+                  "621399": {
+                    "name": "Offices of All Other Miscellaneous Health Practitioners"
+                  }
+                }
+              }
+            }
+          },
+          "Outpatient Care Centers (T)": {
+            "name": "Outpatient Care Centers (T)",
+            "naicsIndustries": {
+              "Other Outpatient Care Centers (T)": {
+                "name": "Other Outpatient Care Centers (T)",
+                "nationalIndustries": {
+                  "621498": {
+                    "name": "All Other Outpatient Care Centers"
+                  }
+                }
+              }
+            }
+          },
+          "Medical and Diagnostic Laboratories (T)": {
+            "name": "Medical and Diagnostic Laboratories (T)",
+            "naicsIndustries": {
+              "Medical and Diagnostic Laboratories (T)": {
+                "name": "Medical and Diagnostic Laboratories (T)",
+                "nationalIndustries": {
+                  "621512": {
+                    "name": "Diagnostic Imaging Centers"
+                  }
+                }
+              }
+            }
+          },
+          "Home Health Care Services (T)": {
+            "name": "Home Health Care Services (T)",
+            "naicsIndustries": {
+              "Home Health Care Services (T)": {
+                "name": "Home Health Care Services (T)",
+                "nationalIndustries": {
+                  "621610": {
+                    "name": "Home Health Care Services"
+                  }
+                }
+              }
+            }
+          },
+          "Other Ambulatory Health Care Services (T)": {
+            "name": "Other Ambulatory Health Care Services (T)",
+            "naicsIndustries": {
+              "All Other Ambulatory Health Care Services (T)": {
+                "name": "All Other Ambulatory Health Care Services (T)",
+                "nationalIndustries": {
+                  "621999": {
+                    "name": "All Other Miscellaneous Ambulatory Health Care Services"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Hospitals (T)": {
+        "name": "Hospitals (T)",
+        "industries": {
+          "General Medical and Surgical Hospitals (T)": {
+            "name": "General Medical and Surgical Hospitals (T)",
+            "naicsIndustries": {
+              "General Medical and Surgical Hospitals (T)": {
+                "name": "General Medical and Surgical Hospitals (T)",
+                "nationalIndustries": {
+                  "622110": {
+                    "name": "General Medical and Surgical Hospitals"
+                  }
+                }
+              }
+            }
+          },
+          "Psychiatric and Substance Abuse Hospitals (T)": {
+            "name": "Psychiatric and Substance Abuse Hospitals (T)",
+            "naicsIndustries": {
+              "Psychiatric and Substance Abuse Hospitals (T)": {
+                "name": "Psychiatric and Substance Abuse Hospitals (T)",
+                "nationalIndustries": {
+                  "622210": {
+                    "name": "Psychiatric and Substance Abuse Hospitals"
+                  }
+                }
+              }
+            }
+          },
+          "Specialty (except Psychiatric and Substance Abuse) Hospitals (T)": {
+            "name": "Specialty (except Psychiatric and Substance Abuse) Hospitals (T)",
+            "naicsIndustries": {
+              "Specialty (except Psychiatric and Substance Abuse) Hospitals (T)": {
+                "name": "Specialty (except Psychiatric and Substance Abuse) Hospitals (T)",
+                "nationalIndustries": {
+                  "622310": {
+                    "name": "Specialty (except Psychiatric and Substance Abuse) Hospitals"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Nursing and Residential Care Facilities (T)": {
+        "name": "Nursing and Residential Care Facilities (T)",
+        "industries": {
+          "Nursing Care Facilities (Skilled Nursing Facilities) (T)": {
+            "name": "Nursing Care Facilities (Skilled Nursing Facilities) (T)",
+            "naicsIndustries": {
+              "Nursing Care Facilities (Skilled Nursing Facilities) (T)": {
+                "name": "Nursing Care Facilities (Skilled Nursing Facilities) (T)",
+                "nationalIndustries": {
+                  "623110": {
+                    "name": "Nursing Care Facilities (Skilled Nursing Facilities)"
+                  }
+                }
+              }
+            }
+          },
+          "Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities (T)": {
+            "name": "Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities (T)",
+            "naicsIndustries": {
+              "Residential Mental Health and Substance Abuse Facilities (T)": {
+                "name": "Residential Mental Health and Substance Abuse Facilities (T)",
+                "nationalIndustries": {
+                  "623220": {
+                    "name": "Residential Mental Health and Substance Abuse Facilities"
+                  }
+                }
+              }
+            }
+          },
+          "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly (T)": {
+            "name": "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly (T)",
+            "naicsIndustries": {
+              "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly (T)": {
+                "name": "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly (T)",
+                "nationalIndustries": {
+                  "623312": {
+                    "name": "Assisted Living Facilities for the Elderly"
+                  }
+                }
+              }
+            }
+          },
+          "Other Residential Care Facilities (T)": {
+            "name": "Other Residential Care Facilities (T)",
+            "naicsIndustries": {
+              "Other Residential Care Facilities (T)": {
+                "name": "Other Residential Care Facilities (T)",
+                "nationalIndustries": {
+                  "623990": {
+                    "name": "Other Residential Care Facilities"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Social Assistance (T)": {
+        "name": "Social Assistance (T)",
+        "industries": {
+          "Individual and Family Services (T)": {
+            "name": "Individual and Family Services (T)",
+            "naicsIndustries": {
+              "Other Individual and Family Services (T)": {
+                "name": "Other Individual and Family Services (T)",
+                "nationalIndustries": {
+                  "624190": {
+                    "name": "Other Individual and Family Services"
+                  }
+                }
+              }
+            }
+          },
+          "Community Food and Housing, and Emergency and Other Relief Services (T)": {
+            "name": "Community Food and Housing, and Emergency and Other Relief Services (T)",
+            "naicsIndustries": {
+              "Emergency and Other Relief Services (T)": {
+                "name": "Emergency and Other Relief Services (T)",
+                "nationalIndustries": {
+                  "624230": {
+                    "name": "Emergency and Other Relief Services"
+                  }
+                }
+              }
+            }
+          },
+          "Vocational Rehabilitation Services (T)": {
+            "name": "Vocational Rehabilitation Services (T)",
+            "naicsIndustries": {
+              "Vocational Rehabilitation Services (T)": {
+                "name": "Vocational Rehabilitation Services (T)",
+                "nationalIndustries": {
+                  "624310": {
+                    "name": "Vocational Rehabilitation Services"
+                  }
+                }
+              }
+            }
+          },
+          "Child Care Services (T) (*)": {
+            "name": "Child Care Services (T) (*)",
+            "naicsIndustries": {
+              "Child Care Services (T) (*)": {
+                "name": "Child Care Services (T) (*)",
+                "nationalIndustries": {
+                  "624410": {
+                    "name": "Child Care Services(*)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Arts, Entertainment, and Recreation (T)": {
+    "name": "Arts, Entertainment, and Recreation (T)",
+    "subsectors": {
+      "Performing Arts, Spectator Sports, and Related Industries (T)": {
+        "name": "Performing Arts, Spectator Sports, and Related Industries (T)",
+        "industries": {
+          "Performing Arts Companies (T)": {
+            "name": "Performing Arts Companies (T)",
+            "naicsIndustries": {
+              "Other Performing Arts Companies (T)": {
+                "name": "Other Performing Arts Companies (T)",
+                "nationalIndustries": {
+                  "711190": {
+                    "name": "Other Performing Arts Companies"
+                  }
+                }
+              }
+            }
+          },
+          "Spectator Sports (T)": {
+            "name": "Spectator Sports (T)",
+            "naicsIndustries": {
+              "Spectator Sports (T)": {
+                "name": "Spectator Sports (T)",
+                "nationalIndustries": {
+                  "711219": {
+                    "name": "Other Spectator Sports"
+                  }
+                }
+              }
+            }
+          },
+          "Promoters of Performing Arts, Sports, and Similar Events (T)": {
+            "name": "Promoters of Performing Arts, Sports, and Similar Events (T)",
+            "naicsIndustries": {
+              "Promoters of Performing Arts, Sports, and Similar Events without Facilities (T)": {
+                "name": "Promoters of Performing Arts, Sports, and Similar Events without Facilities (T)",
+                "nationalIndustries": {
+                  "711320": {
+                    "name": "Promoters of Performing Arts, Sports, and Similar Events without Facilities"
+                  }
+                }
+              }
+            }
+          },
+          "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures (T)": {
+            "name": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures (T)",
+            "naicsIndustries": {
+              "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures (T)": {
+                "name": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures (T)",
+                "nationalIndustries": {
+                  "711410": {
+                    "name": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures"
+                  }
+                }
+              }
+            }
+          },
+          "Independent Artists, Writers, and Performers (T)": {
+            "name": "Independent Artists, Writers, and Performers (T)",
+            "naicsIndustries": {
+              "Independent Artists, Writers, and Performers (T)": {
+                "name": "Independent Artists, Writers, and Performers (T)",
+                "nationalIndustries": {
+                  "711510": {
+                    "name": "Independent Artists, Writers, and Performers"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Museums, Historical Sites, and Similar Institutions (T)": {
+        "name": "Museums, Historical Sites, and Similar Institutions (T)",
+        "industries": {
+          "Museums, Historical Sites, and Similar Institutions (T)": {
+            "name": "Museums, Historical Sites, and Similar Institutions (T)",
+            "naicsIndustries": {
+              "Nature Parks and Other Similar Institutions (T)": {
+                "name": "Nature Parks and Other Similar Institutions (T)",
+                "nationalIndustries": {
+                  "712190": {
+                    "name": "Nature Parks and Other Similar Institutions"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Amusement, Gambling, and Recreation Industries (T)": {
+        "name": "Amusement, Gambling, and Recreation Industries (T)",
+        "industries": {
+          "Amusement Parks and Arcades (T)": {
+            "name": "Amusement Parks and Arcades (T)",
+            "naicsIndustries": {
+              "Amusement Arcades (T)": {
+                "name": "Amusement Arcades (T)",
+                "nationalIndustries": {
+                  "713120": {
+                    "name": "Amusement Arcades"
+                  }
+                }
+              }
+            }
+          },
+          "Gambling Industries (T)": {
+            "name": "Gambling Industries (T)",
+            "naicsIndustries": {
+              "Other Gambling Industries (T)": {
+                "name": "Other Gambling Industries (T)",
+                "nationalIndustries": {
+                  "713290": {
+                    "name": "Other Gambling Industries"
+                  }
+                }
+              }
+            }
+          },
+          "Other Amusement and Recreation Industries (T)": {
+            "name": "Other Amusement and Recreation Industries (T)",
+            "naicsIndustries": {
+              "All Other Amusement and Recreation Industries (T)": {
+                "name": "All Other Amusement and Recreation Industries (T)",
+                "nationalIndustries": {
+                  "713990": {
+                    "name": "All Other Amusement and Recreation Industries"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Accommodation and Food Services (T)": {
+    "name": "Accommodation and Food Services (T)",
+    "subsectors": {
+      "Accommodation (T)": {
+        "name": "Accommodation (T)",
+        "industries": {
+          "Traveler Accommodation (T)": {
+            "name": "Traveler Accommodation (T)",
+            "naicsIndustries": {
+              "Other Traveler Accommodation (T)": {
+                "name": "Other Traveler Accommodation (T)",
+                "nationalIndustries": {
+                  "721199": {
+                    "name": "All Other Traveler Accommodation"
+                  }
+                }
+              }
+            }
+          },
+          "RV (Recreational Vehicle) Parks and Recreational Camps (T)": {
+            "name": "RV (Recreational Vehicle) Parks and Recreational Camps (T)",
+            "naicsIndustries": {
+              "RV (Recreational Vehicle) Parks and Recreational Camps (T)": {
+                "name": "RV (Recreational Vehicle) Parks and Recreational Camps (T)",
+                "nationalIndustries": {
+                  "721214": {
+                    "name": "Recreational and Vacation Camps (except Campgrounds)"
+                  }
+                }
+              }
+            }
+          },
+          "Rooming and Boarding Houses, Dormitories, and Workers' Camps (T)": {
+            "name": "Rooming and Boarding Houses, Dormitories, and Workers' Camps (T)",
+            "naicsIndustries": {
+              "Rooming and Boarding Houses, Dormitories, and Workers' Camps (T)": {
+                "name": "Rooming and Boarding Houses, Dormitories, and Workers' Camps (T)",
+                "nationalIndustries": {
+                  "721310": {
+                    "name": "Rooming and Boarding Houses, Dormitories, and Workers' Camps"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Food Services and Drinking Places (T)": {
+        "name": "Food Services and Drinking Places (T)",
+        "industries": {
+          "Special Food Services (T)": {
+            "name": "Special Food Services (T)",
+            "naicsIndustries": {
+              "Mobile Food Services (T)": {
+                "name": "Mobile Food Services (T)",
+                "nationalIndustries": {
+                  "722330": {
+                    "name": "Mobile Food Services"
+                  }
+                }
+              }
+            }
+          },
+          "Drinking Places (Alcoholic Beverages) (T)": {
+            "name": "Drinking Places (Alcoholic Beverages) (T)",
+            "naicsIndustries": {
+              "Drinking Places (Alcoholic Beverages) (T)": {
+                "name": "Drinking Places (Alcoholic Beverages) (T)",
+                "nationalIndustries": {
+                  "722410": {
+                    "name": "Drinking Places (Alcoholic Beverages)"
+                  }
+                }
+              }
+            }
+          },
+          "Restaurants and Other Eating Places (T)": {
+            "name": "Restaurants and Other Eating Places (T)",
+            "naicsIndustries": {
+              "Restaurants and Other Eating Places (T)": {
+                "name": "Restaurants and Other Eating Places (T)",
+                "nationalIndustries": {
+                  "722515": {
+                    "name": "Snack and Nonalcoholic Beverage Bars"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

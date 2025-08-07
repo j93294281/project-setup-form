@@ -1,0 +1,105 @@
+● Here's a comprehensive list of project metadata fields you might include:
+
+  Core Technology:
+  - Type: Project type (React app, API, CLI tool, etc.)
+  - Language: TypeScript, JavaScript, Python, Go, Rust, etc.
+  - Runtime: Node.js, Deno, Bun, Python version
+  - Framework: React, Vue, Angular, Express, FastAPI, etc.
+
+  Package Management:
+  - Package Manager: npm, yarn, pnpm, pip, cargo, go mod
+  - Package Lock: Strategy for lockfiles
+  - Monorepo: Lerna, Rush, Nx, Turborepo
+
+  Build & Bundling:
+  - Bundler: Webpack, Vite, Parcel, Rollup, esbuild
+  - Build Tool: Create React App, Next.js, Nuxt, Astro
+  - Transpiler: Babel, SWC, tsc
+
+  Styling & UI:
+  - CSS Framework: Tailwind, Bootstrap, Bulma, Material-UI
+  - CSS-in-JS: Styled Components, Emotion, Stitches
+  - CSS Preprocessor: Sass, Less, Stylus, PostCSS
+  - UI Library: Ant Design, Chakra UI, Mantine, Headless UI
+
+  State Management:
+  - State: Redux, Zustand, Context API, MobX, Recoil, Jotai
+  - Data Fetching: React Query, SWR, Apollo Client, Relay
+
+  Backend & API:
+  - Backend Framework: Express, Fastify, NestJS, Koa, Hapi
+  - API Style: REST, GraphQL, gRPC, tRPC
+  - API Documentation: Swagger/OpenAPI, GraphQL schema
+  - API Client: Axios, Fetch, Superagent
+
+  Database & Storage:
+  - Database: PostgreSQL, MySQL, MongoDB, SQLite, Redis
+  - ORM/ODM: Prisma, TypeORM, Sequelize, Mongoose, Drizzle
+  - Migrations: Database migration strategy
+  - Caching: Redis, Memcached, in-memory
+
+  Authentication & Security:
+  - Auth: JWT, OAuth, Auth0, Firebase Auth, NextAuth.js
+  - Authorization: RBAC, ABAC, permissions strategy
+  - Security: Helmet, CORS, rate limiting
+
+  Testing:
+  - Testing: Jest, Vitest, Mocha, Pytest, Go test
+  - Frontend Testing: React Testing Library, Cypress, Playwright
+  - E2E Testing: Cypress, Playwright, Selenium
+  - API Testing: Supertest, Postman, Insomnia
+  - Coverage: Coverage thresholds and tools
+
+  Code Quality:
+  - Linting: ESLint, TSLint, Pylint, golangci-lint
+  - Formatting: Prettier, Black, rustfmt, gofmt
+  - Type Checking: TypeScript, Flow, mypy
+  - Git Hooks: Husky, pre-commit, lint-staged
+  - Code Analysis: SonarQube, CodeClimate
+
+  Development Environment:
+  - Editor Config: .editorconfig settings
+  - IDE: VS Code, WebStorm, specific extensions
+  - Containerization: Docker, Docker Compose
+  - Virtual Environment: venv, conda, nvm
+
+  Deployment & Infrastructure:
+  - Hosting: Vercel, Netlify, AWS, GCP, Azure, Railway
+  - Containerization: Docker, Kubernetes, Docker Swarm
+  - CI/CD: GitHub Actions, GitLab CI, Jenkins, CircleCI
+  - CDN: Cloudflare, AWS CloudFront
+  - Monitoring: Sentry, DataDog, New Relic, LogRocket
+
+  Environment & Configuration:
+  - Environment Variables: .env strategy, config management
+  - Configuration: Config files, environment-specific settings
+  - Secrets Management: Vault, AWS Secrets Manager
+
+  Documentation:
+  - Documentation: Storybook, Docusaurus, GitBook
+  - API Docs: Swagger, GraphQL Playground
+  - Component Docs: Storybook, Styleguidist
+
+  Performance:
+  - Performance Monitoring: Lighthouse, Web Vitals
+  - Bundle Analysis: webpack-bundle-analyzer, source-map-explorer
+  - Optimization: Code splitting, lazy loading strategies
+
+  Internationalization:
+  - i18n: react-i18next, next-i18next, formatjs
+
+  Mobile:
+  - Mobile: React Native, Ionic, Capacitor, PWA
+
+  Desktop:
+  - Desktop: Electron, Tauri, Flutter Desktop
+
+  Version Control:
+  - Git Strategy: Git flow, GitHub flow, commit conventions
+  - Branching: Branch naming, merge strategy
+
+  Project Structure:
+  - Architecture: MVC, Clean Architecture, Domain-driven design
+  - File Organization: Feature-based, layer-based
+  - Naming Conventions: File/folder naming patterns
+
