@@ -32,7 +32,7 @@ npm start
 ## Webhook Configuration
 
 ### Default Endpoint
-- **URL**: `https://encinitaseyes.app.n8n.cloud/form/0615e0eb-d7cf-4ddb-8ee4-f31e7698be22`
+- **URL**: `https://peterallenschuh.app.n8n.cloud/form/0615e0eb-d7cf-4ddb-8ee4-f31e7698be22`
 - **Method**: POST
 - **Content-Type**: application/json
 
@@ -114,7 +114,7 @@ If the webhook is not available:
 
 To change the webhook URL, edit `src/components/MultiStageForm.tsx`:
 ```typescript
-const response = await fetch('https://encinitaseyes.app.n8n.cloud/form/0615e0eb-d7cf-4ddb-8ee4-f31e7698be22', {
+const response = await fetch('https://peterallenschuh.app.n8n.cloud/form/0615e0eb-d7cf-4ddb-8ee4-f31e7698be22', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -132,7 +132,7 @@ curl http://localhost:3001/health
 
 ### Manual Test
 ```bash
-curl -X POST https://encinitaseyes.app.n8n.cloud/form/0615e0eb-d7cf-4ddb-8ee4-f31e7698be22 \
+curl -X POST https://peterallenschuh.app.n8n.cloud/form/0615e0eb-d7cf-4ddb-8ee4-f31e7698be22 \
   -H "Content-Type: application/json" \
   -d '{"test": "data"}'
 ```
